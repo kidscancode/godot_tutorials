@@ -9,7 +9,7 @@ var vel = Vector2()
 func _ready():
 	set_fixed_process(true)
 	screensize = get_viewport_rect().size
-	extents = get_node("sprite").get_texture().get_size() / 4
+	extents = get_node("collision").get_shape().get_extents()
 	set_pos(screensize / 2)
 	print(extents)
 
@@ -22,4 +22,3 @@ func _fixed_process(delta):
 	pos.x = clamp(pos.x, extents.width, screensize.width - extents.width)
 	pos.y = clamp(pos.y, extents.height, screensize.height - extents.height)
 	set_pos(pos)
-
