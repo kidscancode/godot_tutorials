@@ -1,0 +1,48 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://scripts/main.gd" type="Script" id=1]
+[ext_resource path="res://scenes/player.tscn" type="PackedScene" id=2]
+
+[node name="main" type="Node"]
+
+script/script = ExtResource( 1 )
+
+[node name="player" parent="." instance=ExtResource( 2 )]
+
+[node name="spawn_locations" type="Node" parent="."]
+
+editor/display_folded = true
+
+[node name="1" type="Position2D" parent="spawn_locations"]
+
+transform/pos = Vector2( 50, 50 )
+
+[node name="2" type="Position2D" parent="spawn_locations"]
+
+transform/pos = Vector2( 512, 50 )
+
+[node name="3" type="Position2D" parent="spawn_locations"]
+
+transform/pos = Vector2( 974, 50 )
+
+[node name="4" type="Position2D" parent="spawn_locations"]
+
+transform/pos = Vector2( 974, 300 )
+
+[node name="5" type="Position2D" parent="spawn_locations"]
+
+transform/pos = Vector2( 974, 550 )
+
+[node name="6" type="Position2D" parent="spawn_locations"]
+
+transform/pos = Vector2( 512, 550 )
+
+[node name="7" type="Position2D" parent="spawn_locations"]
+
+transform/pos = Vector2( 50, 550 )
+
+[node name="8" type="Position2D" parent="spawn_locations"]
+
+transform/pos = Vector2( 50, 300 )
+
+
