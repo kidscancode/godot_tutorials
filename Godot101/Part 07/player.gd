@@ -7,12 +7,12 @@ var extents
 var vel = Vector2()
 
 func _ready():
-	set_process(true)
+	set_fixed_process(true)
 	screensize = get_viewport_rect().size
 	extents = get_node("collision").get_shape().get_extents()
 	set_pos(screensize / 2)
 
-func _process(delta):
+func _fixed_process(delta):
 	var input = Vector2(0, 0)
 	input.x = Input.is_action_pressed("ui_right") - Input.is_action_pressed("ui_left")
 	input.y = Input.is_action_pressed("ui_down") - Input.is_action_pressed("ui_up")

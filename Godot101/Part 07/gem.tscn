@@ -33,15 +33,6 @@ shape = SubResource( 1 )
 trigger = false
 _update_shape_index = 0
 
-[node name="effect" type="Tween" parent="."]
-
-playback/process_mode = 1
-playback/active = false
-playback/repeat = false
-playback/speed = 1.0
-
 [connection signal="area_enter" from="." to="." method="_on_gem_area_enter"]
-
-[connection signal="tween_complete" from="effect" to="." method="_on_effect_tween_complete"]
 
 
