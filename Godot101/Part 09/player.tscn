@@ -1,16 +1,13 @@
 [gd_scene load_steps=4 format=1]
 
-[ext_resource path="res://art/player/idle/idle-frame-1.png" type="Texture" id=1]
+[ext_resource path="res://player.gd" type="Script" id=1]
+[ext_resource path="res://art/player/idle/idle-frame-1.png" type="Texture" id=2]
 
 [sub_resource type="CapsuleShape2D" id=1]
 
 custom_solver_bias = 0.0
 radius = 39.1715
 height = 54.173
-
-[sub_resource type="GDScript" id=2]
-
-script/source = "extends KinematicBody2D\n\nconst ACCEL = 1500\nconst MAX_SPEED = 500\nconst FRICTION = -500\nconst GRAVITY = 2000\n\nvar acc = Vector2()\nvar vel = Vector2()\n\nfunc _ready():\n\tset_fixed_process(true)\n\nfunc _fixed_process(delta):\n\tprint(delta)\n\tacc.y = GRAVITY\n\tacc.x = Input.is_action_pressed(\"ui_right\") - Input.is_action_pressed(\"ui_left\")\n\tacc.x *= ACCEL\n\tif acc.x == 0:\n\t\tacc.x = vel.x * FRICTION * delta\n\tvel += acc * delta\n\tvel.x = clamp(vel.x, -MAX_SPEED, MAX_SPEED)\n\n\tvar motion = move(vel * delta)\n\tif is_colliding():\n\t\tvar n = get_collision_normal()\n\t\tmotion = n.slide(motion)\n\t\tvel = n.slide(vel)\n\t\tmove(motion)\n"
 
 [node name="player" type="KinematicBody2D"]
 
@@ -22,13 +19,13 @@ shapes/0/trigger = false
 collision/layers = 1
 collision/mask = 1
 collision/margin = 0.08
-script/script = SubResource( 2 )
+script/script = ExtResource( 1 )
 __meta__ = { "_edit_group_":true }
 
 [node name="sprite" type="Sprite" parent="."]
 
 transform/scale = Vector2( 0.2, 0.2 )
-texture = ExtResource( 1 )
+texture = ExtResource( 2 )
 
 [node name="collision" type="CollisionShape2D" parent="."]
 
