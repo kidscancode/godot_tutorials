@@ -12,7 +12,6 @@ func _ready():
 	set_fixed_process(true)
 
 func _fixed_process(delta):
-	print(delta)
 	acc.y = GRAVITY
 	acc.x = Input.is_action_pressed("ui_right") - Input.is_action_pressed("ui_left")
 	acc.x *= ACCEL
