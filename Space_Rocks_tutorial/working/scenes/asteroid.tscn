@@ -5,7 +5,6 @@
 
 [node name="asteroid" type="KinematicBody2D"]
 
-transform/pos = Vector2( 510.14, 255.75 )
 input/pickable = false
 collision/layers = 1
 collision/mask = 1

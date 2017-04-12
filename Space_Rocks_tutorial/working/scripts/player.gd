@@ -14,6 +14,8 @@ var rot = 0
 var pos = Vector2()
 var vel = Vector2()
 var acc = Vector2()
+var shield_level = global.shield_max
+var shield_up = true
 
 func _ready():
 	screen_size = get_viewport_rect().size
@@ -22,6 +24,12 @@ func _ready():
 	set_process(true)
 
 func _process(delta):
+	if shield_up:
+		shield_level = min(shield_level+global.shield_regen*delta, 100)
+		if shield_level <=0 and shield_up:
+			shield_up = false
+			shield_level = 0
+			get_node("shield").hide()
 	if Input.is_action_pressed("player_shoot"):
 		if gun_timer.get_time_left() == 0:
 			shoot()
@@ -57,3 +65,11 @@ func shoot():
 	bullet_container.add_child(b)
 	b.start_at(get_rot(), get_node("muzzle").get_global_pos(), vel)
 	shoot_sounds.play("laser2")
+
+func _on_player_body_enter( body ):
+	if body.get_groups().has("asteroids"):
+		if shield_up:
+			body.explode(vel)
+			shield_level -= global.ast_damage[body.size]
+		else:
+			global.game_over = false

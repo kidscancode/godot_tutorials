@@ -65,4 +65,5 @@ func _process(delta):
 
 func explode(hit_vel):
 	emit_signal("explode", size, get_pos(), vel, hit_vel)
+	global.score += global.ast_points[size]
 	queue_free()

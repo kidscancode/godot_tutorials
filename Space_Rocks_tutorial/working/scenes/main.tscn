@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=1]
+[gd_scene load_steps=10 format=1]
 
 [ext_resource path="res://scripts/main.gd" type="Script" id=1]
 [ext_resource path="res://art/starfield.png" type="Texture" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://audio/expl2.wav" type="Sample" id=5]
 [ext_resource path="res://audio/expl3.wav" type="Sample" id=6]
 [ext_resource path="res://audio/SimpleBeat.ogg" type="AudioStream" id=7]
+[ext_resource path="res://scenes/HUD.tscn" type="PackedScene" id=8]
 
 [sub_resource type="SampleLibrary" id=1]
 
@@ -77,7 +78,7 @@ default/filter/type = 0
 default/filter/cutoff = 5000.0
 default/filter/resonance = 1.0
 default/filter/gain = 1.0
-default/reverb_room = 2
+default/reverb_room = 0
 default/reverb_send = 0.0
 default/chorus_send = 0.0
 
@@ -85,11 +86,13 @@ default/chorus_send = 0.0
 
 stream/stream = ExtResource( 7 )
 stream/play = false
-stream/loop = false
+stream/loop = true
 stream/volume_db = 0.0
 stream/autoplay = false
 stream/paused = false
 stream/loop_restart_time = 0.0
 stream/buffering_ms = 500
+
+[node name="HUD" parent="." instance=ExtResource( 8 )]
 
 

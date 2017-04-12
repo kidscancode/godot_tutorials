@@ -50,7 +50,6 @@ texture = ExtResource( 3 )
 
 [node name="collision" type="CollisionShape2D" parent="."]
 
-visibility/visible = false
 transform/pos = Vector2( 0, 5 )
 shape = SubResource( 1 )
 trigger = false
@@ -98,5 +97,7 @@ frames = SubResource( 3 )
 animation = "default"
 frame = 1
 playing = true
+
+[connection signal="body_enter" from="." to="." method="_on_player_body_enter"]
 
 
