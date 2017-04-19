@@ -10,7 +10,9 @@ collision/layers = 1
 collision/mask = 1
 collision/margin = 0.08
 script/script = ExtResource( 1 )
-__meta__ = { "_edit_group_":true }
+__meta__ = {
+"_edit_group_": true
+}
 bounce = 1.1
 
 [node name="sprite" type="Sprite" parent="."]
@@ -24,6 +26,7 @@ config/amount = 32
 config/lifetime = 0.4
 config/emit_timeout = 0.4
 config/emitting = false
+config/process_mode = 1
 config/half_extents = Vector2( 10, 10 )
 config/local_space = false
 config/explosiveness = 0.1

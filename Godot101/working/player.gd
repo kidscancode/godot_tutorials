@@ -40,7 +40,7 @@ func _fixed_process(delta):
 		motion = n.slide(motion)
 		vel = n.slide(vel)
 		move(motion)
-	if abs(vel.x) < 10:
+	if abs(vel.x) < 20:
 		vel.x = 0
 
 	# set animation

@@ -14,7 +14,7 @@ texture = ExtResource( 1 )
 
 [node name="player" parent="." instance=ExtResource( 2 )]
 
-transform/pos = Vector2( 387.962, 294.249 )
+transform/pos = Vector2( 314.954, 301.802 )
 
 [node name="platform" parent="." instance=ExtResource( 3 )]
 
@@ -22,6 +22,6 @@ transform/pos = Vector2( 520.536, 506.032 )
 
 [node name="platform 1" parent="." instance=ExtResource( 3 )]
 
-transform/pos = Vector2( 1054.6, 294.861 )
+transform/pos = Vector2( 1062.19, 313.835 )
 
 

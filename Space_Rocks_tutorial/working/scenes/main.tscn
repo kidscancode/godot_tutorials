@@ -11,9 +11,24 @@
 
 [sub_resource type="SampleLibrary" id=1]
 
-samples/expl1 = { "db":-2.0, "pitch":1.0, "sample":ExtResource( 4 ) }
-samples/expl2 = { "db":-2.0, "pitch":1.0, "sample":ExtResource( 5 ) }
-samples/expl3 = { "db":-2.0, "pitch":1.0, "sample":ExtResource( 6 ) }
+samples/expl1 = {
+"db": -2.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 4 )
+}
+samples/expl2 = {
+"db": -2.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 5 )
+}
+samples/expl3 = {
+"db": -2.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 6 )
+}
 
 [node name="main" type="Node"]
 
