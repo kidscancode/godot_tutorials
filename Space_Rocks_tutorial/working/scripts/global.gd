@@ -4,6 +4,7 @@ extends Node
 var game_over = false
 var score = 0
 var level = 0
+var paused = false
 
 # player settings
 var shield_max = 100

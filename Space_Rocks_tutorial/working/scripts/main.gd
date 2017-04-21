@@ -7,30 +7,24 @@ onready var spawns = get_node("spawn_locations")
 onready var asteroid_container = get_node("asteroid_container")
 onready var expl_sounds = get_node("expl_sounds")
 onready var HUD = get_node("HUD")
+onready var player = get_node("player")
 
 func _ready():
 	set_process(true)
 	get_node("music").play()
+	begin_next_level()
 
-func show_hud_shield():
-	var shield_level = get_node("player").shield_level
-	var color = "green"
-	if shield_level < 40:
-		color = "red"
-	elif shield_level < 70:
-		color = "yellow"
-	var texture = load("res://art/gui/barHorizontal_%s_mid 200.png" % color)
-	HUD.get_node("shield_bar").set_progress_texture(texture)
-	HUD.get_node("shield_bar").set_value(shield_level)
+func begin_next_level():
+	global.level += 1
+	HUD.show_message("Wave %s" % global.level)
+	for i in range(global.level):
+		spawn_asteroid("big", spawns.get_child(i).get_pos(),
+				   Vector2(0, 0))
 
 func _process(delta):
-	show_hud_shield()
-	HUD.get_node("score").set_text(str(global.score))
+	HUD.update(player)
 	if asteroid_container.get_child_count() == 0:
-		global.level += 1
-		for i in range(global.level):
-			spawn_asteroid("big", spawns.get_child(i).get_pos(),
-					   Vector2(0, 0))
+		begin_next_level()
 
 func spawn_asteroid(size, pos, vel):
 	var a = asteroid.instance()

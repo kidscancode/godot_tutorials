@@ -17,12 +17,27 @@ radius = 26.2202
 
 [sub_resource type="SampleLibrary" id=2]
 
-samples/laser1 = { "db":0.0, "pitch":1.0, "sample":ExtResource( 4 ) }
-samples/laser2 = { "db":0.0, "pitch":1.0, "sample":ExtResource( 5 ) }
+samples/laser1 = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 4 )
+}
+samples/laser2 = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 5 )
+}
 
 [sub_resource type="SpriteFrames" id=3]
 
-animations = [ { "frames":[ ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ) ], "loop":true, "name":"default", "speed":5.0 } ]
+animations = [ {
+"frames": [ ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
 
 [node name="player" type="Area2D"]
 
@@ -36,7 +51,9 @@ gravity = 98.0
 linear_damp = 0.1
 angular_damp = 1.0
 script/script = ExtResource( 1 )
-__meta__ = { "_edit_group_":true }
+__meta__ = {
+"_edit_group_": true
+}
 rot_speed = 2.6
 thrust = 500
 max_vel = 400

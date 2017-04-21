@@ -8,11 +8,16 @@
 [ext_resource path="res://art/regularExplosion05.png" type="Texture" id=6]
 [ext_resource path="res://art/regularExplosion06.png" type="Texture" id=7]
 [ext_resource path="res://art/regularExplosion07.png" type="Texture" id=8]
-[ext_resource path="res://scenes/explosion.gd" type="Script" id=9]
+[ext_resource path="res://scripts/explosion.gd" type="Script" id=9]
 
 [sub_resource type="SpriteFrames" id=1]
 
-animations = [ { "frames":[ ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ) ], "loop":false, "name":"regular", "speed":12.0 } ]
+animations = [ {
+"frames": [ ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ) ],
+"loop": false,
+"name": "regular",
+"speed": 12.0
+} ]
 
 [node name="explosion" type="AnimatedSprite"]
 
