@@ -89,6 +89,7 @@ script/script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
 }
+moving = true
 
 [node name="animation" type="AnimationPlayer" parent="."]
 

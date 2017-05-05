@@ -1,0 +1,1 @@
+“Know Your Nodes" is a series of Godot Game Engine videos where we take a single node type and show how it’s used.  Maybe you’ve never come across this particular node before, or maybe you were just wondering what it’s for, but hopefully after this you’ll have a new tool you can use making your own games. 

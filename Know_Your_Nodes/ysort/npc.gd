@@ -1,5 +1,7 @@
 extends KinematicBody2D
 
+export(bool) var moving = true
+
 onready var sprite = get_node("sprite")
 onready var anim = get_node("animation")
 
@@ -30,17 +32,20 @@ func _ready():
 	set_fixed_process(true)
 
 func _fixed_process(delta):
-	var motion = move(dir * speed * delta)
-	if is_colliding():
-		var n = get_collision_normal()
-		move(n.slide(motion))
-		dir = n
-		if n.x > 0:
-			facing = 'r'
-		if n.x < 0:
-			facing = 'l'
-		if n.y > 0:
-			facing = 'd'
-		if n.y < 0:
-			facing = 'u'
-		anim.play(facing)
+	if not moving:
+		anim.stop()
+	if moving:
+		var motion = move(dir * speed * delta)
+		if is_colliding():
+			var n = get_collision_normal()
+			move(n.slide(motion))
+			dir = n
+			if n.x > 0:
+				facing = 'r'
+			if n.x < 0:
+				facing = 'l'
+			if n.y > 0:
+				facing = 'd'
+			if n.y < 0:
+				facing = 'u'
+			anim.play(facing)
