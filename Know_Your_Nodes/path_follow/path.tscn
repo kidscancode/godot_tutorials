@@ -1,0 +1,36 @@
+[gd_scene load_steps=4 format=1]
+
+[ext_resource path="res://path.gd" type="Script" id=1]
+[ext_resource path="res://playerShip1_orange.png" type="Texture" id=2]
+
+[sub_resource type="Curve2D" id=1]
+
+bake_interval = 5.0
+_data = {
+"points": Vector2Array( 0, 0, -29.7442, 102.212, 30.9651, 113.102, -124, -15, 270, 7.99998, 190.544, 480.562, -93.0001, 112, 179.504, -222.366, 646.732, 126.945, 0, 0, 106.967, 256.533, 919.528, 131.73, 122, -28, -336.892, 46.7009, 863.545, 495.562, 0, 0, -58.1719, -71.6515, 136.829, 44.826, 0, 0, 0, 0, 39.7685, 69.4146, 0, 0, 0, 0, 31.0336, 112.718 )
+}
+
+[node name="path" type="Path2D"]
+
+curve = SubResource( 1 )
+script/script = ExtResource( 1 )
+
+[node name="follow" type="PathFollow2D" parent="."]
+
+transform/pos = Vector2( 30.9651, 113.102 )
+transform/rot = -105.319
+offset = 0.0
+h_offset = 0.0
+v_offset = 0.0
+rotate = true
+cubic_interp = true
+loop = true
+lookahead = 4.0
+
+[node name="sprite" type="Sprite" parent="follow"]
+
+transform/rot = -90.0
+transform/scale = Vector2( 0.8, 0.8 )
+texture = ExtResource( 2 )
+
+
