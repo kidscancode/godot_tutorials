@@ -112,7 +112,6 @@ texture = ExtResource( 6 )
 transform/pos = Vector2( 0, 35 )
 frames = SubResource( 3 )
 animation = "default"
-frame = 2
 playing = true
 
 [connection signal="body_enter" from="." to="." method="_on_player_body_enter"]

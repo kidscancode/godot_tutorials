@@ -118,6 +118,15 @@ wait_time = 3.0
 one_shot = true
 autostart = false
 
+[node name="enemy_timer" type="Timer" parent="."]
+
+process_mode = 1
+wait_time = 3.0
+one_shot = true
+autostart = false
+
 [connection signal="timeout" from="restart_timer" to="." method="_on_restart_timer_timeout"]
+
+[connection signal="timeout" from="enemy_timer" to="." method="_on_enemy_timer_timeout"]
 
 

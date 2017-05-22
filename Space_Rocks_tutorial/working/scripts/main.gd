@@ -2,11 +2,13 @@ extends Node
 
 var asteroid = preload("res://scenes/asteroid.tscn")
 var explosion = preload("res://scenes/explosion.tscn")
+var enemy = preload("res://scenes/enemy.tscn")
 onready var spawns = get_node("spawn_locations")
 onready var asteroid_container = get_node("asteroid_container")
 onready var expl_sounds = get_node("expl_sounds")
 onready var HUD = get_node("HUD")
 onready var player = get_node("player")
+onready var enemy_timer = get_node("enemy_timer")
 
 func _ready():
 	set_process(true)
@@ -16,6 +18,9 @@ func _ready():
 
 func begin_next_level():
 	global.level += 1
+	enemy_timer.stop()
+	enemy_timer.set_wait_time(rand_range(2, 4))
+	enemy_timer.start()
 	HUD.show_message("Wave %s" % global.level)
 	for i in range(global.level):
 		spawn_asteroid("big", spawns.get_child(i).get_pos(),
@@ -57,7 +62,12 @@ func explode_player():
 	HUD.show_message("Game Over")
 	get_node("restart_timer").start()
 
-
-
 func _on_restart_timer_timeout():
 	global.new_game()
+
+func _on_enemy_timer_timeout():
+	var e = enemy.instance()
+	add_child(e)
+	e.target = player
+	enemy_timer.set_wait_time(rand_range(20, 40))
+	enemy_timer.start()
