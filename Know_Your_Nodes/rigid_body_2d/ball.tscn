@@ -20,7 +20,7 @@ collision/mask = 1
 mode = 0
 mass = 1.0
 friction = 0.25
-bounce = 0.3
+bounce = 0.75
 gravity_scale = 5.0
 custom_integrator = false
 continuous_cd = 0
@@ -44,6 +44,7 @@ texture = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 
+visibility/visible = false
 shape = SubResource( 1 )
 trigger = false
 _update_shape_index = 0

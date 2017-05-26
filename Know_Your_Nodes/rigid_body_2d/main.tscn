@@ -8,14 +8,14 @@
 
 [node name="DampedSpringJoint2D" type="DampedSpringJoint2D" parent="."]
 
-transform/pos = Vector2( 695, 50 )
+transform/pos = Vector2( 252.269, 34.1467 )
 node_a = NodePath("../crate 1")
 node_b = NodePath("../wall 6")
 bias/bias = 0.0
 collision/exclude_nodes = false
-length = 20.0
+length = 40.0
 rest_length = 1.0
-stiffness = 5.0
+stiffness = 15.0
 damping = 0.5
 
 [node name="wall" parent="." instance=ExtResource( 1 )]
@@ -38,7 +38,7 @@ transform/pos = Vector2( 475, 465 )
 
 [node name="wall 6" parent="." instance=ExtResource( 1 )]
 
-transform/pos = Vector2( 715, 20 )
+transform/pos = Vector2( 273.349, 16.9853 )
 
 [node name="wall 4" parent="." instance=ExtResource( 1 )]
 
@@ -51,23 +51,23 @@ transform/rot = 90.0
 
 [node name="crate" parent="." instance=ExtResource( 2 )]
 
-transform/pos = Vector2( 365, 190 )
+transform/pos = Vector2( 441.874, 140.258 )
 
 [node name="crate 1" parent="." instance=ExtResource( 2 )]
 
-transform/pos = Vector2( 695, 125 )
+transform/pos = Vector2( 254.43, 124.817 )
 
 [node name="crate 2" parent="." instance=ExtResource( 2 )]
 
-transform/pos = Vector2( 365, 400 )
+transform/pos = Vector2( 441.874, 374.375 )
 
 [node name="crate 3" parent="." instance=ExtResource( 2 )]
 
-transform/pos = Vector2( 365, 295 )
+transform/pos = Vector2( 441.874, 252.794 )
 
 [node name="ball" parent="." instance=ExtResource( 3 )]
 
-transform/pos = Vector2( 845, 95 )
+transform/pos = Vector2( 910, 155 )
 velocity/linear = Vector2( -800, 0 )
 
 

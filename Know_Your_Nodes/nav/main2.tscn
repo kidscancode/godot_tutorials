@@ -1,0 +1,70 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://tileset_grass_dirt.tres" type="TileSet" id=1]
+[ext_resource path="res://towerDefense_tilesheet.tex" type="Texture" id=2]
+
+[node name="main2" type="Node"]
+
+[node name="grass" type="TileMap" parent="."]
+
+mode = 0
+tile_set = null
+cell/size = Vector2( 64, 64 )
+cell/quadrant_size = 16
+cell/custom_transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+cell/half_offset = 2
+cell/tile_origin = 0
+cell/y_sort = false
+collision/use_kinematic = false
+collision/friction = 1.0
+collision/bounce = 0.0
+collision/layers = 1
+collision/mask = 1
+occluder/light_mask = 1
+tile_data = IntArray(  )
+
+[node name="walls" type="TileMap" parent="."]
+
+mode = 0
+tile_set = ExtResource( 1 )
+cell/size = Vector2( 64, 64 )
+cell/quadrant_size = 16
+cell/custom_transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+cell/half_offset = 2
+cell/tile_origin = 0
+cell/y_sort = false
+collision/use_kinematic = false
+collision/friction = 1.0
+collision/bounce = 0.0
+collision/layers = 1
+collision/mask = 1
+occluder/light_mask = 1
+tile_data = IntArray( 655360, 31, 655361, 31, 655362, 31, 655363, 31, 655364, 31, 655365, 30, 655366, 30 )
+
+[node name="start_pos" type="Position2D" parent="."]
+
+transform/pos = Vector2( 927.812, 418.237 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="start_pos"]
+
+texture = ExtResource( 2 )
+region = true
+region_rect = Rect2( 1152, 64, 64, 64 )
+
+[node name="end_pos" type="Position2D" parent="."]
+
+transform/pos = Vector2( 95.6746, 161.329 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="end_pos"]
+
+texture = ExtResource( 2 )
+region = true
+region_rect = Rect2( 1088, 64, 64, 64 )
+
+

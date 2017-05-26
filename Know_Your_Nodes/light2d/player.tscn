@@ -1,0 +1,57 @@
+[gd_scene load_steps=8 format=1]
+
+[ext_resource path="res://player.gd" type="Script" id=1]
+[ext_resource path="res://art/spritesheet_players.playerRed_walk1.atex" type="Texture" id=2]
+[ext_resource path="res://art/spritesheet_players.playerRed_walk2.atex" type="Texture" id=3]
+[ext_resource path="res://art/spritesheet_players.playerRed_walk3.atex" type="Texture" id=4]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 17.7976, 22.9213 )
+
+[sub_resource type="SpriteFrames" id=2]
+
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="OccluderPolygon2D" id=3]
+
+closed = true
+cull_mode = 0
+polygon = Vector2Array( -18.1379, -19.3882, -17.8601, 11.2361, -15.0129, 15.1944, 17.0002, 15.1249, 19.7779, 11.1667, 19.3613, -18.8326, 15.5419, -22.7909, -13.6241, -22.5825 )
+
+[node name="player" type="KinematicBody2D"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+collision/margin = 0.08
+script/script = ExtResource( 1 )
+
+[node name="sprite" type="AnimatedSprite" parent="."]
+
+frames = SubResource( 2 )
+animation = "default"
+frame = 1
+playing = true
+
+[node name="collision" type="CollisionShape2D" parent="."]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="."]
+
+occluder = SubResource( 3 )
+light_mask = 1
+
+

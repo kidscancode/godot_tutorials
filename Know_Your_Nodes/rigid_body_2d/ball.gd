@@ -8,5 +8,9 @@ func _input(event):
 
 func _on_ball_input_event( viewport, event, shape_idx ):
 	#print(event.type)
-	if event.type == 3:
-		set_linear_velocity(Vector2(rand_range(-200, 200), -400))
+	if event.type == InputEvent.MOUSE_BUTTON:
+		var off = get_local_mouse_pos() * 100
+		print(off)
+		#apply_impulse(off, Vector2(rand_range(-200, 200), -400))
+		apply_impulse(off, Vector2(0, -400))
+		#set_linear_velocity(Vector2(rand_range(-200, 200), -400))
