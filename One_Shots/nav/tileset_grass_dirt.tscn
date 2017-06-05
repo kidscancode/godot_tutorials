@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://towerDefense_tilesheet.tex" type="Texture" id=1]
+
+[sub_resource type="NavigationPolygon" id=16]
+
+vertices = Vector2Array( 32, 32, -32, 32, -32, -32, 32, -32 )
+polygons = [ IntArray( 0, 1, 2, 3 ) ]
+outlines = [ Vector2Array( 32, -32, -32, -32, -32, 32, 32, 32 ) ]
+
+[node name="tileset_grass_dirt" type="Node2D"]
+
+[node name="Sprite 4" type="Sprite" parent="."]
+
+transform/pos = Vector2( 64, 64 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 64, 64, 64, 64 )
+
+[node name="Sprite 14" type="Sprite" parent="."]
+
+transform/pos = Vector2( 160, 64 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 256, 128, 64, 64 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="NavigationPolygonInstance" type="NavigationPolygonInstance" parent="Sprite 14"]
+
+navpoly = SubResource( 16 )
+enabled = true
+
+

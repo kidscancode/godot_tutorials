@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://towerDefense_tilesheet.tex" type="Texture" id=1]
+[ext_resource path="res://mob.gd" type="Script" id=2]
+
+[node name="mob" type="Sprite"]
+
+transform/pos = Vector2( 193.173, 280.237 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 976.49, 652.633, 32.5, 39 )
+script/script = ExtResource( 2 )
+
+
