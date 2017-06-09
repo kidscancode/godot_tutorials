@@ -1,0 +1,31 @@
+[gd_scene format=1]
+
+[node name="explosion" type="Particles2D"]
+
+transform/pos = Vector2( 271.468, 197.23 )
+config/amount = 32
+config/lifetime = 0.2
+config/emit_timeout = 0.2
+config/emitting = false
+config/process_mode = 1
+config/half_extents = Vector2( 10, 10 )
+config/local_space = false
+config/explosiveness = 0.1
+params/direction = 0.0
+params/spread = 100.0
+params/linear_velocity = 50.0
+params/spin_velocity = 0.0
+params/orbit_velocity = 0.0
+params/gravity_direction = 0.0
+params/gravity_strength = 0.0
+params/radial_accel = 0.0
+params/tangential_accel = 0.0
+params/damping = 0.0
+params/initial_angle = 0.0
+params/initial_size = 5.0
+params/final_size = 1.0
+params/hue_variation = 0.0
+params/anim_speed_scale = 1.0
+params/anim_initial_pos = 0.0
+
+
