@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=1]
+
+[ext_resource path="res://puck.gd" type="Script" id=1]
+[ext_resource path="res://spritesheet_balls.tex" type="Texture" id=2]
+[ext_resource path="res://debug_draw.tscn" type="PackedScene" id=3]
+
+[sub_resource type="CircleShape2D" id=1]
+
+custom_solver_bias = 0.0
+radius = 38.0
+
+[node name="puck" type="KinematicBody2D"]
+
+transform/pos = Vector2( 436, 277 )
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+collision/margin = 0.08
+script/script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+
+transform/scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+region = true
+region_rect = Rect2( 149, -0.5, 148.5, 150 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="debug_draw" parent="." instance=ExtResource( 3 )]
+
+visibility/visible = false
+
+
