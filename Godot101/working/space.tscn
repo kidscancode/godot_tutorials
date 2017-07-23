@@ -1,0 +1,99 @@
+[gd_scene load_steps=8 format=1]
+
+[ext_resource path="res://art/back.tex" type="Texture" id=1]
+[ext_resource path="res://art/ballBlack_10.png" type="Texture" id=2]
+[ext_resource path="res://art/spaceMeteors_001.tex" type="Texture" id=3]
+[ext_resource path="res://debug_draw.tscn" type="PackedScene" id=4]
+[ext_resource path="res://ship.tscn" type="PackedScene" id=5]
+
+[sub_resource type="CircleShape2D" id=1]
+
+custom_solver_bias = 0.0
+radius = 669.187
+
+[sub_resource type="CircleShape2D" id=2]
+
+custom_solver_bias = 0.0
+radius = 104.901
+
+[node name="space" type="Node"]
+
+[node name="starfield-1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 2032.27, 356.497 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 0, 0, 10000, 5000 )
+
+[node name="planet" type="Area2D" parent="."]
+
+transform/pos = Vector2( 1654.95, 295.684 )
+input/pickable = true
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+space_override = 1
+gravity_point = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 196.0
+linear_damp = 0.0
+angular_damp = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="sprite" type="Sprite" parent="planet"]
+
+texture = ExtResource( 2 )
+
+[node name="collision" type="CollisionShape2D" parent="planet"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+[node name="rock" type="RigidBody2D" parent="."]
+
+transform/pos = Vector2( 133.317, 114.271 )
+input/pickable = false
+shapes/0/shape = SubResource( 2 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+mode = 0
+mass = 100.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 1.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+velocity/linear = Vector2( 20, 20 )
+velocity/angular = 0.25
+damp_override/linear = -1.0
+damp_override/angular = -1.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="sprite" type="Sprite" parent="rock"]
+
+texture = ExtResource( 3 )
+
+[node name="collision" type="CollisionShape2D" parent="rock"]
+
+shape = SubResource( 2 )
+trigger = false
+_update_shape_index = 0
+
+[node name="debug_draw" parent="rock" instance=ExtResource( 4 )]
+
+[node name="ship" parent="." instance=ExtResource( 5 )]
+
+transform/pos = Vector2( 492.523, 304.312 )
+
+
