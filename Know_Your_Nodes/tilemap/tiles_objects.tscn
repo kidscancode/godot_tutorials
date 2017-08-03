@@ -1,0 +1,84 @@
+[gd_scene load_steps=2 format=1]
+
+[ext_resource path="res://art/towerDefense_tilesheet.png" type="Texture" id=1]
+
+[node name="tiles_objects" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+
+transform/pos = Vector2( 64, 64 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 961, 321, 63, 62 )
+
+[node name="Sprite 1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 192, 64 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 1036, 334, 38, 39 )
+
+[node name="Sprite 2" type="Sprite" parent="."]
+
+transform/pos = Vector2( 320, 64 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 1096, 330, 48, 43 )
+
+[node name="Sprite 3" type="Sprite" parent="."]
+
+transform/pos = Vector2( 448, 64 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 1217, 321, 62, 62 )
+
+[node name="Sprite 4" type="Sprite" parent="."]
+
+transform/pos = Vector2( 576, 64 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 1294, 331, 37, 40 )
+
+[node name="Sprite 5" type="Sprite" parent="."]
+
+transform/pos = Vector2( 704, 64 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 1348, 326, 56, 51 )
+
+[node name="Sprite 6" type="Sprite" parent="."]
+
+transform/pos = Vector2( 832, 64 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 1418, 330, 43, 44 )
+
+[node name="Sprite 7" type="Sprite" parent="."]
+
+transform/pos = Vector2( 832, 64 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 1418, 331, 43, 42 )
+
+[node name="Sprite 8" type="Sprite" parent="."]
+
+transform/pos = Vector2( 960, 64 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 1223, 6, 50, 50 )
+
+[node name="Sprite 9" type="Sprite" parent="."]
+
+transform/pos = Vector2( 1088, 64 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 1287, 3, 55, 55 )
+
+[node name="Sprite 10" type="Sprite" parent="."]
+
+transform/pos = Vector2( 1216, 64 )
+texture = ExtResource( 1 )
+region = true
+region_rect = Rect2( 1353, 6, 48, 49 )
+
+

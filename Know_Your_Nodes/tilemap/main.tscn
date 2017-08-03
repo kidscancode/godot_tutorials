@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=1]
+
+[ext_resource path="res://main.gd" type="Script" id=1]
+[ext_resource path="res://map1.tscn" type="PackedScene" id=2]
+[ext_resource path="res://player.tscn" type="PackedScene" id=3]
+
+[node name="main" type="Node2D"]
+
+script/script = ExtResource( 1 )
+
+[node name="bg" type="ColorFrame" parent="."]
+
+anchor/right = 1
+anchor/bottom = 1
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = -961.0
+margin/bottom = -539.0
+color = Color( 0.158752, 0.265625, 0.185471, 1 )
+
+[node name="map1" parent="." instance=ExtResource( 2 )]
+
+tile_data = IntArray( 196608, 536870916, 196609, 536870919, 196610, 536870919, 196611, 4, 327684, 536870916, 327685, 536870919, 327686, 536870919, 327687, 4, 458760, 13, 458761, 7, 458762, 3, 458764, 11, 458766, 11, 524289, 536870916, 524290, 7, 524291, 7, 524292, 7, 524293, 7, 524294, 7, 524295, 7, 524296, 536870913, 524297, 8, 524300, 5, 524302, 5, 589836, 536870920, 589838, 536870920 )
+
+[node name="player" parent="." instance=ExtResource( 3 )]
+
+
