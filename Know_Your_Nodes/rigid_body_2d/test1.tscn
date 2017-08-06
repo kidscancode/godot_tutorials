@@ -1,0 +1,52 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://crate.tscn" type="PackedScene" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 550.471, 109.173 )
+
+[node name="test1" type="Node"]
+
+[node name="crate" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 292.027, -86.6451 )
+gravity_scale = 5.0
+damp_override/linear = -1.0
+
+[node name="ColorFrame" type="ColorFrame" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = -25.0
+margin/top = 393.0
+margin/right = 1037.0
+margin/bottom = 605.0
+color = Color( 0.231995, 0.33962, 0.707031, 0.442627 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D" type="Area2D" parent="ColorFrame"]
+
+transform/pos = Vector2( 525.924, 105.635 )
+input/pickable = true
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+space_override = 3
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 10.0
+angular_damp = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ColorFrame/Area2D"]
+
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
+
+

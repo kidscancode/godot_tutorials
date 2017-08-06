@@ -72,7 +72,7 @@ tile_data = IntArray( 65535, 14, 0, 1073741825, 1, 1073741825, 2, 1073741825, 3,
 
 [node name="enemy_float" parent="." instance=ExtResource( 6 )]
 
-transform/pos = Vector2( 564.677, 246.077 )
+transform/pos = Vector2( 758.119, 263.127 )
 
 [node name="anim" type="AnimationPlayer" parent="."]
 

@@ -1,73 +1,88 @@
-[gd_scene load_steps=4 format=1]
+[gd_scene load_steps=5 format=1]
 
-[ext_resource path="res://wall.tscn" type="PackedScene" id=1]
+[ext_resource path="res://art/ballBlack_10.png" type="Texture" id=1]
 [ext_resource path="res://crate.tscn" type="PackedScene" id=2]
-[ext_resource path="res://ball.tscn" type="PackedScene" id=3]
+[ext_resource path="res://ship.tscn" type="PackedScene" id=3]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 2078.78, 1563.68 )
 
 [node name="main" type="Node"]
 
-[node name="DampedSpringJoint2D" type="DampedSpringJoint2D" parent="."]
+[node name="Sprite" type="Sprite" parent="."]
 
-transform/pos = Vector2( 252.269, 34.1467 )
-node_a = NodePath("../crate 1")
-node_b = NodePath("../wall 6")
-bias/bias = 0.0
-collision/exclude_nodes = false
-length = 40.0
-rest_length = 1.0
-stiffness = 15.0
-damping = 0.5
+transform/pos = Vector2( 504, 285 )
+texture = ExtResource( 1 )
 
-[node name="wall" parent="." instance=ExtResource( 1 )]
+[node name="Area2D" type="Area2D" parent="Sprite"]
 
-transform/pos = Vector2( 220, 465 )
+input/pickable = true
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, -2.27197, 0 )
+shapes/0/trigger = false
+space_override = 3
+gravity_point = true
+gravity_vec = Vector2( 0, 0 )
+gravity = 980.0
+linear_damp = 0.0
+angular_damp = 0.0
 
-[node name="wall 1" parent="." instance=ExtResource( 1 )]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite/Area2D"]
 
-transform/pos = Vector2( 920, 380 )
-transform/rot = 45.0
+transform/pos = Vector2( -2.27197, 0 )
+shape = SubResource( 1 )
+trigger = false
+_update_shape_index = 0
 
-[node name="wall 2" parent="." instance=ExtResource( 1 )]
+[node name="Camera2D" type="Camera2D" parent="Sprite"]
 
-transform/pos = Vector2( 75, 350 )
-transform/rot = 90.0
-
-[node name="wall 3" parent="." instance=ExtResource( 1 )]
-
-transform/pos = Vector2( 475, 465 )
-
-[node name="wall 6" parent="." instance=ExtResource( 1 )]
-
-transform/pos = Vector2( 273.349, 16.9853 )
-
-[node name="wall 4" parent="." instance=ExtResource( 1 )]
-
-transform/pos = Vector2( 730, 465 )
-
-[node name="wall 5" parent="." instance=ExtResource( 1 )]
-
-transform/pos = Vector2( 75, 95 )
-transform/rot = 90.0
+transform/pos = Vector2( -3.05176e-05, 0 )
+anchor_mode = 1
+rotating = false
+current = true
+zoom = Vector2( 3, 3 )
+limit/left = -10000000
+limit/top = -10000000
+limit/right = 10000000
+limit/bottom = 10000000
+drag_margin/h_enabled = true
+drag_margin/v_enabled = true
+smoothing/enable = false
+smoothing/speed = 5.0
+drag_margin/left = 0.2
+drag_margin/top = 0.2
+drag_margin/right = 0.2
+drag_margin/bottom = 0.2
 
 [node name="crate" parent="." instance=ExtResource( 2 )]
 
-transform/pos = Vector2( 441.874, 140.258 )
+visibility/visible = false
+transform/pos = Vector2( 25.4787, 284.073 )
+gravity_scale = 1.0
+velocity/linear = Vector2( 0, 700 )
+velocity/angular = -1.45
+damp_override/linear = -1.0
 
 [node name="crate 1" parent="." instance=ExtResource( 2 )]
 
-transform/pos = Vector2( 254.43, 124.817 )
+visibility/visible = false
+transform/pos = Vector2( -466.476, 279.868 )
+gravity_scale = 1.0
+velocity/linear = Vector2( 0, 900 )
+velocity/angular = -5.0
+damp_override/linear = -1.0
 
-[node name="crate 2" parent="." instance=ExtResource( 2 )]
+[node name="ship" parent="." instance=ExtResource( 3 )]
 
-transform/pos = Vector2( 441.874, 374.375 )
+editor/display_folded = true
+transform/pos = Vector2( 187.547, 275.182 )
+velocity/linear = Vector2( 0, 700 )
 
-[node name="crate 3" parent="." instance=ExtResource( 2 )]
+[node name="cam" parent="ship"]
 
-transform/pos = Vector2( 441.874, 252.794 )
-
-[node name="ball" parent="." instance=ExtResource( 3 )]
-
-transform/pos = Vector2( 910, 155 )
-velocity/linear = Vector2( -800, 0 )
+current = false
 
 
+[editable path="ship"]

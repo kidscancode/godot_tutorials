@@ -1,16 +1,16 @@
-[gd_scene load_steps=3 format=1]
+[gd_scene load_steps=4 format=1]
 
-[ext_resource path="res://Crate.png" type="Texture" id=1]
+[ext_resource path="res://crate.gd" type="Script" id=1]
+[ext_resource path="res://art/boxCrate_double.png" type="Texture" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
-extents = Vector2( 50, 50 )
+extents = Vector2( 63.6522, 64.0326 )
 
 [node name="crate" type="RigidBody2D"]
 
-transform/pos = Vector2( 185, 270 )
-input/pickable = false
+input/pickable = true
 shapes/0/shape = SubResource( 1 )
 shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
 shapes/0/trigger = false
@@ -19,8 +19,8 @@ collision/mask = 1
 mode = 0
 mass = 1.0
 friction = 1.0
-bounce = 0.3
-gravity_scale = 3.0
+bounce = 0.0
+gravity_scale = 1.0
 custom_integrator = false
 continuous_cd = 0
 contacts_reported = 0
@@ -31,13 +31,14 @@ velocity/linear = Vector2( 0, 0 )
 velocity/angular = 0.0
 damp_override/linear = -1.0
 damp_override/angular = -1.0
+script/script = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="Sprite" type="Sprite" parent="."]
 
-texture = ExtResource( 1 )
+texture = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 
