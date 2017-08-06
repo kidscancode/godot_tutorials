@@ -1,0 +1,332 @@
+[gd_scene load_steps=33 format=1]
+
+[ext_resource path="res://art/animated water/water1_1.png" type="Texture" id=1]
+[ext_resource path="res://art/animated water/water2_1.png" type="Texture" id=2]
+[ext_resource path="res://art/animated water/land4.png" type="Texture" id=3]
+[ext_resource path="res://art/animated water/land5.png" type="Texture" id=4]
+[ext_resource path="res://art/animated water/land6.png" type="Texture" id=5]
+[ext_resource path="res://art/animated water/land7.png" type="Texture" id=6]
+[ext_resource path="res://art/animated water/land8.png" type="Texture" id=7]
+[ext_resource path="res://art/animated water/land9.png" type="Texture" id=8]
+[ext_resource path="res://art/animated water/water2_5.png" type="Texture" id=9]
+[ext_resource path="res://art/animated water/water1_2.png" type="Texture" id=10]
+[ext_resource path="res://art/animated water/water1_3.png" type="Texture" id=11]
+[ext_resource path="res://art/animated water/water1_4.png" type="Texture" id=12]
+[ext_resource path="res://art/animated water/water1_5.png" type="Texture" id=13]
+[ext_resource path="res://art/animated water/water3_1.png" type="Texture" id=14]
+[ext_resource path="res://art/animated water/land1.png" type="Texture" id=15]
+[ext_resource path="res://art/animated water/land10.png" type="Texture" id=16]
+[ext_resource path="res://art/animated water/land11.png" type="Texture" id=17]
+[ext_resource path="res://art/animated water/land12.png" type="Texture" id=18]
+[ext_resource path="res://art/animated water/land13.png" type="Texture" id=19]
+[ext_resource path="res://art/animated water/land2.png" type="Texture" id=20]
+[ext_resource path="res://art/animated water/land3.png" type="Texture" id=21]
+[ext_resource path="res://art/animated water/water2_2.png" type="Texture" id=22]
+[ext_resource path="res://art/animated water/water2_3.png" type="Texture" id=23]
+[ext_resource path="res://art/animated water/water2_4.png" type="Texture" id=24]
+[ext_resource path="res://art/animated water/water3_2.png" type="Texture" id=25]
+[ext_resource path="res://art/animated water/water3_3.png" type="Texture" id=26]
+[ext_resource path="res://art/animated water/water3_4.png" type="Texture" id=27]
+[ext_resource path="res://art/animated water/water3_5.png" type="Texture" id=28]
+
+[sub_resource type="CanvasItemShader" id=1]
+
+_code = {
+"fragment": "uniform texture f1;
+uniform texture f2;
+uniform texture f3;
+uniform texture f4;
+uniform texture f5;
+uniform float speed = 1.0;
+
+color col;
+float time = fract(TIME*speed);
+
+if (time < 0.2) {
+	col = tex(f1, UV);
+} else {
+	if (time < 0.4) {
+		col = tex(f2, UV);
+	} else {
+		if (time < 0.6) {
+			col = tex(f3, UV);
+		} else {
+			if (time < 0.8) {
+				col = tex(f4, UV);
+			} else {
+				col = tex(f5, UV);
+			}
+		}
+	}
+}
+
+COLOR=col;",
+"fragment_ofs": 0,
+"light": "",
+"light_ofs": 0,
+"vertex": "",
+"vertex_ofs": 0
+}
+
+[sub_resource type="CanvasItemMaterial" id=2]
+
+shader/shader = SubResource( 1 )
+shader/shading_mode = 0
+shader_param/f1 = ExtResource( 1 )
+shader_param/f2 = ExtResource( 10 )
+shader_param/f3 = ExtResource( 11 )
+shader_param/f4 = ExtResource( 12 )
+shader_param/f5 = ExtResource( 13 )
+shader_param/speed = 1.0
+
+[sub_resource type="TileSet" id=3]
+
+0/name = "water 1"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 32, 32 )
+0/occluder_offset = Vector2( 16, 16 )
+0/navigation_offset = Vector2( 16, 16 )
+0/shape_offset = Vector2( 0, 0 )
+0/shapes = [  ]
+1/name = "water 2"
+1/texture = ExtResource( 2 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 0, 0, 32, 32 )
+1/occluder_offset = Vector2( 16, 16 )
+1/navigation_offset = Vector2( 16, 16 )
+1/shape_offset = Vector2( 0, 0 )
+1/shapes = [  ]
+2/name = "water 3"
+2/texture = ExtResource( 14 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 0, 0, 32, 32 )
+2/occluder_offset = Vector2( 16, 16 )
+2/navigation_offset = Vector2( 16, 16 )
+2/shape_offset = Vector2( 0, 0 )
+2/shapes = [  ]
+3/name = "land1"
+3/texture = ExtResource( 15 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 0, 0, 32, 32 )
+3/occluder_offset = Vector2( 16, 16 )
+3/navigation_offset = Vector2( 16, 16 )
+3/shape_offset = Vector2( 0, 0 )
+3/shapes = [  ]
+4/name = "land10"
+4/texture = ExtResource( 16 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 0, 0, 32, 32 )
+4/occluder_offset = Vector2( 16, 16 )
+4/navigation_offset = Vector2( 16, 16 )
+4/shape_offset = Vector2( 0, 0 )
+4/shapes = [  ]
+5/name = "land11"
+5/texture = ExtResource( 17 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 0, 0, 32, 32 )
+5/occluder_offset = Vector2( 16, 16 )
+5/navigation_offset = Vector2( 16, 16 )
+5/shape_offset = Vector2( 0, 0 )
+5/shapes = [  ]
+6/name = "land12"
+6/texture = ExtResource( 18 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 0, 0, 32, 32 )
+6/occluder_offset = Vector2( 16, 16 )
+6/navigation_offset = Vector2( 16, 16 )
+6/shape_offset = Vector2( 0, 0 )
+6/shapes = [  ]
+7/name = "land13"
+7/texture = ExtResource( 19 )
+7/tex_offset = Vector2( 0, 0 )
+7/modulate = Color( 1, 1, 1, 1 )
+7/region = Rect2( 0, 0, 32, 32 )
+7/occluder_offset = Vector2( 16, 16 )
+7/navigation_offset = Vector2( 16, 16 )
+7/shape_offset = Vector2( 0, 0 )
+7/shapes = [  ]
+8/name = "land2"
+8/texture = ExtResource( 20 )
+8/tex_offset = Vector2( 0, 0 )
+8/modulate = Color( 1, 1, 1, 1 )
+8/region = Rect2( 0, 0, 32, 32 )
+8/occluder_offset = Vector2( 16, 16 )
+8/navigation_offset = Vector2( 16, 16 )
+8/shape_offset = Vector2( 0, 0 )
+8/shapes = [  ]
+9/name = "land3"
+9/texture = ExtResource( 21 )
+9/tex_offset = Vector2( 0, 0 )
+9/modulate = Color( 1, 1, 1, 1 )
+9/region = Rect2( 0, 0, 32, 32 )
+9/occluder_offset = Vector2( 16, 16 )
+9/navigation_offset = Vector2( 16, 16 )
+9/shape_offset = Vector2( 0, 0 )
+9/shapes = [  ]
+10/name = "land4"
+10/texture = ExtResource( 3 )
+10/tex_offset = Vector2( 0, 0 )
+10/modulate = Color( 1, 1, 1, 1 )
+10/region = Rect2( 0, 0, 32, 32 )
+10/occluder_offset = Vector2( 16, 16 )
+10/navigation_offset = Vector2( 16, 16 )
+10/shape_offset = Vector2( 0, 0 )
+10/shapes = [  ]
+11/name = "land5"
+11/texture = ExtResource( 4 )
+11/tex_offset = Vector2( 0, 0 )
+11/modulate = Color( 1, 1, 1, 1 )
+11/region = Rect2( 0, 0, 32, 32 )
+11/occluder_offset = Vector2( 16, 16 )
+11/navigation_offset = Vector2( 16, 16 )
+11/shape_offset = Vector2( 0, 0 )
+11/shapes = [  ]
+12/name = "land6"
+12/texture = ExtResource( 5 )
+12/tex_offset = Vector2( 0, 0 )
+12/modulate = Color( 1, 1, 1, 1 )
+12/region = Rect2( 0, 0, 32, 32 )
+12/occluder_offset = Vector2( 16, 16 )
+12/navigation_offset = Vector2( 16, 16 )
+12/shape_offset = Vector2( 0, 0 )
+12/shapes = [  ]
+13/name = "land7"
+13/texture = ExtResource( 6 )
+13/tex_offset = Vector2( 0, 0 )
+13/modulate = Color( 1, 1, 1, 1 )
+13/region = Rect2( 0, 0, 32, 32 )
+13/occluder_offset = Vector2( 16, 16 )
+13/navigation_offset = Vector2( 16, 16 )
+13/shape_offset = Vector2( 0, 0 )
+13/shapes = [  ]
+14/name = "land8"
+14/texture = ExtResource( 7 )
+14/tex_offset = Vector2( 0, 0 )
+14/modulate = Color( 1, 1, 1, 1 )
+14/region = Rect2( 0, 0, 32, 32 )
+14/occluder_offset = Vector2( 16, 16 )
+14/navigation_offset = Vector2( 16, 16 )
+14/shape_offset = Vector2( 0, 0 )
+14/shapes = [  ]
+15/name = "land9"
+15/texture = ExtResource( 8 )
+15/tex_offset = Vector2( 0, 0 )
+15/modulate = Color( 1, 1, 1, 1 )
+15/region = Rect2( 0, 0, 32, 32 )
+15/occluder_offset = Vector2( 16, 16 )
+15/navigation_offset = Vector2( 16, 16 )
+15/shape_offset = Vector2( 0, 0 )
+15/shapes = [  ]
+16/name = "water 4"
+16/texture = ExtResource( 9 )
+16/tex_offset = Vector2( 0, 0 )
+16/modulate = Color( 1, 1, 1, 1 )
+16/region = Rect2( 0, 0, 32, 32 )
+16/occluder_offset = Vector2( 16, 16 )
+16/navigation_offset = Vector2( 16, 16 )
+16/shape_offset = Vector2( 0, 0 )
+16/shapes = [  ]
+17/name = "water_shader"
+17/texture = ExtResource( 9 )
+17/tex_offset = Vector2( 0, 0 )
+17/material = SubResource( 2 )
+17/modulate = Color( 1, 1, 1, 1 )
+17/region = Rect2( 0, 0, 32, 32 )
+17/occluder_offset = Vector2( 16, 16 )
+17/navigation_offset = Vector2( 16, 16 )
+17/shape_offset = Vector2( 0, 0 )
+17/shapes = [  ]
+
+[sub_resource type="Animation" id=4]
+
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:tile_set:0/texture")
+tracks/0/interp = 1
+tracks/0/imported = false
+tracks/0/keys = {
+"times": FloatArray( 0, 0.2, 0.4, 0.6, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 1 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:tile_set:1/texture")
+tracks/1/interp = 1
+tracks/1/imported = false
+tracks/1/keys = {
+"times": FloatArray( 0, 0.2, 0.4, 0.6, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 2 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 9 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath(".:tile_set:2/texture")
+tracks/2/interp = 1
+tracks/2/imported = false
+tracks/2/keys = {
+"times": FloatArray( 0, 0.2, 0.4, 0.6, 0.8 ),
+"transitions": FloatArray( 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 14 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ) ]
+}
+
+[node name="anim_tiles" type="TileMap"]
+
+mode = 0
+tile_set = SubResource( 3 )
+cell/size = Vector2( 32, 32 )
+cell/quadrant_size = 16
+cell/custom_transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+cell/half_offset = 2
+cell/tile_origin = 0
+cell/y_sort = false
+collision/use_kinematic = false
+collision/friction = 1.0
+collision/bounce = 0.0
+collision/layers = 1
+collision/mask = 1
+occluder/light_mask = 1
+tile_data = IntArray( 65538, 16, 65539, 11, 65540, 12, 65541, 12, 65542, 13, 65543, 2, 65544, 16, 131073, 16, 131074, 11, 131075, 10, 131076, 15, 131077, 15, 131078, 9, 131079, 13, 131080, 16, 196609, 16, 196610, 5, 196611, 8, 196612, 15, 196613, 15, 196614, 15, 196615, 14, 196616, 16, 262145, 16, 262146, 0, 262147, 4, 262148, 15, 262149, 15, 262150, 3, 262151, 7, 262152, 16, 327681, 16, 327682, 16, 327683, 5, 327684, 8, 327685, 3, 327686, 7, 327687, 1, 327688, 16, 393217, 16, 393218, 16, 393219, 1, 393220, 5, 393221, 7, 393222, 0, 393223, 2, 393224, 16, 458753, 16, 458754, 16, 458755, 16, 458756, 16, 458757, 16, 458758, 16, 458759, 16, 458760, 16 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+playback/process_mode = 1
+playback/default_blend_time = 0.0
+root/root = NodePath("..")
+anims/water = SubResource( 4 )
+playback/active = true
+playback/speed = 0.75
+blend_times = [  ]
+autoplay = "water"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+anchor_mode = 0
+rotating = false
+current = true
+zoom = Vector2( 0.5, 0.5 )
+limit/left = -10000000
+limit/top = -10000000
+limit/right = 10000000
+limit/bottom = 10000000
+drag_margin/h_enabled = true
+drag_margin/v_enabled = true
+smoothing/enable = false
+smoothing/speed = 5.0
+drag_margin/left = 0.2
+drag_margin/top = 0.2
+drag_margin/right = 0.2
+drag_margin/bottom = 0.2
+
+

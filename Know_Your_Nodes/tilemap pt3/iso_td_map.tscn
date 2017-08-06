@@ -1,0 +1,158 @@
+[gd_scene load_steps=8 format=1]
+
+[ext_resource path="res://iso_td_map.gd" type="Script" id=1]
+[ext_resource path="res://iso_td.tres" type="TileSet" id=2]
+[ext_resource path="res://art/iso_td/towerDefense_001_0.png" type="Texture" id=3]
+[ext_resource path="res://art/iso_td/towerDefense_002_1.png" type="Texture" id=4]
+[ext_resource path="res://Xolonium-Regular.ttf" type="DynamicFontData" id=5]
+
+[sub_resource type="Animation" id=1]
+
+resource/name = "tower"
+length = 2.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("level 2:tile_set:0/texture")
+tracks/0/interp = 1
+tracks/0/imported = false
+tracks/0/keys = {
+"times": FloatArray( 0, 1 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 3 ), ExtResource( 4 ) ]
+}
+
+[sub_resource type="DynamicFont" id=2]
+
+font/size = 42
+font/use_mipmaps = false
+font/use_filter = false
+font/font = ExtResource( 5 )
+
+[node name="iso_td_map" type="Node2D"]
+
+script/script = ExtResource( 1 )
+
+[node name="level 1" type="TileMap" parent="."]
+
+mode = 1
+tile_set = ExtResource( 2 )
+cell/size = Vector2( 120, 70 )
+cell/quadrant_size = 16
+cell/custom_transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+cell/half_offset = 2
+cell/tile_origin = 1
+cell/y_sort = false
+collision/use_kinematic = false
+collision/friction = 1.0
+collision/bounce = 0.0
+collision/layers = 1
+collision/mask = 1
+occluder/light_mask = 1
+tile_data = IntArray( -589817, 431, -589816, 431, -524282, 431, -524281, 431, -524280, 431, -524279, 431, -458747, 431, -458746, 465, -458745, 431, -458744, 244, -458743, 431, -458742, 349, -393212, 431, -393211, 431, -393210, 431, -393209, 431, -393208, 431, -393207, 287, -393206, 349, -393205, 431, -327677, 431, -327676, 375, -327675, 348, -327674, 348, -327673, 327, -327672, 348, -327671, 348, -327670, 385, -327669, 372, -327668, 431, -262142, 431, -262141, 431, -262140, 349, -262139, 431, -262138, 266, -262137, 431, -262136, 431, -262135, 431, -262134, 431, -262133, 377, -262132, 372, -262131, 431, -196607, 431, -196606, 431, -196605, 287, -196604, 349, -196603, 431, -196602, 431, -196601, 431, -196600, 244, -196599, 431, -196598, 431, -196597, 431, -196596, 349, -196595, 431, -196594, 431, -131072, 342, -131071, 431, -131070, 13, -131069, 375, -131068, 376, -131067, 431, -131066, 431, -131065, 431, -131064, 431, -131063, 431, -131062, 431, -131061, 431, -131060, 349, -131059, 431, -131058, 431, -131057, 431, -1, 431, -65536, 332, -65535, 337, -65534, 431, -65533, 409, -65532, 12, -65531, 431, -65530, 431, -65529, 12, -65528, 431, -65527, 431, -65526, 467, -65525, 431, -65524, 349, -65523, 266, -65522, 244, -65521, 431, -65520, 431, 0, 431, 1, 342, 2, 431, 3, 406, 4, 12, 5, 431, 6, 431, 7, 244, 8, 431, 9, 431, 10, 375, 11, 348, 12, 376, 13, 431, 14, 431, 15, 431, 16, 431, 65537, 335, 65538, 431, 65539, 396, 65540, 398, 65541, 431, 65542, 431, 65543, 431, 65544, 12, 65545, 431, 65546, 349, 65547, 431, 65548, 431, 65549, 431, 65550, 431, 65551, 431, 131074, 245, 131075, 431, 131076, 396, 131077, 348, 131078, 348, 131079, 348, 131080, 387, 131081, 387, 131082, 380, 131083, 353, 131084, 372, 131085, 13, 131086, 431, 196611, 431, 196612, 12, 196613, 431, 196614, 12, 196615, 469, 196616, 431, 196617, 431, 196618, 431, 196619, 288, 196620, 329, 196621, 431, 262148, 343, 262149, 343, 262150, 341, 262151, 334, 262152, 431, 262153, 12, 262154, 378, 262155, 353, 262156, 376, 327685, 431, 327686, 336, 327687, 335, 327688, 397, 327689, 348, 327690, 376, 327691, 431, 393222, 338, 393223, 431, 393224, 349, 393225, 306, 393226, 431, 458759, 431, 458760, 349, 458761, 431, 524296, 329 )
+
+[node name="level 2" type="TileMap" parent="."]
+
+transform/pos = Vector2( 0, -28 )
+mode = 1
+tile_set = ExtResource( 2 )
+cell/size = Vector2( 120, 70 )
+cell/quadrant_size = 16
+cell/custom_transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+cell/half_offset = 2
+cell/tile_origin = 1
+cell/y_sort = false
+collision/use_kinematic = false
+collision/friction = 1.0
+collision/bounce = 0.0
+collision/layers = 1
+collision/mask = 1
+occluder/light_mask = 1
+tile_data = IntArray( -196603, 104, -196598, 142, 13, 76, 65542, 177, 196618, 175 )
+
+[node name="level 3" type="TileMap" parent="."]
+
+transform/pos = Vector2( 0, -56 )
+mode = 1
+tile_set = ExtResource( 2 )
+cell/size = Vector2( 120, 70 )
+cell/quadrant_size = 16
+cell/custom_transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+cell/half_offset = 2
+cell/tile_origin = 1
+cell/y_sort = false
+collision/use_kinematic = false
+collision/friction = 1.0
+collision/bounce = 0.0
+collision/layers = 1
+collision/mask = 1
+occluder/light_mask = 1
+tile_data = IntArray( -196598, 183, 13, 92, 65542, 35, 196618, 32 )
+
+[node name="level 4" type="TileMap" parent="."]
+
+transform/pos = Vector2( 0, -84 )
+mode = 1
+tile_set = ExtResource( 2 )
+cell/size = Vector2( 120, 70 )
+cell/quadrant_size = 16
+cell/custom_transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+cell/half_offset = 2
+cell/tile_origin = 1
+cell/y_sort = false
+collision/use_kinematic = false
+collision/friction = 1.0
+collision/bounce = 0.0
+collision/layers = 1
+collision/mask = 1
+occluder/light_mask = 1
+tile_data = IntArray( -196598, 120, 65542, 0, 196618, 104 )
+
+[node name="level 5" type="TileMap" parent="."]
+
+transform/pos = Vector2( 0, -112 )
+mode = 1
+tile_set = ExtResource( 2 )
+cell/size = Vector2( 120, 70 )
+cell/quadrant_size = 16
+cell/custom_transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+cell/half_offset = 2
+cell/tile_origin = 1
+cell/y_sort = false
+collision/use_kinematic = false
+collision/friction = 1.0
+collision/bounce = 0.0
+collision/layers = 1
+collision/mask = 1
+occluder/light_mask = 1
+tile_data = IntArray( -196598, 210 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+playback/process_mode = 1
+playback/default_blend_time = 0.0
+root/root = NodePath("..")
+anims/tower = SubResource( 1 )
+playback/active = true
+playback/speed = 1.0
+blend_times = [  ]
+autoplay = "tower"
+
+[node name="info" type="Label" parent="."]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 40.0
+margin/bottom = 14.0
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+

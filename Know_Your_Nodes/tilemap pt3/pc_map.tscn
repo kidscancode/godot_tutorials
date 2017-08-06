@@ -1,0 +1,124 @@
+[gd_scene load_steps=5 format=1]
+
+[ext_resource path="res://pc_tiles.tres" type="TileSet" id=1]
+[ext_resource path="res://art/pc/Key.png" type="Texture" id=2]
+[ext_resource path="res://art/pc/Character Horn Girl.png" type="Texture" id=3]
+
+[sub_resource type="Animation" id=1]
+
+resource/name = "New Anim"
+length = 1.8
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("Character Horn Girl:transform/scale")
+tracks/0/interp = 1
+tracks/0/imported = false
+tracks/0/keys = {
+"times": FloatArray( 0, 0.8 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1.05, 0.9 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Key:transform/pos")
+tracks/1/interp = 2
+tracks/1/imported = false
+tracks/1/keys = {
+"times": FloatArray( 0, 0.9 ),
+"transitions": FloatArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 761.509, 287.505 ), Vector2( 760.401, 268.668 ) ]
+}
+
+[node name="pc_map" type="Node2D"]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+playback/process_mode = 1
+playback/default_blend_time = 0.0
+root/root = NodePath("..")
+"anims/New Anim" = SubResource( 1 )
+playback/active = true
+playback/speed = 1.0
+blend_times = [  ]
+autoplay = ""
+
+[node name="level 1" type="TileMap" parent="."]
+
+transform/pos = Vector2( 0, 120 )
+mode = 0
+tile_set = ExtResource( 1 )
+cell/size = Vector2( 101, 80 )
+cell/quadrant_size = 16
+cell/custom_transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+cell/half_offset = 2
+cell/tile_origin = 1
+cell/y_sort = false
+collision/use_kinematic = false
+collision/friction = 1.0
+collision/bounce = 0.0
+collision/layers = 1
+collision/mask = 1
+occluder/light_mask = 1
+tile_data = IntArray( 65543, 7, 131074, 1, 131075, 1, 131076, 1, 131077, 1, 131078, 1, 131079, 7, 196612, 7, 196613, 7, 196614, 7, 196615, 7, 262148, 7, 262149, 8, 262150, 8, 262151, 8 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="level 2" type="TileMap" parent="."]
+
+mode = 0
+tile_set = ExtResource( 1 )
+cell/size = Vector2( 101, 80 )
+cell/quadrant_size = 16
+cell/custom_transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+cell/half_offset = 2
+cell/tile_origin = 1
+cell/y_sort = false
+collision/use_kinematic = false
+collision/friction = 1.0
+collision/bounce = 0.0
+collision/layers = 1
+collision/mask = 1
+occluder/light_mask = 1
+tile_data = IntArray( 65539, 2, 65540, 2, 65541, 2, 65542, 2, 65543, 2, 131075, 2, 131076, 2, 131077, 2, 131078, 6, 196610, 4, 196611, 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="level 3" type="TileMap" parent="."]
+
+transform/pos = Vector2( 0, -120 )
+mode = 0
+tile_set = ExtResource( 1 )
+cell/size = Vector2( 101, 80 )
+cell/quadrant_size = 16
+cell/custom_transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+cell/half_offset = 2
+cell/tile_origin = 1
+cell/y_sort = false
+collision/use_kinematic = false
+collision/friction = 1.0
+collision/bounce = 0.0
+collision/layers = 1
+collision/mask = 1
+occluder/light_mask = 1
+tile_data = IntArray( 65539, 3, 65540, 9, 65541, 18, 65542, 9, 65543, 3, 196613, 21, 262147, 22 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Key" type="Sprite" parent="."]
+
+transform/pos = Vector2( 761.492, 287.214 )
+texture = ExtResource( 2 )
+
+[node name="Character Horn Girl" type="Sprite" parent="."]
+
+transform/pos = Vector2( 453.476, 140.136 )
+transform/scale = Vector2( 1.0016, 0.996796 )
+texture = ExtResource( 3 )
+offset = Vector2( 2.216, -56.5514 )
+
+

@@ -1,0 +1,4725 @@
+[gd_resource type="TileSet" load_steps=472 format=1]
+
+[ext_resource path="res://art/iso_td/towerDefense_002_1.png" type="Texture" id=1]
+[ext_resource path="res://art/iso_td/towerDefense_001_1.png" type="Texture" id=2]
+[ext_resource path="res://art/iso_td/towerDefense_003_2.png" type="Texture" id=3]
+[ext_resource path="res://art/iso_td/towerDefense_026_0.png" type="Texture" id=4]
+[ext_resource path="res://art/iso_td/towerDefense_026_1.png" type="Texture" id=5]
+[ext_resource path="res://art/iso_td/towerDefense_026_2.png" type="Texture" id=6]
+[ext_resource path="res://art/iso_td/towerDefense_026_3.png" type="Texture" id=7]
+[ext_resource path="res://art/iso_td/towerDefense_027_0.png" type="Texture" id=8]
+[ext_resource path="res://art/iso_td/towerDefense_027_1.png" type="Texture" id=9]
+[ext_resource path="res://art/iso_td/towerDefense_027_2.png" type="Texture" id=10]
+[ext_resource path="res://art/iso_td/towerDefense_027_3.png" type="Texture" id=11]
+[ext_resource path="res://art/iso_td/towerDefense_028_0.png" type="Texture" id=12]
+[ext_resource path="res://art/iso_td/towerDefense_028_1.png" type="Texture" id=13]
+[ext_resource path="res://art/iso_td/towerDefense_003_3.png" type="Texture" id=14]
+[ext_resource path="res://art/iso_td/towerDefense_028_2.png" type="Texture" id=15]
+[ext_resource path="res://art/iso_td/towerDefense_028_3.png" type="Texture" id=16]
+[ext_resource path="res://art/iso_td/towerDefense_029_0.png" type="Texture" id=17]
+[ext_resource path="res://art/iso_td/towerDefense_029_1.png" type="Texture" id=18]
+[ext_resource path="res://art/iso_td/towerDefense_029_2.png" type="Texture" id=19]
+[ext_resource path="res://art/iso_td/towerDefense_029_3.png" type="Texture" id=20]
+[ext_resource path="res://art/iso_td/towerDefense_030_0.png" type="Texture" id=21]
+[ext_resource path="res://art/iso_td/towerDefense_030_1.png" type="Texture" id=22]
+[ext_resource path="res://art/iso_td/towerDefense_030_2.png" type="Texture" id=23]
+[ext_resource path="res://art/iso_td/towerDefense_030_3.png" type="Texture" id=24]
+[ext_resource path="res://art/iso_td/towerDefense_004_0.png" type="Texture" id=25]
+[ext_resource path="res://art/iso_td/towerDefense_031_0.png" type="Texture" id=26]
+[ext_resource path="res://art/iso_td/towerDefense_031_1.png" type="Texture" id=27]
+[ext_resource path="res://art/iso_td/towerDefense_031_2.png" type="Texture" id=28]
+[ext_resource path="res://art/iso_td/towerDefense_031_3.png" type="Texture" id=29]
+[ext_resource path="res://art/iso_td/towerDefense_032_0.png" type="Texture" id=30]
+[ext_resource path="res://art/iso_td/towerDefense_032_1.png" type="Texture" id=31]
+[ext_resource path="res://art/iso_td/towerDefense_032_2.png" type="Texture" id=32]
+[ext_resource path="res://art/iso_td/towerDefense_032_3.png" type="Texture" id=33]
+[ext_resource path="res://art/iso_td/towerDefense_033_0.png" type="Texture" id=34]
+[ext_resource path="res://art/iso_td/towerDefense_033_1.png" type="Texture" id=35]
+[ext_resource path="res://art/iso_td/towerDefense_004_1.png" type="Texture" id=36]
+[ext_resource path="res://art/iso_td/towerDefense_033_2.png" type="Texture" id=37]
+[ext_resource path="res://art/iso_td/towerDefense_033_3.png" type="Texture" id=38]
+[ext_resource path="res://art/iso_td/towerDefense_034_0.png" type="Texture" id=39]
+[ext_resource path="res://art/iso_td/towerDefense_034_1.png" type="Texture" id=40]
+[ext_resource path="res://art/iso_td/towerDefense_034_2.png" type="Texture" id=41]
+[ext_resource path="res://art/iso_td/towerDefense_034_3.png" type="Texture" id=42]
+[ext_resource path="res://art/iso_td/towerDefense_035_0.png" type="Texture" id=43]
+[ext_resource path="res://art/iso_td/towerDefense_035_1.png" type="Texture" id=44]
+[ext_resource path="res://art/iso_td/towerDefense_035_2.png" type="Texture" id=45]
+[ext_resource path="res://art/iso_td/towerDefense_035_3.png" type="Texture" id=46]
+[ext_resource path="res://art/iso_td/towerDefense_004_2.png" type="Texture" id=47]
+[ext_resource path="res://art/iso_td/towerDefense_036_0.png" type="Texture" id=48]
+[ext_resource path="res://art/iso_td/towerDefense_036_1.png" type="Texture" id=49]
+[ext_resource path="res://art/iso_td/towerDefense_036_2.png" type="Texture" id=50]
+[ext_resource path="res://art/iso_td/towerDefense_036_3.png" type="Texture" id=51]
+[ext_resource path="res://art/iso_td/towerDefense_037_0.png" type="Texture" id=52]
+[ext_resource path="res://art/iso_td/towerDefense_037_1.png" type="Texture" id=53]
+[ext_resource path="res://art/iso_td/towerDefense_037_2.png" type="Texture" id=54]
+[ext_resource path="res://art/iso_td/towerDefense_037_3.png" type="Texture" id=55]
+[ext_resource path="res://art/iso_td/towerDefense_038_0.png" type="Texture" id=56]
+[ext_resource path="res://art/iso_td/towerDefense_038_1.png" type="Texture" id=57]
+[ext_resource path="res://art/iso_td/towerDefense_004_3.png" type="Texture" id=58]
+[ext_resource path="res://art/iso_td/towerDefense_038_2.png" type="Texture" id=59]
+[ext_resource path="res://art/iso_td/towerDefense_038_3.png" type="Texture" id=60]
+[ext_resource path="res://art/iso_td/towerDefense_039_0.png" type="Texture" id=61]
+[ext_resource path="res://art/iso_td/towerDefense_039_1.png" type="Texture" id=62]
+[ext_resource path="res://art/iso_td/towerDefense_039_2.png" type="Texture" id=63]
+[ext_resource path="res://art/iso_td/towerDefense_039_3.png" type="Texture" id=64]
+[ext_resource path="res://art/iso_td/towerDefense_040_0.png" type="Texture" id=65]
+[ext_resource path="res://art/iso_td/towerDefense_040_1.png" type="Texture" id=66]
+[ext_resource path="res://art/iso_td/towerDefense_040_2.png" type="Texture" id=67]
+[ext_resource path="res://art/iso_td/towerDefense_040_3.png" type="Texture" id=68]
+[ext_resource path="res://art/iso_td/towerDefense_005_0.png" type="Texture" id=69]
+[ext_resource path="res://art/iso_td/towerDefense_041_0.png" type="Texture" id=70]
+[ext_resource path="res://art/iso_td/towerDefense_041_1.png" type="Texture" id=71]
+[ext_resource path="res://art/iso_td/towerDefense_041_2.png" type="Texture" id=72]
+[ext_resource path="res://art/iso_td/towerDefense_041_3.png" type="Texture" id=73]
+[ext_resource path="res://art/iso_td/towerDefense_042_0.png" type="Texture" id=74]
+[ext_resource path="res://art/iso_td/towerDefense_042_1.png" type="Texture" id=75]
+[ext_resource path="res://art/iso_td/towerDefense_042_2.png" type="Texture" id=76]
+[ext_resource path="res://art/iso_td/towerDefense_042_3.png" type="Texture" id=77]
+[ext_resource path="res://art/iso_td/towerDefense_043_0.png" type="Texture" id=78]
+[ext_resource path="res://art/iso_td/towerDefense_043_1.png" type="Texture" id=79]
+[ext_resource path="res://art/iso_td/towerDefense_005_1.png" type="Texture" id=80]
+[ext_resource path="res://art/iso_td/towerDefense_043_2.png" type="Texture" id=81]
+[ext_resource path="res://art/iso_td/towerDefense_043_3.png" type="Texture" id=82]
+[ext_resource path="res://art/iso_td/towerDefense_044_0.png" type="Texture" id=83]
+[ext_resource path="res://art/iso_td/towerDefense_044_1.png" type="Texture" id=84]
+[ext_resource path="res://art/iso_td/towerDefense_044_2.png" type="Texture" id=85]
+[ext_resource path="res://art/iso_td/towerDefense_044_3.png" type="Texture" id=86]
+[ext_resource path="res://art/iso_td/towerDefense_045_0.png" type="Texture" id=87]
+[ext_resource path="res://art/iso_td/towerDefense_045_1.png" type="Texture" id=88]
+[ext_resource path="res://art/iso_td/towerDefense_045_2.png" type="Texture" id=89]
+[ext_resource path="res://art/iso_td/towerDefense_045_3.png" type="Texture" id=90]
+[ext_resource path="res://art/iso_td/towerDefense_005_2.png" type="Texture" id=91]
+[ext_resource path="res://art/iso_td/towerDefense_046_0.png" type="Texture" id=92]
+[ext_resource path="res://art/iso_td/towerDefense_046_1.png" type="Texture" id=93]
+[ext_resource path="res://art/iso_td/towerDefense_046_2.png" type="Texture" id=94]
+[ext_resource path="res://art/iso_td/towerDefense_046_3.png" type="Texture" id=95]
+[ext_resource path="res://art/iso_td/towerDefense_047_0.png" type="Texture" id=96]
+[ext_resource path="res://art/iso_td/towerDefense_047_1.png" type="Texture" id=97]
+[ext_resource path="res://art/iso_td/towerDefense_047_2.png" type="Texture" id=98]
+[ext_resource path="res://art/iso_td/towerDefense_047_3.png" type="Texture" id=99]
+[ext_resource path="res://art/iso_td/towerDefense_048_0.png" type="Texture" id=100]
+[ext_resource path="res://art/iso_td/towerDefense_048_1.png" type="Texture" id=101]
+[ext_resource path="res://art/iso_td/towerDefense_005_3.png" type="Texture" id=102]
+[ext_resource path="res://art/iso_td/towerDefense_048_2.png" type="Texture" id=103]
+[ext_resource path="res://art/iso_td/towerDefense_048_3.png" type="Texture" id=104]
+[ext_resource path="res://art/iso_td/towerDefense_049_0.png" type="Texture" id=105]
+[ext_resource path="res://art/iso_td/towerDefense_049_1.png" type="Texture" id=106]
+[ext_resource path="res://art/iso_td/towerDefense_049_2.png" type="Texture" id=107]
+[ext_resource path="res://art/iso_td/towerDefense_049_3.png" type="Texture" id=108]
+[ext_resource path="res://art/iso_td/towerDefense_050_0.png" type="Texture" id=109]
+[ext_resource path="res://art/iso_td/towerDefense_050_1.png" type="Texture" id=110]
+[ext_resource path="res://art/iso_td/towerDefense_050_2.png" type="Texture" id=111]
+[ext_resource path="res://art/iso_td/towerDefense_050_3.png" type="Texture" id=112]
+[ext_resource path="res://art/iso_td/towerDefense_001_2.png" type="Texture" id=113]
+[ext_resource path="res://art/iso_td/towerDefense_006_0.png" type="Texture" id=114]
+[ext_resource path="res://art/iso_td/towerDefense_051_0.png" type="Texture" id=115]
+[ext_resource path="res://art/iso_td/towerDefense_051_1.png" type="Texture" id=116]
+[ext_resource path="res://art/iso_td/towerDefense_051_2.png" type="Texture" id=117]
+[ext_resource path="res://art/iso_td/towerDefense_051_3.png" type="Texture" id=118]
+[ext_resource path="res://art/iso_td/towerDefense_052_0.png" type="Texture" id=119]
+[ext_resource path="res://art/iso_td/towerDefense_052_1.png" type="Texture" id=120]
+[ext_resource path="res://art/iso_td/towerDefense_052_2.png" type="Texture" id=121]
+[ext_resource path="res://art/iso_td/towerDefense_052_3.png" type="Texture" id=122]
+[ext_resource path="res://art/iso_td/towerDefense_053_0.png" type="Texture" id=123]
+[ext_resource path="res://art/iso_td/towerDefense_053_1.png" type="Texture" id=124]
+[ext_resource path="res://art/iso_td/towerDefense_006_1.png" type="Texture" id=125]
+[ext_resource path="res://art/iso_td/towerDefense_053_2.png" type="Texture" id=126]
+[ext_resource path="res://art/iso_td/towerDefense_053_3.png" type="Texture" id=127]
+[ext_resource path="res://art/iso_td/towerDefense_055_0.png" type="Texture" id=128]
+[ext_resource path="res://art/iso_td/towerDefense_055_1.png" type="Texture" id=129]
+[ext_resource path="res://art/iso_td/towerDefense_055_2.png" type="Texture" id=130]
+[ext_resource path="res://art/iso_td/towerDefense_055_3.png" type="Texture" id=131]
+[ext_resource path="res://art/iso_td/towerDefense_056_0.png" type="Texture" id=132]
+[ext_resource path="res://art/iso_td/towerDefense_056_1.png" type="Texture" id=133]
+[ext_resource path="res://art/iso_td/towerDefense_056_2.png" type="Texture" id=134]
+[ext_resource path="res://art/iso_td/towerDefense_056_3.png" type="Texture" id=135]
+[ext_resource path="res://art/iso_td/towerDefense_006_2.png" type="Texture" id=136]
+[ext_resource path="res://art/iso_td/towerDefense_057_0.png" type="Texture" id=137]
+[ext_resource path="res://art/iso_td/towerDefense_057_1.png" type="Texture" id=138]
+[ext_resource path="res://art/iso_td/towerDefense_057_2.png" type="Texture" id=139]
+[ext_resource path="res://art/iso_td/towerDefense_057_3.png" type="Texture" id=140]
+[ext_resource path="res://art/iso_td/towerDefense_058_0.png" type="Texture" id=141]
+[ext_resource path="res://art/iso_td/towerDefense_058_1.png" type="Texture" id=142]
+[ext_resource path="res://art/iso_td/towerDefense_058_2.png" type="Texture" id=143]
+[ext_resource path="res://art/iso_td/towerDefense_058_3.png" type="Texture" id=144]
+[ext_resource path="res://art/iso_td/towerDefense_059_0.png" type="Texture" id=145]
+[ext_resource path="res://art/iso_td/towerDefense_059_1.png" type="Texture" id=146]
+[ext_resource path="res://art/iso_td/towerDefense_006_3.png" type="Texture" id=147]
+[ext_resource path="res://art/iso_td/towerDefense_059_2.png" type="Texture" id=148]
+[ext_resource path="res://art/iso_td/towerDefense_059_3.png" type="Texture" id=149]
+[ext_resource path="res://art/iso_td/towerDefense_060_0.png" type="Texture" id=150]
+[ext_resource path="res://art/iso_td/towerDefense_060_1.png" type="Texture" id=151]
+[ext_resource path="res://art/iso_td/towerDefense_060_2.png" type="Texture" id=152]
+[ext_resource path="res://art/iso_td/towerDefense_060_3.png" type="Texture" id=153]
+[ext_resource path="res://art/iso_td/towerDefense_061_0.png" type="Texture" id=154]
+[ext_resource path="res://art/iso_td/towerDefense_061_1.png" type="Texture" id=155]
+[ext_resource path="res://art/iso_td/towerDefense_061_2.png" type="Texture" id=156]
+[ext_resource path="res://art/iso_td/towerDefense_061_3.png" type="Texture" id=157]
+[ext_resource path="res://art/iso_td/towerDefense_007_0.png" type="Texture" id=158]
+[ext_resource path="res://art/iso_td/towerDefense_062_0.png" type="Texture" id=159]
+[ext_resource path="res://art/iso_td/towerDefense_062_1.png" type="Texture" id=160]
+[ext_resource path="res://art/iso_td/towerDefense_062_2.png" type="Texture" id=161]
+[ext_resource path="res://art/iso_td/towerDefense_062_3.png" type="Texture" id=162]
+[ext_resource path="res://art/iso_td/towerDefense_063_0.png" type="Texture" id=163]
+[ext_resource path="res://art/iso_td/towerDefense_063_1.png" type="Texture" id=164]
+[ext_resource path="res://art/iso_td/towerDefense_063_2.png" type="Texture" id=165]
+[ext_resource path="res://art/iso_td/towerDefense_063_3.png" type="Texture" id=166]
+[ext_resource path="res://art/iso_td/towerDefense_064_0.png" type="Texture" id=167]
+[ext_resource path="res://art/iso_td/towerDefense_064_1.png" type="Texture" id=168]
+[ext_resource path="res://art/iso_td/towerDefense_007_1.png" type="Texture" id=169]
+[ext_resource path="res://art/iso_td/towerDefense_064_2.png" type="Texture" id=170]
+[ext_resource path="res://art/iso_td/towerDefense_064_3.png" type="Texture" id=171]
+[ext_resource path="res://art/iso_td/towerDefense_065_0.png" type="Texture" id=172]
+[ext_resource path="res://art/iso_td/towerDefense_065_1.png" type="Texture" id=173]
+[ext_resource path="res://art/iso_td/towerDefense_065_2.png" type="Texture" id=174]
+[ext_resource path="res://art/iso_td/towerDefense_065_3.png" type="Texture" id=175]
+[ext_resource path="res://art/iso_td/towerDefense_066_0.png" type="Texture" id=176]
+[ext_resource path="res://art/iso_td/towerDefense_066_1.png" type="Texture" id=177]
+[ext_resource path="res://art/iso_td/towerDefense_066_2.png" type="Texture" id=178]
+[ext_resource path="res://art/iso_td/towerDefense_066_3.png" type="Texture" id=179]
+[ext_resource path="res://art/iso_td/towerDefense_007_2.png" type="Texture" id=180]
+[ext_resource path="res://art/iso_td/towerDefense_067_0.png" type="Texture" id=181]
+[ext_resource path="res://art/iso_td/towerDefense_067_1.png" type="Texture" id=182]
+[ext_resource path="res://art/iso_td/towerDefense_067_2.png" type="Texture" id=183]
+[ext_resource path="res://art/iso_td/towerDefense_067_3.png" type="Texture" id=184]
+[ext_resource path="res://art/iso_td/towerDefense_068_0.png" type="Texture" id=185]
+[ext_resource path="res://art/iso_td/towerDefense_068_1.png" type="Texture" id=186]
+[ext_resource path="res://art/iso_td/towerDefense_068_2.png" type="Texture" id=187]
+[ext_resource path="res://art/iso_td/towerDefense_068_3.png" type="Texture" id=188]
+[ext_resource path="res://art/iso_td/towerDefense_069_0.png" type="Texture" id=189]
+[ext_resource path="res://art/iso_td/towerDefense_069_1.png" type="Texture" id=190]
+[ext_resource path="res://art/iso_td/towerDefense_007_3.png" type="Texture" id=191]
+[ext_resource path="res://art/iso_td/towerDefense_069_2.png" type="Texture" id=192]
+[ext_resource path="res://art/iso_td/towerDefense_069_3.png" type="Texture" id=193]
+[ext_resource path="res://art/iso_td/towerDefense_070_0.png" type="Texture" id=194]
+[ext_resource path="res://art/iso_td/towerDefense_070_1.png" type="Texture" id=195]
+[ext_resource path="res://art/iso_td/towerDefense_070_2.png" type="Texture" id=196]
+[ext_resource path="res://art/iso_td/towerDefense_070_3.png" type="Texture" id=197]
+[ext_resource path="res://art/iso_td/towerDefense_071_0.png" type="Texture" id=198]
+[ext_resource path="res://art/iso_td/towerDefense_071_1.png" type="Texture" id=199]
+[ext_resource path="res://art/iso_td/towerDefense_071_2.png" type="Texture" id=200]
+[ext_resource path="res://art/iso_td/towerDefense_071_3.png" type="Texture" id=201]
+[ext_resource path="res://art/iso_td/towerDefense_008_0.png" type="Texture" id=202]
+[ext_resource path="res://art/iso_td/towerDefense_072_0.png" type="Texture" id=203]
+[ext_resource path="res://art/iso_td/towerDefense_072_1.png" type="Texture" id=204]
+[ext_resource path="res://art/iso_td/towerDefense_072_2.png" type="Texture" id=205]
+[ext_resource path="res://art/iso_td/towerDefense_072_3.png" type="Texture" id=206]
+[ext_resource path="res://art/iso_td/towerDefense_073_0.png" type="Texture" id=207]
+[ext_resource path="res://art/iso_td/towerDefense_073_1.png" type="Texture" id=208]
+[ext_resource path="res://art/iso_td/towerDefense_073_2.png" type="Texture" id=209]
+[ext_resource path="res://art/iso_td/towerDefense_073_3.png" type="Texture" id=210]
+[ext_resource path="res://art/iso_td/towerDefense_074_0.png" type="Texture" id=211]
+[ext_resource path="res://art/iso_td/towerDefense_074_1.png" type="Texture" id=212]
+[ext_resource path="res://art/iso_td/towerDefense_008_1.png" type="Texture" id=213]
+[ext_resource path="res://art/iso_td/towerDefense_074_2.png" type="Texture" id=214]
+[ext_resource path="res://art/iso_td/towerDefense_074_3.png" type="Texture" id=215]
+[ext_resource path="res://art/iso_td/towerDefense_075_0.png" type="Texture" id=216]
+[ext_resource path="res://art/iso_td/towerDefense_075_1.png" type="Texture" id=217]
+[ext_resource path="res://art/iso_td/towerDefense_075_2.png" type="Texture" id=218]
+[ext_resource path="res://art/iso_td/towerDefense_075_3.png" type="Texture" id=219]
+[ext_resource path="res://art/iso_td/towerDefense_076_0.png" type="Texture" id=220]
+[ext_resource path="res://art/iso_td/towerDefense_076_1.png" type="Texture" id=221]
+[ext_resource path="res://art/iso_td/towerDefense_076_2.png" type="Texture" id=222]
+[ext_resource path="res://art/iso_td/towerDefense_076_3.png" type="Texture" id=223]
+[ext_resource path="res://art/iso_td/towerDefense_001_3.png" type="Texture" id=224]
+[ext_resource path="res://art/iso_td/towerDefense_008_2.png" type="Texture" id=225]
+[ext_resource path="res://art/iso_td/towerDefense_077_0.png" type="Texture" id=226]
+[ext_resource path="res://art/iso_td/towerDefense_077_1.png" type="Texture" id=227]
+[ext_resource path="res://art/iso_td/towerDefense_077_2.png" type="Texture" id=228]
+[ext_resource path="res://art/iso_td/towerDefense_077_3.png" type="Texture" id=229]
+[ext_resource path="res://art/iso_td/towerDefense_078_0.png" type="Texture" id=230]
+[ext_resource path="res://art/iso_td/towerDefense_078_1.png" type="Texture" id=231]
+[ext_resource path="res://art/iso_td/towerDefense_078_2.png" type="Texture" id=232]
+[ext_resource path="res://art/iso_td/towerDefense_078_3.png" type="Texture" id=233]
+[ext_resource path="res://art/iso_td/towerDefense_079_0.png" type="Texture" id=234]
+[ext_resource path="res://art/iso_td/towerDefense_079_1.png" type="Texture" id=235]
+[ext_resource path="res://art/iso_td/towerDefense_008_3.png" type="Texture" id=236]
+[ext_resource path="res://art/iso_td/towerDefense_079_2.png" type="Texture" id=237]
+[ext_resource path="res://art/iso_td/towerDefense_079_3.png" type="Texture" id=238]
+[ext_resource path="res://art/iso_td/towerDefense_080_0.png" type="Texture" id=239]
+[ext_resource path="res://art/iso_td/towerDefense_080_1.png" type="Texture" id=240]
+[ext_resource path="res://art/iso_td/towerDefense_080_2.png" type="Texture" id=241]
+[ext_resource path="res://art/iso_td/towerDefense_080_3.png" type="Texture" id=242]
+[ext_resource path="res://art/iso_td/towerDefense_081_0.png" type="Texture" id=243]
+[ext_resource path="res://art/iso_td/towerDefense_081_1.png" type="Texture" id=244]
+[ext_resource path="res://art/iso_td/towerDefense_081_2.png" type="Texture" id=245]
+[ext_resource path="res://art/iso_td/towerDefense_081_3.png" type="Texture" id=246]
+[ext_resource path="res://art/iso_td/towerDefense_009_0.png" type="Texture" id=247]
+[ext_resource path="res://art/iso_td/towerDefense_082_0.png" type="Texture" id=248]
+[ext_resource path="res://art/iso_td/towerDefense_082_1.png" type="Texture" id=249]
+[ext_resource path="res://art/iso_td/towerDefense_082_2.png" type="Texture" id=250]
+[ext_resource path="res://art/iso_td/towerDefense_082_3.png" type="Texture" id=251]
+[ext_resource path="res://art/iso_td/towerDefense_083_0.png" type="Texture" id=252]
+[ext_resource path="res://art/iso_td/towerDefense_083_1.png" type="Texture" id=253]
+[ext_resource path="res://art/iso_td/towerDefense_083_2.png" type="Texture" id=254]
+[ext_resource path="res://art/iso_td/towerDefense_083_3.png" type="Texture" id=255]
+[ext_resource path="res://art/iso_td/towerDefense_084_0.png" type="Texture" id=256]
+[ext_resource path="res://art/iso_td/towerDefense_084_1.png" type="Texture" id=257]
+[ext_resource path="res://art/iso_td/towerDefense_009_1.png" type="Texture" id=258]
+[ext_resource path="res://art/iso_td/towerDefense_084_2.png" type="Texture" id=259]
+[ext_resource path="res://art/iso_td/towerDefense_084_3.png" type="Texture" id=260]
+[ext_resource path="res://art/iso_td/towerDefense_085_0.png" type="Texture" id=261]
+[ext_resource path="res://art/iso_td/towerDefense_085_1.png" type="Texture" id=262]
+[ext_resource path="res://art/iso_td/towerDefense_085_2.png" type="Texture" id=263]
+[ext_resource path="res://art/iso_td/towerDefense_085_3.png" type="Texture" id=264]
+[ext_resource path="res://art/iso_td/towerDefense_086_0.png" type="Texture" id=265]
+[ext_resource path="res://art/iso_td/towerDefense_086_1.png" type="Texture" id=266]
+[ext_resource path="res://art/iso_td/towerDefense_086_2.png" type="Texture" id=267]
+[ext_resource path="res://art/iso_td/towerDefense_086_3.png" type="Texture" id=268]
+[ext_resource path="res://art/iso_td/towerDefense_009_2.png" type="Texture" id=269]
+[ext_resource path="res://art/iso_td/towerDefense_087_0.png" type="Texture" id=270]
+[ext_resource path="res://art/iso_td/towerDefense_087_1.png" type="Texture" id=271]
+[ext_resource path="res://art/iso_td/towerDefense_087_2.png" type="Texture" id=272]
+[ext_resource path="res://art/iso_td/towerDefense_087_3.png" type="Texture" id=273]
+[ext_resource path="res://art/iso_td/towerDefense_088_0.png" type="Texture" id=274]
+[ext_resource path="res://art/iso_td/towerDefense_088_1.png" type="Texture" id=275]
+[ext_resource path="res://art/iso_td/towerDefense_088_2.png" type="Texture" id=276]
+[ext_resource path="res://art/iso_td/towerDefense_088_3.png" type="Texture" id=277]
+[ext_resource path="res://art/iso_td/towerDefense_089_0.png" type="Texture" id=278]
+[ext_resource path="res://art/iso_td/towerDefense_089_1.png" type="Texture" id=279]
+[ext_resource path="res://art/iso_td/towerDefense_009_3.png" type="Texture" id=280]
+[ext_resource path="res://art/iso_td/towerDefense_089_2.png" type="Texture" id=281]
+[ext_resource path="res://art/iso_td/towerDefense_089_3.png" type="Texture" id=282]
+[ext_resource path="res://art/iso_td/towerDefense_090_0.png" type="Texture" id=283]
+[ext_resource path="res://art/iso_td/towerDefense_090_1.png" type="Texture" id=284]
+[ext_resource path="res://art/iso_td/towerDefense_090_2.png" type="Texture" id=285]
+[ext_resource path="res://art/iso_td/towerDefense_090_3.png" type="Texture" id=286]
+[ext_resource path="res://art/iso_td/towerDefense_091_0.png" type="Texture" id=287]
+[ext_resource path="res://art/iso_td/towerDefense_091_1.png" type="Texture" id=288]
+[ext_resource path="res://art/iso_td/towerDefense_091_2.png" type="Texture" id=289]
+[ext_resource path="res://art/iso_td/towerDefense_091_3.png" type="Texture" id=290]
+[ext_resource path="res://art/iso_td/towerDefense_010_0.png" type="Texture" id=291]
+[ext_resource path="res://art/iso_td/towerDefense_092_0.png" type="Texture" id=292]
+[ext_resource path="res://art/iso_td/towerDefense_092_1.png" type="Texture" id=293]
+[ext_resource path="res://art/iso_td/towerDefense_092_2.png" type="Texture" id=294]
+[ext_resource path="res://art/iso_td/towerDefense_092_3.png" type="Texture" id=295]
+[ext_resource path="res://art/iso_td/towerDefense_093_0.png" type="Texture" id=296]
+[ext_resource path="res://art/iso_td/towerDefense_093_1.png" type="Texture" id=297]
+[ext_resource path="res://art/iso_td/towerDefense_093_2.png" type="Texture" id=298]
+[ext_resource path="res://art/iso_td/towerDefense_093_3.png" type="Texture" id=299]
+[ext_resource path="res://art/iso_td/towerDefense_094_0.png" type="Texture" id=300]
+[ext_resource path="res://art/iso_td/towerDefense_094_1.png" type="Texture" id=301]
+[ext_resource path="res://art/iso_td/towerDefense_010_1.png" type="Texture" id=302]
+[ext_resource path="res://art/iso_td/towerDefense_094_2.png" type="Texture" id=303]
+[ext_resource path="res://art/iso_td/towerDefense_094_3.png" type="Texture" id=304]
+[ext_resource path="res://art/iso_td/towerDefense_095_0.png" type="Texture" id=305]
+[ext_resource path="res://art/iso_td/towerDefense_095_1.png" type="Texture" id=306]
+[ext_resource path="res://art/iso_td/towerDefense_095_2.png" type="Texture" id=307]
+[ext_resource path="res://art/iso_td/towerDefense_095_3.png" type="Texture" id=308]
+[ext_resource path="res://art/iso_td/towerDefense_096_0.png" type="Texture" id=309]
+[ext_resource path="res://art/iso_td/towerDefense_096_1.png" type="Texture" id=310]
+[ext_resource path="res://art/iso_td/towerDefense_096_2.png" type="Texture" id=311]
+[ext_resource path="res://art/iso_td/towerDefense_096_3.png" type="Texture" id=312]
+[ext_resource path="res://art/iso_td/towerDefense_010_2.png" type="Texture" id=313]
+[ext_resource path="res://art/iso_td/towerDefense_097_0.png" type="Texture" id=314]
+[ext_resource path="res://art/iso_td/towerDefense_097_1.png" type="Texture" id=315]
+[ext_resource path="res://art/iso_td/towerDefense_097_2.png" type="Texture" id=316]
+[ext_resource path="res://art/iso_td/towerDefense_097_3.png" type="Texture" id=317]
+[ext_resource path="res://art/iso_td/towerDefense_098_0.png" type="Texture" id=318]
+[ext_resource path="res://art/iso_td/towerDefense_098_1.png" type="Texture" id=319]
+[ext_resource path="res://art/iso_td/towerDefense_098_2.png" type="Texture" id=320]
+[ext_resource path="res://art/iso_td/towerDefense_098_3.png" type="Texture" id=321]
+[ext_resource path="res://art/iso_td/towerDefense_099_0.png" type="Texture" id=322]
+[ext_resource path="res://art/iso_td/towerDefense_099_1.png" type="Texture" id=323]
+[ext_resource path="res://art/iso_td/towerDefense_010_3.png" type="Texture" id=324]
+[ext_resource path="res://art/iso_td/towerDefense_099_2.png" type="Texture" id=325]
+[ext_resource path="res://art/iso_td/towerDefense_099_3.png" type="Texture" id=326]
+[ext_resource path="res://art/iso_td/towerDefense_100_0.png" type="Texture" id=327]
+[ext_resource path="res://art/iso_td/towerDefense_100_1.png" type="Texture" id=328]
+[ext_resource path="res://art/iso_td/towerDefense_100_2.png" type="Texture" id=329]
+[ext_resource path="res://art/iso_td/towerDefense_100_3.png" type="Texture" id=330]
+[ext_resource path="res://art/iso_td/towerDefense_101_0.png" type="Texture" id=331]
+[ext_resource path="res://art/iso_td/towerDefense_101_1.png" type="Texture" id=332]
+[ext_resource path="res://art/iso_td/towerDefense_101_2.png" type="Texture" id=333]
+[ext_resource path="res://art/iso_td/towerDefense_101_3.png" type="Texture" id=334]
+[ext_resource path="res://art/iso_td/towerDefense_002_0.png" type="Texture" id=335]
+[ext_resource path="res://art/iso_td/towerDefense_011_0.png" type="Texture" id=336]
+[ext_resource path="res://art/iso_td/towerDefense_102_0.png" type="Texture" id=337]
+[ext_resource path="res://art/iso_td/towerDefense_102_1.png" type="Texture" id=338]
+[ext_resource path="res://art/iso_td/towerDefense_102_2.png" type="Texture" id=339]
+[ext_resource path="res://art/iso_td/towerDefense_102_3.png" type="Texture" id=340]
+[ext_resource path="res://art/iso_td/towerDefense_103_0.png" type="Texture" id=341]
+[ext_resource path="res://art/iso_td/towerDefense_103_1.png" type="Texture" id=342]
+[ext_resource path="res://art/iso_td/towerDefense_103_2.png" type="Texture" id=343]
+[ext_resource path="res://art/iso_td/towerDefense_103_3.png" type="Texture" id=344]
+[ext_resource path="res://art/iso_td/towerDefense_104_0.png" type="Texture" id=345]
+[ext_resource path="res://art/iso_td/towerDefense_104_1.png" type="Texture" id=346]
+[ext_resource path="res://art/iso_td/towerDefense_011_1.png" type="Texture" id=347]
+[ext_resource path="res://art/iso_td/towerDefense_104_2.png" type="Texture" id=348]
+[ext_resource path="res://art/iso_td/towerDefense_104_3.png" type="Texture" id=349]
+[ext_resource path="res://art/iso_td/towerDefense_105_0.png" type="Texture" id=350]
+[ext_resource path="res://art/iso_td/towerDefense_105_1.png" type="Texture" id=351]
+[ext_resource path="res://art/iso_td/towerDefense_105_2.png" type="Texture" id=352]
+[ext_resource path="res://art/iso_td/towerDefense_105_3.png" type="Texture" id=353]
+[ext_resource path="res://art/iso_td/towerDefense_106_0.png" type="Texture" id=354]
+[ext_resource path="res://art/iso_td/towerDefense_106_1.png" type="Texture" id=355]
+[ext_resource path="res://art/iso_td/towerDefense_106_2.png" type="Texture" id=356]
+[ext_resource path="res://art/iso_td/towerDefense_106_3.png" type="Texture" id=357]
+[ext_resource path="res://art/iso_td/towerDefense_011_2.png" type="Texture" id=358]
+[ext_resource path="res://art/iso_td/towerDefense_107_0.png" type="Texture" id=359]
+[ext_resource path="res://art/iso_td/towerDefense_107_1.png" type="Texture" id=360]
+[ext_resource path="res://art/iso_td/towerDefense_107_2.png" type="Texture" id=361]
+[ext_resource path="res://art/iso_td/towerDefense_107_3.png" type="Texture" id=362]
+[ext_resource path="res://art/iso_td/towerDefense_108_0.png" type="Texture" id=363]
+[ext_resource path="res://art/iso_td/towerDefense_108_1.png" type="Texture" id=364]
+[ext_resource path="res://art/iso_td/towerDefense_108_2.png" type="Texture" id=365]
+[ext_resource path="res://art/iso_td/towerDefense_108_3.png" type="Texture" id=366]
+[ext_resource path="res://art/iso_td/towerDefense_109_0.png" type="Texture" id=367]
+[ext_resource path="res://art/iso_td/towerDefense_109_1.png" type="Texture" id=368]
+[ext_resource path="res://art/iso_td/towerDefense_011_3.png" type="Texture" id=369]
+[ext_resource path="res://art/iso_td/towerDefense_109_2.png" type="Texture" id=370]
+[ext_resource path="res://art/iso_td/towerDefense_109_3.png" type="Texture" id=371]
+[ext_resource path="res://art/iso_td/towerDefense_110_0.png" type="Texture" id=372]
+[ext_resource path="res://art/iso_td/towerDefense_110_1.png" type="Texture" id=373]
+[ext_resource path="res://art/iso_td/towerDefense_110_2.png" type="Texture" id=374]
+[ext_resource path="res://art/iso_td/towerDefense_110_3.png" type="Texture" id=375]
+[ext_resource path="res://art/iso_td/towerDefense_111_0.png" type="Texture" id=376]
+[ext_resource path="res://art/iso_td/towerDefense_111_1.png" type="Texture" id=377]
+[ext_resource path="res://art/iso_td/towerDefense_111_2.png" type="Texture" id=378]
+[ext_resource path="res://art/iso_td/towerDefense_111_3.png" type="Texture" id=379]
+[ext_resource path="res://art/iso_td/towerDefense_012_0.png" type="Texture" id=380]
+[ext_resource path="res://art/iso_td/towerDefense_112_0.png" type="Texture" id=381]
+[ext_resource path="res://art/iso_td/towerDefense_112_1.png" type="Texture" id=382]
+[ext_resource path="res://art/iso_td/towerDefense_112_2.png" type="Texture" id=383]
+[ext_resource path="res://art/iso_td/towerDefense_112_3.png" type="Texture" id=384]
+[ext_resource path="res://art/iso_td/towerDefense_113_0.png" type="Texture" id=385]
+[ext_resource path="res://art/iso_td/towerDefense_113_1.png" type="Texture" id=386]
+[ext_resource path="res://art/iso_td/towerDefense_113_2.png" type="Texture" id=387]
+[ext_resource path="res://art/iso_td/towerDefense_113_3.png" type="Texture" id=388]
+[ext_resource path="res://art/iso_td/towerDefense_114_0.png" type="Texture" id=389]
+[ext_resource path="res://art/iso_td/towerDefense_114_1.png" type="Texture" id=390]
+[ext_resource path="res://art/iso_td/towerDefense_012_1.png" type="Texture" id=391]
+[ext_resource path="res://art/iso_td/towerDefense_114_2.png" type="Texture" id=392]
+[ext_resource path="res://art/iso_td/towerDefense_114_3.png" type="Texture" id=393]
+[ext_resource path="res://art/iso_td/towerDefense_115_0.png" type="Texture" id=394]
+[ext_resource path="res://art/iso_td/towerDefense_115_1.png" type="Texture" id=395]
+[ext_resource path="res://art/iso_td/towerDefense_115_2.png" type="Texture" id=396]
+[ext_resource path="res://art/iso_td/towerDefense_115_3.png" type="Texture" id=397]
+[ext_resource path="res://art/iso_td/towerDefense_116_0.png" type="Texture" id=398]
+[ext_resource path="res://art/iso_td/towerDefense_116_1.png" type="Texture" id=399]
+[ext_resource path="res://art/iso_td/towerDefense_116_2.png" type="Texture" id=400]
+[ext_resource path="res://art/iso_td/towerDefense_116_3.png" type="Texture" id=401]
+[ext_resource path="res://art/iso_td/towerDefense_012_2.png" type="Texture" id=402]
+[ext_resource path="res://art/iso_td/towerDefense_117_0.png" type="Texture" id=403]
+[ext_resource path="res://art/iso_td/towerDefense_117_1.png" type="Texture" id=404]
+[ext_resource path="res://art/iso_td/towerDefense_117_2.png" type="Texture" id=405]
+[ext_resource path="res://art/iso_td/towerDefense_117_3.png" type="Texture" id=406]
+[ext_resource path="res://art/iso_td/towerDefense_118_0.png" type="Texture" id=407]
+[ext_resource path="res://art/iso_td/towerDefense_118_1.png" type="Texture" id=408]
+[ext_resource path="res://art/iso_td/towerDefense_118_2.png" type="Texture" id=409]
+[ext_resource path="res://art/iso_td/towerDefense_118_3.png" type="Texture" id=410]
+[ext_resource path="res://art/iso_td/towerDefense_119_0.png" type="Texture" id=411]
+[ext_resource path="res://art/iso_td/towerDefense_119_1.png" type="Texture" id=412]
+[ext_resource path="res://art/iso_td/towerDefense_012_3.png" type="Texture" id=413]
+[ext_resource path="res://art/iso_td/towerDefense_119_2.png" type="Texture" id=414]
+[ext_resource path="res://art/iso_td/towerDefense_119_3.png" type="Texture" id=415]
+[ext_resource path="res://art/iso_td/towerDefense_013_0.png" type="Texture" id=416]
+[ext_resource path="res://art/iso_td/towerDefense_013_1.png" type="Texture" id=417]
+[ext_resource path="res://art/iso_td/towerDefense_013_2.png" type="Texture" id=418]
+[ext_resource path="res://art/iso_td/towerDefense_013_3.png" type="Texture" id=419]
+[ext_resource path="res://art/iso_td/towerDefense_014_0.png" type="Texture" id=420]
+[ext_resource path="res://art/iso_td/towerDefense_014_1.png" type="Texture" id=421]
+[ext_resource path="res://art/iso_td/towerDefense_014_2.png" type="Texture" id=422]
+[ext_resource path="res://art/iso_td/towerDefense_014_3.png" type="Texture" id=423]
+[ext_resource path="res://art/iso_td/towerDefense_015_0.png" type="Texture" id=424]
+[ext_resource path="res://art/iso_td/towerDefense_015_1.png" type="Texture" id=425]
+[ext_resource path="res://art/iso_td/towerDefense_015_2.png" type="Texture" id=426]
+[ext_resource path="res://art/iso_td/towerDefense_015_3.png" type="Texture" id=427]
+[ext_resource path="res://art/iso_td/towerDefense_002_2.png" type="Texture" id=428]
+[ext_resource path="res://art/iso_td/towerDefense_016_0.png" type="Texture" id=429]
+[ext_resource path="res://art/iso_td/towerDefense_016_1.png" type="Texture" id=430]
+[ext_resource path="res://art/iso_td/towerDefense_016_2.png" type="Texture" id=431]
+[ext_resource path="res://art/iso_td/towerDefense_016_3.png" type="Texture" id=432]
+[ext_resource path="res://art/iso_td/towerDefense_017_0.png" type="Texture" id=433]
+[ext_resource path="res://art/iso_td/towerDefense_017_1.png" type="Texture" id=434]
+[ext_resource path="res://art/iso_td/towerDefense_017_2.png" type="Texture" id=435]
+[ext_resource path="res://art/iso_td/towerDefense_017_3.png" type="Texture" id=436]
+[ext_resource path="res://art/iso_td/towerDefense_018_0.png" type="Texture" id=437]
+[ext_resource path="res://art/iso_td/towerDefense_018_1.png" type="Texture" id=438]
+[ext_resource path="res://art/iso_td/towerDefense_002_3.png" type="Texture" id=439]
+[ext_resource path="res://art/iso_td/towerDefense_018_2.png" type="Texture" id=440]
+[ext_resource path="res://art/iso_td/towerDefense_018_3.png" type="Texture" id=441]
+[ext_resource path="res://art/iso_td/towerDefense_019_0.png" type="Texture" id=442]
+[ext_resource path="res://art/iso_td/towerDefense_019_1.png" type="Texture" id=443]
+[ext_resource path="res://art/iso_td/towerDefense_019_2.png" type="Texture" id=444]
+[ext_resource path="res://art/iso_td/towerDefense_019_3.png" type="Texture" id=445]
+[ext_resource path="res://art/iso_td/towerDefense_020_0.png" type="Texture" id=446]
+[ext_resource path="res://art/iso_td/towerDefense_020_1.png" type="Texture" id=447]
+[ext_resource path="res://art/iso_td/towerDefense_020_2.png" type="Texture" id=448]
+[ext_resource path="res://art/iso_td/towerDefense_020_3.png" type="Texture" id=449]
+[ext_resource path="res://art/iso_td/towerDefense_003_0.png" type="Texture" id=450]
+[ext_resource path="res://art/iso_td/towerDefense_021_0.png" type="Texture" id=451]
+[ext_resource path="res://art/iso_td/towerDefense_021_1.png" type="Texture" id=452]
+[ext_resource path="res://art/iso_td/towerDefense_021_2.png" type="Texture" id=453]
+[ext_resource path="res://art/iso_td/towerDefense_021_3.png" type="Texture" id=454]
+[ext_resource path="res://art/iso_td/towerDefense_022_0.png" type="Texture" id=455]
+[ext_resource path="res://art/iso_td/towerDefense_022_1.png" type="Texture" id=456]
+[ext_resource path="res://art/iso_td/towerDefense_022_2.png" type="Texture" id=457]
+[ext_resource path="res://art/iso_td/towerDefense_022_3.png" type="Texture" id=458]
+[ext_resource path="res://art/iso_td/towerDefense_023_0.png" type="Texture" id=459]
+[ext_resource path="res://art/iso_td/towerDefense_023_1.png" type="Texture" id=460]
+[ext_resource path="res://art/iso_td/towerDefense_003_1.png" type="Texture" id=461]
+[ext_resource path="res://art/iso_td/towerDefense_023_2.png" type="Texture" id=462]
+[ext_resource path="res://art/iso_td/towerDefense_023_3.png" type="Texture" id=463]
+[ext_resource path="res://art/iso_td/towerDefense_024_0.png" type="Texture" id=464]
+[ext_resource path="res://art/iso_td/towerDefense_024_1.png" type="Texture" id=465]
+[ext_resource path="res://art/iso_td/towerDefense_024_2.png" type="Texture" id=466]
+[ext_resource path="res://art/iso_td/towerDefense_024_3.png" type="Texture" id=467]
+[ext_resource path="res://art/iso_td/towerDefense_025_0.png" type="Texture" id=468]
+[ext_resource path="res://art/iso_td/towerDefense_025_1.png" type="Texture" id=469]
+[ext_resource path="res://art/iso_td/towerDefense_025_2.png" type="Texture" id=470]
+[ext_resource path="res://art/iso_td/towerDefense_025_3.png" type="Texture" id=471]
+
+[resource]
+
+0/name = "towerDefense_001_0"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 124, 123 )
+0/occluder_offset = Vector2( 62, 61.5 )
+0/navigation_offset = Vector2( 62, 61.5 )
+0/shape_offset = Vector2( 0, 0 )
+0/shapes = [  ]
+1/name = "towerDefense_001_1"
+1/texture = ExtResource( 2 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 0, 0, 124, 123 )
+1/occluder_offset = Vector2( 62, 61.5 )
+1/navigation_offset = Vector2( 62, 61.5 )
+1/shape_offset = Vector2( 0, 0 )
+1/shapes = [  ]
+2/name = "towerDefense_001_2"
+2/texture = ExtResource( 113 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 0, 0, 124, 123 )
+2/occluder_offset = Vector2( 62, 61.5 )
+2/navigation_offset = Vector2( 62, 61.5 )
+2/shape_offset = Vector2( 0, 0 )
+2/shapes = [  ]
+3/name = "towerDefense_001_3"
+3/texture = ExtResource( 224 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 0, 0, 124, 123 )
+3/occluder_offset = Vector2( 62, 61.5 )
+3/navigation_offset = Vector2( 62, 61.5 )
+3/shape_offset = Vector2( 0, 0 )
+3/shapes = [  ]
+4/name = "towerDefense_002_0"
+4/texture = ExtResource( 335 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 0, 0, 124, 123 )
+4/occluder_offset = Vector2( 62, 61.5 )
+4/navigation_offset = Vector2( 62, 61.5 )
+4/shape_offset = Vector2( 0, 0 )
+4/shapes = [  ]
+5/name = "towerDefense_002_1"
+5/texture = ExtResource( 1 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 0, 0, 124, 123 )
+5/occluder_offset = Vector2( 62, 61.5 )
+5/navigation_offset = Vector2( 62, 61.5 )
+5/shape_offset = Vector2( 0, 0 )
+5/shapes = [  ]
+6/name = "towerDefense_002_2"
+6/texture = ExtResource( 428 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 0, 0, 124, 123 )
+6/occluder_offset = Vector2( 62, 61.5 )
+6/navigation_offset = Vector2( 62, 61.5 )
+6/shape_offset = Vector2( 0, 0 )
+6/shapes = [  ]
+7/name = "towerDefense_002_3"
+7/texture = ExtResource( 439 )
+7/tex_offset = Vector2( 0, 0 )
+7/modulate = Color( 1, 1, 1, 1 )
+7/region = Rect2( 0, 0, 124, 123 )
+7/occluder_offset = Vector2( 62, 61.5 )
+7/navigation_offset = Vector2( 62, 61.5 )
+7/shape_offset = Vector2( 0, 0 )
+7/shapes = [  ]
+8/name = "towerDefense_003_0"
+8/texture = ExtResource( 450 )
+8/tex_offset = Vector2( 0, 0 )
+8/modulate = Color( 1, 1, 1, 1 )
+8/region = Rect2( 0, 0, 124, 123 )
+8/occluder_offset = Vector2( 62, 61.5 )
+8/navigation_offset = Vector2( 62, 61.5 )
+8/shape_offset = Vector2( 0, 0 )
+8/shapes = [  ]
+9/name = "towerDefense_003_1"
+9/texture = ExtResource( 461 )
+9/tex_offset = Vector2( 0, 0 )
+9/modulate = Color( 1, 1, 1, 1 )
+9/region = Rect2( 0, 0, 124, 123 )
+9/occluder_offset = Vector2( 62, 61.5 )
+9/navigation_offset = Vector2( 62, 61.5 )
+9/shape_offset = Vector2( 0, 0 )
+9/shapes = [  ]
+10/name = "towerDefense_003_2"
+10/texture = ExtResource( 3 )
+10/tex_offset = Vector2( 0, 0 )
+10/modulate = Color( 1, 1, 1, 1 )
+10/region = Rect2( 0, 0, 124, 123 )
+10/occluder_offset = Vector2( 62, 61.5 )
+10/navigation_offset = Vector2( 62, 61.5 )
+10/shape_offset = Vector2( 0, 0 )
+10/shapes = [  ]
+11/name = "towerDefense_003_3"
+11/texture = ExtResource( 14 )
+11/tex_offset = Vector2( 0, 0 )
+11/modulate = Color( 1, 1, 1, 1 )
+11/region = Rect2( 0, 0, 124, 123 )
+11/occluder_offset = Vector2( 62, 61.5 )
+11/navigation_offset = Vector2( 62, 61.5 )
+11/shape_offset = Vector2( 0, 0 )
+11/shapes = [  ]
+12/name = "towerDefense_004_0"
+12/texture = ExtResource( 25 )
+12/tex_offset = Vector2( 0, 0 )
+12/modulate = Color( 1, 1, 1, 1 )
+12/region = Rect2( 0, 0, 124, 123 )
+12/occluder_offset = Vector2( 62, 61.5 )
+12/navigation_offset = Vector2( 62, 61.5 )
+12/shape_offset = Vector2( 0, 0 )
+12/shapes = [  ]
+13/name = "towerDefense_004_1"
+13/texture = ExtResource( 36 )
+13/tex_offset = Vector2( 0, 0 )
+13/modulate = Color( 1, 1, 1, 1 )
+13/region = Rect2( 0, 0, 124, 123 )
+13/occluder_offset = Vector2( 62, 61.5 )
+13/navigation_offset = Vector2( 62, 61.5 )
+13/shape_offset = Vector2( 0, 0 )
+13/shapes = [  ]
+14/name = "towerDefense_004_2"
+14/texture = ExtResource( 47 )
+14/tex_offset = Vector2( 0, 0 )
+14/modulate = Color( 1, 1, 1, 1 )
+14/region = Rect2( 0, 0, 124, 123 )
+14/occluder_offset = Vector2( 62, 61.5 )
+14/navigation_offset = Vector2( 62, 61.5 )
+14/shape_offset = Vector2( 0, 0 )
+14/shapes = [  ]
+15/name = "towerDefense_004_3"
+15/texture = ExtResource( 58 )
+15/tex_offset = Vector2( 0, 0 )
+15/modulate = Color( 1, 1, 1, 1 )
+15/region = Rect2( 0, 0, 124, 123 )
+15/occluder_offset = Vector2( 62, 61.5 )
+15/navigation_offset = Vector2( 62, 61.5 )
+15/shape_offset = Vector2( 0, 0 )
+15/shapes = [  ]
+16/name = "towerDefense_005_0"
+16/texture = ExtResource( 69 )
+16/tex_offset = Vector2( 0, 0 )
+16/modulate = Color( 1, 1, 1, 1 )
+16/region = Rect2( 0, 0, 124, 123 )
+16/occluder_offset = Vector2( 62, 61.5 )
+16/navigation_offset = Vector2( 62, 61.5 )
+16/shape_offset = Vector2( 0, 0 )
+16/shapes = [  ]
+17/name = "towerDefense_005_1"
+17/texture = ExtResource( 80 )
+17/tex_offset = Vector2( 0, 0 )
+17/modulate = Color( 1, 1, 1, 1 )
+17/region = Rect2( 0, 0, 124, 123 )
+17/occluder_offset = Vector2( 62, 61.5 )
+17/navigation_offset = Vector2( 62, 61.5 )
+17/shape_offset = Vector2( 0, 0 )
+17/shapes = [  ]
+18/name = "towerDefense_005_2"
+18/texture = ExtResource( 91 )
+18/tex_offset = Vector2( 0, 0 )
+18/modulate = Color( 1, 1, 1, 1 )
+18/region = Rect2( 0, 0, 124, 123 )
+18/occluder_offset = Vector2( 62, 61.5 )
+18/navigation_offset = Vector2( 62, 61.5 )
+18/shape_offset = Vector2( 0, 0 )
+18/shapes = [  ]
+19/name = "towerDefense_005_3"
+19/texture = ExtResource( 102 )
+19/tex_offset = Vector2( 0, 0 )
+19/modulate = Color( 1, 1, 1, 1 )
+19/region = Rect2( 0, 0, 124, 123 )
+19/occluder_offset = Vector2( 62, 61.5 )
+19/navigation_offset = Vector2( 62, 61.5 )
+19/shape_offset = Vector2( 0, 0 )
+19/shapes = [  ]
+20/name = "towerDefense_006_0"
+20/texture = ExtResource( 114 )
+20/tex_offset = Vector2( 0, 0 )
+20/modulate = Color( 1, 1, 1, 1 )
+20/region = Rect2( 0, 0, 124, 123 )
+20/occluder_offset = Vector2( 62, 61.5 )
+20/navigation_offset = Vector2( 62, 61.5 )
+20/shape_offset = Vector2( 0, 0 )
+20/shapes = [  ]
+21/name = "towerDefense_006_1"
+21/texture = ExtResource( 125 )
+21/tex_offset = Vector2( 0, 0 )
+21/modulate = Color( 1, 1, 1, 1 )
+21/region = Rect2( 0, 0, 124, 123 )
+21/occluder_offset = Vector2( 62, 61.5 )
+21/navigation_offset = Vector2( 62, 61.5 )
+21/shape_offset = Vector2( 0, 0 )
+21/shapes = [  ]
+22/name = "towerDefense_006_2"
+22/texture = ExtResource( 136 )
+22/tex_offset = Vector2( 0, 0 )
+22/modulate = Color( 1, 1, 1, 1 )
+22/region = Rect2( 0, 0, 124, 123 )
+22/occluder_offset = Vector2( 62, 61.5 )
+22/navigation_offset = Vector2( 62, 61.5 )
+22/shape_offset = Vector2( 0, 0 )
+22/shapes = [  ]
+23/name = "towerDefense_006_3"
+23/texture = ExtResource( 147 )
+23/tex_offset = Vector2( 0, 0 )
+23/modulate = Color( 1, 1, 1, 1 )
+23/region = Rect2( 0, 0, 124, 123 )
+23/occluder_offset = Vector2( 62, 61.5 )
+23/navigation_offset = Vector2( 62, 61.5 )
+23/shape_offset = Vector2( 0, 0 )
+23/shapes = [  ]
+24/name = "towerDefense_007_0"
+24/texture = ExtResource( 158 )
+24/tex_offset = Vector2( 0, 0 )
+24/modulate = Color( 1, 1, 1, 1 )
+24/region = Rect2( 0, 0, 124, 123 )
+24/occluder_offset = Vector2( 62, 61.5 )
+24/navigation_offset = Vector2( 62, 61.5 )
+24/shape_offset = Vector2( 0, 0 )
+24/shapes = [  ]
+25/name = "towerDefense_007_1"
+25/texture = ExtResource( 169 )
+25/tex_offset = Vector2( 0, 0 )
+25/modulate = Color( 1, 1, 1, 1 )
+25/region = Rect2( 0, 0, 124, 123 )
+25/occluder_offset = Vector2( 62, 61.5 )
+25/navigation_offset = Vector2( 62, 61.5 )
+25/shape_offset = Vector2( 0, 0 )
+25/shapes = [  ]
+26/name = "towerDefense_007_2"
+26/texture = ExtResource( 180 )
+26/tex_offset = Vector2( 0, 0 )
+26/modulate = Color( 1, 1, 1, 1 )
+26/region = Rect2( 0, 0, 124, 123 )
+26/occluder_offset = Vector2( 62, 61.5 )
+26/navigation_offset = Vector2( 62, 61.5 )
+26/shape_offset = Vector2( 0, 0 )
+26/shapes = [  ]
+27/name = "towerDefense_007_3"
+27/texture = ExtResource( 191 )
+27/tex_offset = Vector2( 0, 0 )
+27/modulate = Color( 1, 1, 1, 1 )
+27/region = Rect2( 0, 0, 124, 123 )
+27/occluder_offset = Vector2( 62, 61.5 )
+27/navigation_offset = Vector2( 62, 61.5 )
+27/shape_offset = Vector2( 0, 0 )
+27/shapes = [  ]
+28/name = "towerDefense_008_0"
+28/texture = ExtResource( 202 )
+28/tex_offset = Vector2( 0, 0 )
+28/modulate = Color( 1, 1, 1, 1 )
+28/region = Rect2( 0, 0, 124, 123 )
+28/occluder_offset = Vector2( 62, 61.5 )
+28/navigation_offset = Vector2( 62, 61.5 )
+28/shape_offset = Vector2( 0, 0 )
+28/shapes = [  ]
+29/name = "towerDefense_008_1"
+29/texture = ExtResource( 213 )
+29/tex_offset = Vector2( 0, 0 )
+29/modulate = Color( 1, 1, 1, 1 )
+29/region = Rect2( 0, 0, 124, 123 )
+29/occluder_offset = Vector2( 62, 61.5 )
+29/navigation_offset = Vector2( 62, 61.5 )
+29/shape_offset = Vector2( 0, 0 )
+29/shapes = [  ]
+30/name = "towerDefense_008_2"
+30/texture = ExtResource( 225 )
+30/tex_offset = Vector2( 0, 0 )
+30/modulate = Color( 1, 1, 1, 1 )
+30/region = Rect2( 0, 0, 124, 123 )
+30/occluder_offset = Vector2( 62, 61.5 )
+30/navigation_offset = Vector2( 62, 61.5 )
+30/shape_offset = Vector2( 0, 0 )
+30/shapes = [  ]
+31/name = "towerDefense_008_3"
+31/texture = ExtResource( 236 )
+31/tex_offset = Vector2( 0, 0 )
+31/modulate = Color( 1, 1, 1, 1 )
+31/region = Rect2( 0, 0, 124, 123 )
+31/occluder_offset = Vector2( 62, 61.5 )
+31/navigation_offset = Vector2( 62, 61.5 )
+31/shape_offset = Vector2( 0, 0 )
+31/shapes = [  ]
+32/name = "towerDefense_009_0"
+32/texture = ExtResource( 247 )
+32/tex_offset = Vector2( 0, 0 )
+32/modulate = Color( 1, 1, 1, 1 )
+32/region = Rect2( 0, 0, 124, 123 )
+32/occluder_offset = Vector2( 62, 61.5 )
+32/navigation_offset = Vector2( 62, 61.5 )
+32/shape_offset = Vector2( 0, 0 )
+32/shapes = [  ]
+33/name = "towerDefense_009_1"
+33/texture = ExtResource( 258 )
+33/tex_offset = Vector2( 0, 0 )
+33/modulate = Color( 1, 1, 1, 1 )
+33/region = Rect2( 0, 0, 124, 123 )
+33/occluder_offset = Vector2( 62, 61.5 )
+33/navigation_offset = Vector2( 62, 61.5 )
+33/shape_offset = Vector2( 0, 0 )
+33/shapes = [  ]
+34/name = "towerDefense_009_2"
+34/texture = ExtResource( 269 )
+34/tex_offset = Vector2( 0, 0 )
+34/modulate = Color( 1, 1, 1, 1 )
+34/region = Rect2( 0, 0, 124, 123 )
+34/occluder_offset = Vector2( 62, 61.5 )
+34/navigation_offset = Vector2( 62, 61.5 )
+34/shape_offset = Vector2( 0, 0 )
+34/shapes = [  ]
+35/name = "towerDefense_009_3"
+35/texture = ExtResource( 280 )
+35/tex_offset = Vector2( 0, 0 )
+35/modulate = Color( 1, 1, 1, 1 )
+35/region = Rect2( 0, 0, 124, 123 )
+35/occluder_offset = Vector2( 62, 61.5 )
+35/navigation_offset = Vector2( 62, 61.5 )
+35/shape_offset = Vector2( 0, 0 )
+35/shapes = [  ]
+36/name = "towerDefense_010_0"
+36/texture = ExtResource( 291 )
+36/tex_offset = Vector2( 0, 0 )
+36/modulate = Color( 1, 1, 1, 1 )
+36/region = Rect2( 0, 0, 124, 123 )
+36/occluder_offset = Vector2( 62, 61.5 )
+36/navigation_offset = Vector2( 62, 61.5 )
+36/shape_offset = Vector2( 0, 0 )
+36/shapes = [  ]
+37/name = "towerDefense_010_1"
+37/texture = ExtResource( 302 )
+37/tex_offset = Vector2( 0, 0 )
+37/modulate = Color( 1, 1, 1, 1 )
+37/region = Rect2( 0, 0, 124, 123 )
+37/occluder_offset = Vector2( 62, 61.5 )
+37/navigation_offset = Vector2( 62, 61.5 )
+37/shape_offset = Vector2( 0, 0 )
+37/shapes = [  ]
+38/name = "towerDefense_010_2"
+38/texture = ExtResource( 313 )
+38/tex_offset = Vector2( 0, 0 )
+38/modulate = Color( 1, 1, 1, 1 )
+38/region = Rect2( 0, 0, 124, 123 )
+38/occluder_offset = Vector2( 62, 61.5 )
+38/navigation_offset = Vector2( 62, 61.5 )
+38/shape_offset = Vector2( 0, 0 )
+38/shapes = [  ]
+39/name = "towerDefense_010_3"
+39/texture = ExtResource( 324 )
+39/tex_offset = Vector2( 0, 0 )
+39/modulate = Color( 1, 1, 1, 1 )
+39/region = Rect2( 0, 0, 124, 123 )
+39/occluder_offset = Vector2( 62, 61.5 )
+39/navigation_offset = Vector2( 62, 61.5 )
+39/shape_offset = Vector2( 0, 0 )
+39/shapes = [  ]
+40/name = "towerDefense_011_0"
+40/texture = ExtResource( 336 )
+40/tex_offset = Vector2( 0, 0 )
+40/modulate = Color( 1, 1, 1, 1 )
+40/region = Rect2( 0, 0, 124, 123 )
+40/occluder_offset = Vector2( 62, 61.5 )
+40/navigation_offset = Vector2( 62, 61.5 )
+40/shape_offset = Vector2( 0, 0 )
+40/shapes = [  ]
+41/name = "towerDefense_011_1"
+41/texture = ExtResource( 347 )
+41/tex_offset = Vector2( 0, 0 )
+41/modulate = Color( 1, 1, 1, 1 )
+41/region = Rect2( 0, 0, 124, 123 )
+41/occluder_offset = Vector2( 62, 61.5 )
+41/navigation_offset = Vector2( 62, 61.5 )
+41/shape_offset = Vector2( 0, 0 )
+41/shapes = [  ]
+42/name = "towerDefense_011_2"
+42/texture = ExtResource( 358 )
+42/tex_offset = Vector2( 0, 0 )
+42/modulate = Color( 1, 1, 1, 1 )
+42/region = Rect2( 0, 0, 124, 123 )
+42/occluder_offset = Vector2( 62, 61.5 )
+42/navigation_offset = Vector2( 62, 61.5 )
+42/shape_offset = Vector2( 0, 0 )
+42/shapes = [  ]
+43/name = "towerDefense_011_3"
+43/texture = ExtResource( 369 )
+43/tex_offset = Vector2( 0, 0 )
+43/modulate = Color( 1, 1, 1, 1 )
+43/region = Rect2( 0, 0, 124, 123 )
+43/occluder_offset = Vector2( 62, 61.5 )
+43/navigation_offset = Vector2( 62, 61.5 )
+43/shape_offset = Vector2( 0, 0 )
+43/shapes = [  ]
+44/name = "towerDefense_012_0"
+44/texture = ExtResource( 380 )
+44/tex_offset = Vector2( 0, 0 )
+44/modulate = Color( 1, 1, 1, 1 )
+44/region = Rect2( 0, 0, 124, 123 )
+44/occluder_offset = Vector2( 62, 61.5 )
+44/navigation_offset = Vector2( 62, 61.5 )
+44/shape_offset = Vector2( 0, 0 )
+44/shapes = [  ]
+45/name = "towerDefense_012_1"
+45/texture = ExtResource( 391 )
+45/tex_offset = Vector2( 0, 0 )
+45/modulate = Color( 1, 1, 1, 1 )
+45/region = Rect2( 0, 0, 124, 123 )
+45/occluder_offset = Vector2( 62, 61.5 )
+45/navigation_offset = Vector2( 62, 61.5 )
+45/shape_offset = Vector2( 0, 0 )
+45/shapes = [  ]
+46/name = "towerDefense_012_2"
+46/texture = ExtResource( 402 )
+46/tex_offset = Vector2( 0, 0 )
+46/modulate = Color( 1, 1, 1, 1 )
+46/region = Rect2( 0, 0, 124, 123 )
+46/occluder_offset = Vector2( 62, 61.5 )
+46/navigation_offset = Vector2( 62, 61.5 )
+46/shape_offset = Vector2( 0, 0 )
+46/shapes = [  ]
+47/name = "towerDefense_012_3"
+47/texture = ExtResource( 413 )
+47/tex_offset = Vector2( 0, 0 )
+47/modulate = Color( 1, 1, 1, 1 )
+47/region = Rect2( 0, 0, 124, 123 )
+47/occluder_offset = Vector2( 62, 61.5 )
+47/navigation_offset = Vector2( 62, 61.5 )
+47/shape_offset = Vector2( 0, 0 )
+47/shapes = [  ]
+48/name = "towerDefense_013_0"
+48/texture = ExtResource( 416 )
+48/tex_offset = Vector2( 0, 0 )
+48/modulate = Color( 1, 1, 1, 1 )
+48/region = Rect2( 0, 0, 124, 123 )
+48/occluder_offset = Vector2( 62, 61.5 )
+48/navigation_offset = Vector2( 62, 61.5 )
+48/shape_offset = Vector2( 0, 0 )
+48/shapes = [  ]
+49/name = "towerDefense_013_1"
+49/texture = ExtResource( 417 )
+49/tex_offset = Vector2( 0, 0 )
+49/modulate = Color( 1, 1, 1, 1 )
+49/region = Rect2( 0, 0, 124, 123 )
+49/occluder_offset = Vector2( 62, 61.5 )
+49/navigation_offset = Vector2( 62, 61.5 )
+49/shape_offset = Vector2( 0, 0 )
+49/shapes = [  ]
+50/name = "towerDefense_013_2"
+50/texture = ExtResource( 418 )
+50/tex_offset = Vector2( 0, 0 )
+50/modulate = Color( 1, 1, 1, 1 )
+50/region = Rect2( 0, 0, 124, 123 )
+50/occluder_offset = Vector2( 62, 61.5 )
+50/navigation_offset = Vector2( 62, 61.5 )
+50/shape_offset = Vector2( 0, 0 )
+50/shapes = [  ]
+51/name = "towerDefense_013_3"
+51/texture = ExtResource( 419 )
+51/tex_offset = Vector2( 0, 0 )
+51/modulate = Color( 1, 1, 1, 1 )
+51/region = Rect2( 0, 0, 124, 123 )
+51/occluder_offset = Vector2( 62, 61.5 )
+51/navigation_offset = Vector2( 62, 61.5 )
+51/shape_offset = Vector2( 0, 0 )
+51/shapes = [  ]
+52/name = "towerDefense_014_0"
+52/texture = ExtResource( 420 )
+52/tex_offset = Vector2( 0, 0 )
+52/modulate = Color( 1, 1, 1, 1 )
+52/region = Rect2( 0, 0, 124, 123 )
+52/occluder_offset = Vector2( 62, 61.5 )
+52/navigation_offset = Vector2( 62, 61.5 )
+52/shape_offset = Vector2( 0, 0 )
+52/shapes = [  ]
+53/name = "towerDefense_014_1"
+53/texture = ExtResource( 421 )
+53/tex_offset = Vector2( 0, 0 )
+53/modulate = Color( 1, 1, 1, 1 )
+53/region = Rect2( 0, 0, 124, 123 )
+53/occluder_offset = Vector2( 62, 61.5 )
+53/navigation_offset = Vector2( 62, 61.5 )
+53/shape_offset = Vector2( 0, 0 )
+53/shapes = [  ]
+54/name = "towerDefense_014_2"
+54/texture = ExtResource( 422 )
+54/tex_offset = Vector2( 0, 0 )
+54/modulate = Color( 1, 1, 1, 1 )
+54/region = Rect2( 0, 0, 124, 123 )
+54/occluder_offset = Vector2( 62, 61.5 )
+54/navigation_offset = Vector2( 62, 61.5 )
+54/shape_offset = Vector2( 0, 0 )
+54/shapes = [  ]
+55/name = "towerDefense_014_3"
+55/texture = ExtResource( 423 )
+55/tex_offset = Vector2( 0, 0 )
+55/modulate = Color( 1, 1, 1, 1 )
+55/region = Rect2( 0, 0, 124, 123 )
+55/occluder_offset = Vector2( 62, 61.5 )
+55/navigation_offset = Vector2( 62, 61.5 )
+55/shape_offset = Vector2( 0, 0 )
+55/shapes = [  ]
+56/name = "towerDefense_015_0"
+56/texture = ExtResource( 424 )
+56/tex_offset = Vector2( 0, 0 )
+56/modulate = Color( 1, 1, 1, 1 )
+56/region = Rect2( 0, 0, 124, 123 )
+56/occluder_offset = Vector2( 62, 61.5 )
+56/navigation_offset = Vector2( 62, 61.5 )
+56/shape_offset = Vector2( 0, 0 )
+56/shapes = [  ]
+57/name = "towerDefense_015_1"
+57/texture = ExtResource( 425 )
+57/tex_offset = Vector2( 0, 0 )
+57/modulate = Color( 1, 1, 1, 1 )
+57/region = Rect2( 0, 0, 124, 123 )
+57/occluder_offset = Vector2( 62, 61.5 )
+57/navigation_offset = Vector2( 62, 61.5 )
+57/shape_offset = Vector2( 0, 0 )
+57/shapes = [  ]
+58/name = "towerDefense_015_2"
+58/texture = ExtResource( 426 )
+58/tex_offset = Vector2( 0, 0 )
+58/modulate = Color( 1, 1, 1, 1 )
+58/region = Rect2( 0, 0, 124, 123 )
+58/occluder_offset = Vector2( 62, 61.5 )
+58/navigation_offset = Vector2( 62, 61.5 )
+58/shape_offset = Vector2( 0, 0 )
+58/shapes = [  ]
+59/name = "towerDefense_015_3"
+59/texture = ExtResource( 427 )
+59/tex_offset = Vector2( 0, 0 )
+59/modulate = Color( 1, 1, 1, 1 )
+59/region = Rect2( 0, 0, 124, 123 )
+59/occluder_offset = Vector2( 62, 61.5 )
+59/navigation_offset = Vector2( 62, 61.5 )
+59/shape_offset = Vector2( 0, 0 )
+59/shapes = [  ]
+60/name = "towerDefense_016_0"
+60/texture = ExtResource( 429 )
+60/tex_offset = Vector2( 0, 0 )
+60/modulate = Color( 1, 1, 1, 1 )
+60/region = Rect2( 0, 0, 124, 123 )
+60/occluder_offset = Vector2( 62, 61.5 )
+60/navigation_offset = Vector2( 62, 61.5 )
+60/shape_offset = Vector2( 0, 0 )
+60/shapes = [  ]
+61/name = "towerDefense_016_1"
+61/texture = ExtResource( 430 )
+61/tex_offset = Vector2( 0, 0 )
+61/modulate = Color( 1, 1, 1, 1 )
+61/region = Rect2( 0, 0, 124, 123 )
+61/occluder_offset = Vector2( 62, 61.5 )
+61/navigation_offset = Vector2( 62, 61.5 )
+61/shape_offset = Vector2( 0, 0 )
+61/shapes = [  ]
+62/name = "towerDefense_016_2"
+62/texture = ExtResource( 431 )
+62/tex_offset = Vector2( 0, 0 )
+62/modulate = Color( 1, 1, 1, 1 )
+62/region = Rect2( 0, 0, 124, 123 )
+62/occluder_offset = Vector2( 62, 61.5 )
+62/navigation_offset = Vector2( 62, 61.5 )
+62/shape_offset = Vector2( 0, 0 )
+62/shapes = [  ]
+63/name = "towerDefense_016_3"
+63/texture = ExtResource( 432 )
+63/tex_offset = Vector2( 0, 0 )
+63/modulate = Color( 1, 1, 1, 1 )
+63/region = Rect2( 0, 0, 124, 123 )
+63/occluder_offset = Vector2( 62, 61.5 )
+63/navigation_offset = Vector2( 62, 61.5 )
+63/shape_offset = Vector2( 0, 0 )
+63/shapes = [  ]
+64/name = "towerDefense_017_0"
+64/texture = ExtResource( 433 )
+64/tex_offset = Vector2( 0, 0 )
+64/modulate = Color( 1, 1, 1, 1 )
+64/region = Rect2( 0, 0, 124, 123 )
+64/occluder_offset = Vector2( 62, 61.5 )
+64/navigation_offset = Vector2( 62, 61.5 )
+64/shape_offset = Vector2( 0, 0 )
+64/shapes = [  ]
+65/name = "towerDefense_017_1"
+65/texture = ExtResource( 434 )
+65/tex_offset = Vector2( 0, 0 )
+65/modulate = Color( 1, 1, 1, 1 )
+65/region = Rect2( 0, 0, 124, 123 )
+65/occluder_offset = Vector2( 62, 61.5 )
+65/navigation_offset = Vector2( 62, 61.5 )
+65/shape_offset = Vector2( 0, 0 )
+65/shapes = [  ]
+66/name = "towerDefense_017_2"
+66/texture = ExtResource( 435 )
+66/tex_offset = Vector2( 0, 0 )
+66/modulate = Color( 1, 1, 1, 1 )
+66/region = Rect2( 0, 0, 124, 123 )
+66/occluder_offset = Vector2( 62, 61.5 )
+66/navigation_offset = Vector2( 62, 61.5 )
+66/shape_offset = Vector2( 0, 0 )
+66/shapes = [  ]
+67/name = "towerDefense_017_3"
+67/texture = ExtResource( 436 )
+67/tex_offset = Vector2( 0, 0 )
+67/modulate = Color( 1, 1, 1, 1 )
+67/region = Rect2( 0, 0, 124, 123 )
+67/occluder_offset = Vector2( 62, 61.5 )
+67/navigation_offset = Vector2( 62, 61.5 )
+67/shape_offset = Vector2( 0, 0 )
+67/shapes = [  ]
+68/name = "towerDefense_018_0"
+68/texture = ExtResource( 437 )
+68/tex_offset = Vector2( 0, 0 )
+68/modulate = Color( 1, 1, 1, 1 )
+68/region = Rect2( 0, 0, 124, 123 )
+68/occluder_offset = Vector2( 62, 61.5 )
+68/navigation_offset = Vector2( 62, 61.5 )
+68/shape_offset = Vector2( 0, 0 )
+68/shapes = [  ]
+69/name = "towerDefense_018_1"
+69/texture = ExtResource( 438 )
+69/tex_offset = Vector2( 0, 0 )
+69/modulate = Color( 1, 1, 1, 1 )
+69/region = Rect2( 0, 0, 124, 123 )
+69/occluder_offset = Vector2( 62, 61.5 )
+69/navigation_offset = Vector2( 62, 61.5 )
+69/shape_offset = Vector2( 0, 0 )
+69/shapes = [  ]
+70/name = "towerDefense_018_2"
+70/texture = ExtResource( 440 )
+70/tex_offset = Vector2( 0, 0 )
+70/modulate = Color( 1, 1, 1, 1 )
+70/region = Rect2( 0, 0, 124, 123 )
+70/occluder_offset = Vector2( 62, 61.5 )
+70/navigation_offset = Vector2( 62, 61.5 )
+70/shape_offset = Vector2( 0, 0 )
+70/shapes = [  ]
+71/name = "towerDefense_018_3"
+71/texture = ExtResource( 441 )
+71/tex_offset = Vector2( 0, 0 )
+71/modulate = Color( 1, 1, 1, 1 )
+71/region = Rect2( 0, 0, 124, 123 )
+71/occluder_offset = Vector2( 62, 61.5 )
+71/navigation_offset = Vector2( 62, 61.5 )
+71/shape_offset = Vector2( 0, 0 )
+71/shapes = [  ]
+72/name = "towerDefense_019_0"
+72/texture = ExtResource( 442 )
+72/tex_offset = Vector2( 0, 0 )
+72/modulate = Color( 1, 1, 1, 1 )
+72/region = Rect2( 0, 0, 124, 123 )
+72/occluder_offset = Vector2( 62, 61.5 )
+72/navigation_offset = Vector2( 62, 61.5 )
+72/shape_offset = Vector2( 0, 0 )
+72/shapes = [  ]
+73/name = "towerDefense_019_1"
+73/texture = ExtResource( 443 )
+73/tex_offset = Vector2( 0, 0 )
+73/modulate = Color( 1, 1, 1, 1 )
+73/region = Rect2( 0, 0, 124, 123 )
+73/occluder_offset = Vector2( 62, 61.5 )
+73/navigation_offset = Vector2( 62, 61.5 )
+73/shape_offset = Vector2( 0, 0 )
+73/shapes = [  ]
+74/name = "towerDefense_019_2"
+74/texture = ExtResource( 444 )
+74/tex_offset = Vector2( 0, 0 )
+74/modulate = Color( 1, 1, 1, 1 )
+74/region = Rect2( 0, 0, 124, 123 )
+74/occluder_offset = Vector2( 62, 61.5 )
+74/navigation_offset = Vector2( 62, 61.5 )
+74/shape_offset = Vector2( 0, 0 )
+74/shapes = [  ]
+75/name = "towerDefense_019_3"
+75/texture = ExtResource( 445 )
+75/tex_offset = Vector2( 0, 0 )
+75/modulate = Color( 1, 1, 1, 1 )
+75/region = Rect2( 0, 0, 124, 123 )
+75/occluder_offset = Vector2( 62, 61.5 )
+75/navigation_offset = Vector2( 62, 61.5 )
+75/shape_offset = Vector2( 0, 0 )
+75/shapes = [  ]
+76/name = "towerDefense_020_0"
+76/texture = ExtResource( 446 )
+76/tex_offset = Vector2( 0, 0 )
+76/modulate = Color( 1, 1, 1, 1 )
+76/region = Rect2( 0, 0, 124, 123 )
+76/occluder_offset = Vector2( 62, 61.5 )
+76/navigation_offset = Vector2( 62, 61.5 )
+76/shape_offset = Vector2( 0, 0 )
+76/shapes = [  ]
+77/name = "towerDefense_020_1"
+77/texture = ExtResource( 447 )
+77/tex_offset = Vector2( 0, 0 )
+77/modulate = Color( 1, 1, 1, 1 )
+77/region = Rect2( 0, 0, 124, 123 )
+77/occluder_offset = Vector2( 62, 61.5 )
+77/navigation_offset = Vector2( 62, 61.5 )
+77/shape_offset = Vector2( 0, 0 )
+77/shapes = [  ]
+78/name = "towerDefense_020_2"
+78/texture = ExtResource( 448 )
+78/tex_offset = Vector2( 0, 0 )
+78/modulate = Color( 1, 1, 1, 1 )
+78/region = Rect2( 0, 0, 124, 123 )
+78/occluder_offset = Vector2( 62, 61.5 )
+78/navigation_offset = Vector2( 62, 61.5 )
+78/shape_offset = Vector2( 0, 0 )
+78/shapes = [  ]
+79/name = "towerDefense_020_3"
+79/texture = ExtResource( 449 )
+79/tex_offset = Vector2( 0, 0 )
+79/modulate = Color( 1, 1, 1, 1 )
+79/region = Rect2( 0, 0, 124, 123 )
+79/occluder_offset = Vector2( 62, 61.5 )
+79/navigation_offset = Vector2( 62, 61.5 )
+79/shape_offset = Vector2( 0, 0 )
+79/shapes = [  ]
+80/name = "towerDefense_021_0"
+80/texture = ExtResource( 451 )
+80/tex_offset = Vector2( 0, 0 )
+80/modulate = Color( 1, 1, 1, 1 )
+80/region = Rect2( 0, 0, 124, 123 )
+80/occluder_offset = Vector2( 62, 61.5 )
+80/navigation_offset = Vector2( 62, 61.5 )
+80/shape_offset = Vector2( 0, 0 )
+80/shapes = [  ]
+81/name = "towerDefense_021_1"
+81/texture = ExtResource( 452 )
+81/tex_offset = Vector2( 0, 0 )
+81/modulate = Color( 1, 1, 1, 1 )
+81/region = Rect2( 0, 0, 124, 123 )
+81/occluder_offset = Vector2( 62, 61.5 )
+81/navigation_offset = Vector2( 62, 61.5 )
+81/shape_offset = Vector2( 0, 0 )
+81/shapes = [  ]
+82/name = "towerDefense_021_2"
+82/texture = ExtResource( 453 )
+82/tex_offset = Vector2( 0, 0 )
+82/modulate = Color( 1, 1, 1, 1 )
+82/region = Rect2( 0, 0, 124, 123 )
+82/occluder_offset = Vector2( 62, 61.5 )
+82/navigation_offset = Vector2( 62, 61.5 )
+82/shape_offset = Vector2( 0, 0 )
+82/shapes = [  ]
+83/name = "towerDefense_021_3"
+83/texture = ExtResource( 454 )
+83/tex_offset = Vector2( 0, 0 )
+83/modulate = Color( 1, 1, 1, 1 )
+83/region = Rect2( 0, 0, 124, 123 )
+83/occluder_offset = Vector2( 62, 61.5 )
+83/navigation_offset = Vector2( 62, 61.5 )
+83/shape_offset = Vector2( 0, 0 )
+83/shapes = [  ]
+84/name = "towerDefense_022_0"
+84/texture = ExtResource( 455 )
+84/tex_offset = Vector2( 0, 0 )
+84/modulate = Color( 1, 1, 1, 1 )
+84/region = Rect2( 0, 0, 124, 123 )
+84/occluder_offset = Vector2( 62, 61.5 )
+84/navigation_offset = Vector2( 62, 61.5 )
+84/shape_offset = Vector2( 0, 0 )
+84/shapes = [  ]
+85/name = "towerDefense_022_1"
+85/texture = ExtResource( 456 )
+85/tex_offset = Vector2( 0, 0 )
+85/modulate = Color( 1, 1, 1, 1 )
+85/region = Rect2( 0, 0, 124, 123 )
+85/occluder_offset = Vector2( 62, 61.5 )
+85/navigation_offset = Vector2( 62, 61.5 )
+85/shape_offset = Vector2( 0, 0 )
+85/shapes = [  ]
+86/name = "towerDefense_022_2"
+86/texture = ExtResource( 457 )
+86/tex_offset = Vector2( 0, 0 )
+86/modulate = Color( 1, 1, 1, 1 )
+86/region = Rect2( 0, 0, 124, 123 )
+86/occluder_offset = Vector2( 62, 61.5 )
+86/navigation_offset = Vector2( 62, 61.5 )
+86/shape_offset = Vector2( 0, 0 )
+86/shapes = [  ]
+87/name = "towerDefense_022_3"
+87/texture = ExtResource( 458 )
+87/tex_offset = Vector2( 0, 0 )
+87/modulate = Color( 1, 1, 1, 1 )
+87/region = Rect2( 0, 0, 124, 123 )
+87/occluder_offset = Vector2( 62, 61.5 )
+87/navigation_offset = Vector2( 62, 61.5 )
+87/shape_offset = Vector2( 0, 0 )
+87/shapes = [  ]
+88/name = "towerDefense_023_0"
+88/texture = ExtResource( 459 )
+88/tex_offset = Vector2( 0, 0 )
+88/modulate = Color( 1, 1, 1, 1 )
+88/region = Rect2( 0, 0, 124, 123 )
+88/occluder_offset = Vector2( 62, 61.5 )
+88/navigation_offset = Vector2( 62, 61.5 )
+88/shape_offset = Vector2( 0, 0 )
+88/shapes = [  ]
+89/name = "towerDefense_023_1"
+89/texture = ExtResource( 460 )
+89/tex_offset = Vector2( 0, 0 )
+89/modulate = Color( 1, 1, 1, 1 )
+89/region = Rect2( 0, 0, 124, 123 )
+89/occluder_offset = Vector2( 62, 61.5 )
+89/navigation_offset = Vector2( 62, 61.5 )
+89/shape_offset = Vector2( 0, 0 )
+89/shapes = [  ]
+90/name = "towerDefense_023_2"
+90/texture = ExtResource( 462 )
+90/tex_offset = Vector2( 0, 0 )
+90/modulate = Color( 1, 1, 1, 1 )
+90/region = Rect2( 0, 0, 124, 123 )
+90/occluder_offset = Vector2( 62, 61.5 )
+90/navigation_offset = Vector2( 62, 61.5 )
+90/shape_offset = Vector2( 0, 0 )
+90/shapes = [  ]
+91/name = "towerDefense_023_3"
+91/texture = ExtResource( 463 )
+91/tex_offset = Vector2( 0, 0 )
+91/modulate = Color( 1, 1, 1, 1 )
+91/region = Rect2( 0, 0, 124, 123 )
+91/occluder_offset = Vector2( 62, 61.5 )
+91/navigation_offset = Vector2( 62, 61.5 )
+91/shape_offset = Vector2( 0, 0 )
+91/shapes = [  ]
+92/name = "towerDefense_024_0"
+92/texture = ExtResource( 464 )
+92/tex_offset = Vector2( 0, 0 )
+92/modulate = Color( 1, 1, 1, 1 )
+92/region = Rect2( 0, 0, 124, 123 )
+92/occluder_offset = Vector2( 62, 61.5 )
+92/navigation_offset = Vector2( 62, 61.5 )
+92/shape_offset = Vector2( 0, 0 )
+92/shapes = [  ]
+93/name = "towerDefense_024_1"
+93/texture = ExtResource( 465 )
+93/tex_offset = Vector2( 0, 0 )
+93/modulate = Color( 1, 1, 1, 1 )
+93/region = Rect2( 0, 0, 124, 123 )
+93/occluder_offset = Vector2( 62, 61.5 )
+93/navigation_offset = Vector2( 62, 61.5 )
+93/shape_offset = Vector2( 0, 0 )
+93/shapes = [  ]
+94/name = "towerDefense_024_2"
+94/texture = ExtResource( 466 )
+94/tex_offset = Vector2( 0, 0 )
+94/modulate = Color( 1, 1, 1, 1 )
+94/region = Rect2( 0, 0, 124, 123 )
+94/occluder_offset = Vector2( 62, 61.5 )
+94/navigation_offset = Vector2( 62, 61.5 )
+94/shape_offset = Vector2( 0, 0 )
+94/shapes = [  ]
+95/name = "towerDefense_024_3"
+95/texture = ExtResource( 467 )
+95/tex_offset = Vector2( 0, 0 )
+95/modulate = Color( 1, 1, 1, 1 )
+95/region = Rect2( 0, 0, 124, 123 )
+95/occluder_offset = Vector2( 62, 61.5 )
+95/navigation_offset = Vector2( 62, 61.5 )
+95/shape_offset = Vector2( 0, 0 )
+95/shapes = [  ]
+96/name = "towerDefense_025_0"
+96/texture = ExtResource( 468 )
+96/tex_offset = Vector2( 0, 0 )
+96/modulate = Color( 1, 1, 1, 1 )
+96/region = Rect2( 0, 0, 124, 123 )
+96/occluder_offset = Vector2( 62, 61.5 )
+96/navigation_offset = Vector2( 62, 61.5 )
+96/shape_offset = Vector2( 0, 0 )
+96/shapes = [  ]
+97/name = "towerDefense_025_1"
+97/texture = ExtResource( 469 )
+97/tex_offset = Vector2( 0, 0 )
+97/modulate = Color( 1, 1, 1, 1 )
+97/region = Rect2( 0, 0, 124, 123 )
+97/occluder_offset = Vector2( 62, 61.5 )
+97/navigation_offset = Vector2( 62, 61.5 )
+97/shape_offset = Vector2( 0, 0 )
+97/shapes = [  ]
+98/name = "towerDefense_025_2"
+98/texture = ExtResource( 470 )
+98/tex_offset = Vector2( 0, 0 )
+98/modulate = Color( 1, 1, 1, 1 )
+98/region = Rect2( 0, 0, 124, 123 )
+98/occluder_offset = Vector2( 62, 61.5 )
+98/navigation_offset = Vector2( 62, 61.5 )
+98/shape_offset = Vector2( 0, 0 )
+98/shapes = [  ]
+99/name = "towerDefense_025_3"
+99/texture = ExtResource( 471 )
+99/tex_offset = Vector2( 0, 0 )
+99/modulate = Color( 1, 1, 1, 1 )
+99/region = Rect2( 0, 0, 124, 123 )
+99/occluder_offset = Vector2( 62, 61.5 )
+99/navigation_offset = Vector2( 62, 61.5 )
+99/shape_offset = Vector2( 0, 0 )
+99/shapes = [  ]
+100/name = "towerDefense_026_0"
+100/texture = ExtResource( 4 )
+100/tex_offset = Vector2( 0, 0 )
+100/modulate = Color( 1, 1, 1, 1 )
+100/region = Rect2( 0, 0, 124, 123 )
+100/occluder_offset = Vector2( 62, 61.5 )
+100/navigation_offset = Vector2( 62, 61.5 )
+100/shape_offset = Vector2( 0, 0 )
+100/shapes = [  ]
+101/name = "towerDefense_026_1"
+101/texture = ExtResource( 5 )
+101/tex_offset = Vector2( 0, 0 )
+101/modulate = Color( 1, 1, 1, 1 )
+101/region = Rect2( 0, 0, 124, 123 )
+101/occluder_offset = Vector2( 62, 61.5 )
+101/navigation_offset = Vector2( 62, 61.5 )
+101/shape_offset = Vector2( 0, 0 )
+101/shapes = [  ]
+102/name = "towerDefense_026_2"
+102/texture = ExtResource( 6 )
+102/tex_offset = Vector2( 0, 0 )
+102/modulate = Color( 1, 1, 1, 1 )
+102/region = Rect2( 0, 0, 124, 123 )
+102/occluder_offset = Vector2( 62, 61.5 )
+102/navigation_offset = Vector2( 62, 61.5 )
+102/shape_offset = Vector2( 0, 0 )
+102/shapes = [  ]
+103/name = "towerDefense_026_3"
+103/texture = ExtResource( 7 )
+103/tex_offset = Vector2( 0, 0 )
+103/modulate = Color( 1, 1, 1, 1 )
+103/region = Rect2( 0, 0, 124, 123 )
+103/occluder_offset = Vector2( 62, 61.5 )
+103/navigation_offset = Vector2( 62, 61.5 )
+103/shape_offset = Vector2( 0, 0 )
+103/shapes = [  ]
+104/name = "towerDefense_027_0"
+104/texture = ExtResource( 8 )
+104/tex_offset = Vector2( 0, 0 )
+104/modulate = Color( 1, 1, 1, 1 )
+104/region = Rect2( 0, 0, 124, 123 )
+104/occluder_offset = Vector2( 62, 61.5 )
+104/navigation_offset = Vector2( 62, 61.5 )
+104/shape_offset = Vector2( 0, 0 )
+104/shapes = [  ]
+105/name = "towerDefense_027_1"
+105/texture = ExtResource( 9 )
+105/tex_offset = Vector2( 0, 0 )
+105/modulate = Color( 1, 1, 1, 1 )
+105/region = Rect2( 0, 0, 124, 123 )
+105/occluder_offset = Vector2( 62, 61.5 )
+105/navigation_offset = Vector2( 62, 61.5 )
+105/shape_offset = Vector2( 0, 0 )
+105/shapes = [  ]
+106/name = "towerDefense_027_2"
+106/texture = ExtResource( 10 )
+106/tex_offset = Vector2( 0, 0 )
+106/modulate = Color( 1, 1, 1, 1 )
+106/region = Rect2( 0, 0, 124, 123 )
+106/occluder_offset = Vector2( 62, 61.5 )
+106/navigation_offset = Vector2( 62, 61.5 )
+106/shape_offset = Vector2( 0, 0 )
+106/shapes = [  ]
+107/name = "towerDefense_027_3"
+107/texture = ExtResource( 11 )
+107/tex_offset = Vector2( 0, 0 )
+107/modulate = Color( 1, 1, 1, 1 )
+107/region = Rect2( 0, 0, 124, 123 )
+107/occluder_offset = Vector2( 62, 61.5 )
+107/navigation_offset = Vector2( 62, 61.5 )
+107/shape_offset = Vector2( 0, 0 )
+107/shapes = [  ]
+108/name = "towerDefense_028_0"
+108/texture = ExtResource( 12 )
+108/tex_offset = Vector2( 0, 0 )
+108/modulate = Color( 1, 1, 1, 1 )
+108/region = Rect2( 0, 0, 124, 123 )
+108/occluder_offset = Vector2( 62, 61.5 )
+108/navigation_offset = Vector2( 62, 61.5 )
+108/shape_offset = Vector2( 0, 0 )
+108/shapes = [  ]
+109/name = "towerDefense_028_1"
+109/texture = ExtResource( 13 )
+109/tex_offset = Vector2( 0, 0 )
+109/modulate = Color( 1, 1, 1, 1 )
+109/region = Rect2( 0, 0, 124, 123 )
+109/occluder_offset = Vector2( 62, 61.5 )
+109/navigation_offset = Vector2( 62, 61.5 )
+109/shape_offset = Vector2( 0, 0 )
+109/shapes = [  ]
+110/name = "towerDefense_028_2"
+110/texture = ExtResource( 15 )
+110/tex_offset = Vector2( 0, 0 )
+110/modulate = Color( 1, 1, 1, 1 )
+110/region = Rect2( 0, 0, 124, 123 )
+110/occluder_offset = Vector2( 62, 61.5 )
+110/navigation_offset = Vector2( 62, 61.5 )
+110/shape_offset = Vector2( 0, 0 )
+110/shapes = [  ]
+111/name = "towerDefense_028_3"
+111/texture = ExtResource( 16 )
+111/tex_offset = Vector2( 0, 0 )
+111/modulate = Color( 1, 1, 1, 1 )
+111/region = Rect2( 0, 0, 124, 123 )
+111/occluder_offset = Vector2( 62, 61.5 )
+111/navigation_offset = Vector2( 62, 61.5 )
+111/shape_offset = Vector2( 0, 0 )
+111/shapes = [  ]
+112/name = "towerDefense_029_0"
+112/texture = ExtResource( 17 )
+112/tex_offset = Vector2( 0, 0 )
+112/modulate = Color( 1, 1, 1, 1 )
+112/region = Rect2( 0, 0, 124, 123 )
+112/occluder_offset = Vector2( 62, 61.5 )
+112/navigation_offset = Vector2( 62, 61.5 )
+112/shape_offset = Vector2( 0, 0 )
+112/shapes = [  ]
+113/name = "towerDefense_029_1"
+113/texture = ExtResource( 18 )
+113/tex_offset = Vector2( 0, 0 )
+113/modulate = Color( 1, 1, 1, 1 )
+113/region = Rect2( 0, 0, 124, 123 )
+113/occluder_offset = Vector2( 62, 61.5 )
+113/navigation_offset = Vector2( 62, 61.5 )
+113/shape_offset = Vector2( 0, 0 )
+113/shapes = [  ]
+114/name = "towerDefense_029_2"
+114/texture = ExtResource( 19 )
+114/tex_offset = Vector2( 0, 0 )
+114/modulate = Color( 1, 1, 1, 1 )
+114/region = Rect2( 0, 0, 124, 123 )
+114/occluder_offset = Vector2( 62, 61.5 )
+114/navigation_offset = Vector2( 62, 61.5 )
+114/shape_offset = Vector2( 0, 0 )
+114/shapes = [  ]
+115/name = "towerDefense_029_3"
+115/texture = ExtResource( 20 )
+115/tex_offset = Vector2( 0, 0 )
+115/modulate = Color( 1, 1, 1, 1 )
+115/region = Rect2( 0, 0, 124, 123 )
+115/occluder_offset = Vector2( 62, 61.5 )
+115/navigation_offset = Vector2( 62, 61.5 )
+115/shape_offset = Vector2( 0, 0 )
+115/shapes = [  ]
+116/name = "towerDefense_030_0"
+116/texture = ExtResource( 21 )
+116/tex_offset = Vector2( 0, 0 )
+116/modulate = Color( 1, 1, 1, 1 )
+116/region = Rect2( 0, 0, 124, 123 )
+116/occluder_offset = Vector2( 62, 61.5 )
+116/navigation_offset = Vector2( 62, 61.5 )
+116/shape_offset = Vector2( 0, 0 )
+116/shapes = [  ]
+117/name = "towerDefense_030_1"
+117/texture = ExtResource( 22 )
+117/tex_offset = Vector2( 0, 0 )
+117/modulate = Color( 1, 1, 1, 1 )
+117/region = Rect2( 0, 0, 124, 123 )
+117/occluder_offset = Vector2( 62, 61.5 )
+117/navigation_offset = Vector2( 62, 61.5 )
+117/shape_offset = Vector2( 0, 0 )
+117/shapes = [  ]
+118/name = "towerDefense_030_2"
+118/texture = ExtResource( 23 )
+118/tex_offset = Vector2( 0, 0 )
+118/modulate = Color( 1, 1, 1, 1 )
+118/region = Rect2( 0, 0, 124, 123 )
+118/occluder_offset = Vector2( 62, 61.5 )
+118/navigation_offset = Vector2( 62, 61.5 )
+118/shape_offset = Vector2( 0, 0 )
+118/shapes = [  ]
+119/name = "towerDefense_030_3"
+119/texture = ExtResource( 24 )
+119/tex_offset = Vector2( 0, 0 )
+119/modulate = Color( 1, 1, 1, 1 )
+119/region = Rect2( 0, 0, 124, 123 )
+119/occluder_offset = Vector2( 62, 61.5 )
+119/navigation_offset = Vector2( 62, 61.5 )
+119/shape_offset = Vector2( 0, 0 )
+119/shapes = [  ]
+120/name = "towerDefense_031_0"
+120/texture = ExtResource( 26 )
+120/tex_offset = Vector2( 0, 0 )
+120/modulate = Color( 1, 1, 1, 1 )
+120/region = Rect2( 0, 0, 124, 123 )
+120/occluder_offset = Vector2( 62, 61.5 )
+120/navigation_offset = Vector2( 62, 61.5 )
+120/shape_offset = Vector2( 0, 0 )
+120/shapes = [  ]
+121/name = "towerDefense_031_1"
+121/texture = ExtResource( 27 )
+121/tex_offset = Vector2( 0, 0 )
+121/modulate = Color( 1, 1, 1, 1 )
+121/region = Rect2( 0, 0, 124, 123 )
+121/occluder_offset = Vector2( 62, 61.5 )
+121/navigation_offset = Vector2( 62, 61.5 )
+121/shape_offset = Vector2( 0, 0 )
+121/shapes = [  ]
+122/name = "towerDefense_031_2"
+122/texture = ExtResource( 28 )
+122/tex_offset = Vector2( 0, 0 )
+122/modulate = Color( 1, 1, 1, 1 )
+122/region = Rect2( 0, 0, 124, 123 )
+122/occluder_offset = Vector2( 62, 61.5 )
+122/navigation_offset = Vector2( 62, 61.5 )
+122/shape_offset = Vector2( 0, 0 )
+122/shapes = [  ]
+123/name = "towerDefense_031_3"
+123/texture = ExtResource( 29 )
+123/tex_offset = Vector2( 0, 0 )
+123/modulate = Color( 1, 1, 1, 1 )
+123/region = Rect2( 0, 0, 124, 123 )
+123/occluder_offset = Vector2( 62, 61.5 )
+123/navigation_offset = Vector2( 62, 61.5 )
+123/shape_offset = Vector2( 0, 0 )
+123/shapes = [  ]
+124/name = "towerDefense_032_0"
+124/texture = ExtResource( 30 )
+124/tex_offset = Vector2( 0, 0 )
+124/modulate = Color( 1, 1, 1, 1 )
+124/region = Rect2( 0, 0, 124, 123 )
+124/occluder_offset = Vector2( 62, 61.5 )
+124/navigation_offset = Vector2( 62, 61.5 )
+124/shape_offset = Vector2( 0, 0 )
+124/shapes = [  ]
+125/name = "towerDefense_032_1"
+125/texture = ExtResource( 31 )
+125/tex_offset = Vector2( 0, 0 )
+125/modulate = Color( 1, 1, 1, 1 )
+125/region = Rect2( 0, 0, 124, 123 )
+125/occluder_offset = Vector2( 62, 61.5 )
+125/navigation_offset = Vector2( 62, 61.5 )
+125/shape_offset = Vector2( 0, 0 )
+125/shapes = [  ]
+126/name = "towerDefense_032_2"
+126/texture = ExtResource( 32 )
+126/tex_offset = Vector2( 0, 0 )
+126/modulate = Color( 1, 1, 1, 1 )
+126/region = Rect2( 0, 0, 124, 123 )
+126/occluder_offset = Vector2( 62, 61.5 )
+126/navigation_offset = Vector2( 62, 61.5 )
+126/shape_offset = Vector2( 0, 0 )
+126/shapes = [  ]
+127/name = "towerDefense_032_3"
+127/texture = ExtResource( 33 )
+127/tex_offset = Vector2( 0, 0 )
+127/modulate = Color( 1, 1, 1, 1 )
+127/region = Rect2( 0, 0, 124, 123 )
+127/occluder_offset = Vector2( 62, 61.5 )
+127/navigation_offset = Vector2( 62, 61.5 )
+127/shape_offset = Vector2( 0, 0 )
+127/shapes = [  ]
+128/name = "towerDefense_033_0"
+128/texture = ExtResource( 34 )
+128/tex_offset = Vector2( 0, 0 )
+128/modulate = Color( 1, 1, 1, 1 )
+128/region = Rect2( 0, 0, 124, 123 )
+128/occluder_offset = Vector2( 62, 61.5 )
+128/navigation_offset = Vector2( 62, 61.5 )
+128/shape_offset = Vector2( 0, 0 )
+128/shapes = [  ]
+129/name = "towerDefense_033_1"
+129/texture = ExtResource( 35 )
+129/tex_offset = Vector2( 0, 0 )
+129/modulate = Color( 1, 1, 1, 1 )
+129/region = Rect2( 0, 0, 124, 123 )
+129/occluder_offset = Vector2( 62, 61.5 )
+129/navigation_offset = Vector2( 62, 61.5 )
+129/shape_offset = Vector2( 0, 0 )
+129/shapes = [  ]
+130/name = "towerDefense_033_2"
+130/texture = ExtResource( 37 )
+130/tex_offset = Vector2( 0, 0 )
+130/modulate = Color( 1, 1, 1, 1 )
+130/region = Rect2( 0, 0, 124, 123 )
+130/occluder_offset = Vector2( 62, 61.5 )
+130/navigation_offset = Vector2( 62, 61.5 )
+130/shape_offset = Vector2( 0, 0 )
+130/shapes = [  ]
+131/name = "towerDefense_033_3"
+131/texture = ExtResource( 38 )
+131/tex_offset = Vector2( 0, 0 )
+131/modulate = Color( 1, 1, 1, 1 )
+131/region = Rect2( 0, 0, 124, 123 )
+131/occluder_offset = Vector2( 62, 61.5 )
+131/navigation_offset = Vector2( 62, 61.5 )
+131/shape_offset = Vector2( 0, 0 )
+131/shapes = [  ]
+132/name = "towerDefense_034_0"
+132/texture = ExtResource( 39 )
+132/tex_offset = Vector2( 0, 0 )
+132/modulate = Color( 1, 1, 1, 1 )
+132/region = Rect2( 0, 0, 124, 123 )
+132/occluder_offset = Vector2( 62, 61.5 )
+132/navigation_offset = Vector2( 62, 61.5 )
+132/shape_offset = Vector2( 0, 0 )
+132/shapes = [  ]
+133/name = "towerDefense_034_1"
+133/texture = ExtResource( 40 )
+133/tex_offset = Vector2( 0, 0 )
+133/modulate = Color( 1, 1, 1, 1 )
+133/region = Rect2( 0, 0, 124, 123 )
+133/occluder_offset = Vector2( 62, 61.5 )
+133/navigation_offset = Vector2( 62, 61.5 )
+133/shape_offset = Vector2( 0, 0 )
+133/shapes = [  ]
+134/name = "towerDefense_034_2"
+134/texture = ExtResource( 41 )
+134/tex_offset = Vector2( 0, 0 )
+134/modulate = Color( 1, 1, 1, 1 )
+134/region = Rect2( 0, 0, 124, 123 )
+134/occluder_offset = Vector2( 62, 61.5 )
+134/navigation_offset = Vector2( 62, 61.5 )
+134/shape_offset = Vector2( 0, 0 )
+134/shapes = [  ]
+135/name = "towerDefense_034_3"
+135/texture = ExtResource( 42 )
+135/tex_offset = Vector2( 0, 0 )
+135/modulate = Color( 1, 1, 1, 1 )
+135/region = Rect2( 0, 0, 124, 123 )
+135/occluder_offset = Vector2( 62, 61.5 )
+135/navigation_offset = Vector2( 62, 61.5 )
+135/shape_offset = Vector2( 0, 0 )
+135/shapes = [  ]
+136/name = "towerDefense_035_0"
+136/texture = ExtResource( 43 )
+136/tex_offset = Vector2( 0, 0 )
+136/modulate = Color( 1, 1, 1, 1 )
+136/region = Rect2( 0, 0, 124, 123 )
+136/occluder_offset = Vector2( 62, 61.5 )
+136/navigation_offset = Vector2( 62, 61.5 )
+136/shape_offset = Vector2( 0, 0 )
+136/shapes = [  ]
+137/name = "towerDefense_035_1"
+137/texture = ExtResource( 44 )
+137/tex_offset = Vector2( 0, 0 )
+137/modulate = Color( 1, 1, 1, 1 )
+137/region = Rect2( 0, 0, 124, 123 )
+137/occluder_offset = Vector2( 62, 61.5 )
+137/navigation_offset = Vector2( 62, 61.5 )
+137/shape_offset = Vector2( 0, 0 )
+137/shapes = [  ]
+138/name = "towerDefense_035_2"
+138/texture = ExtResource( 45 )
+138/tex_offset = Vector2( 0, 0 )
+138/modulate = Color( 1, 1, 1, 1 )
+138/region = Rect2( 0, 0, 124, 123 )
+138/occluder_offset = Vector2( 62, 61.5 )
+138/navigation_offset = Vector2( 62, 61.5 )
+138/shape_offset = Vector2( 0, 0 )
+138/shapes = [  ]
+139/name = "towerDefense_035_3"
+139/texture = ExtResource( 46 )
+139/tex_offset = Vector2( 0, 0 )
+139/modulate = Color( 1, 1, 1, 1 )
+139/region = Rect2( 0, 0, 124, 123 )
+139/occluder_offset = Vector2( 62, 61.5 )
+139/navigation_offset = Vector2( 62, 61.5 )
+139/shape_offset = Vector2( 0, 0 )
+139/shapes = [  ]
+140/name = "towerDefense_036_0"
+140/texture = ExtResource( 48 )
+140/tex_offset = Vector2( 0, 0 )
+140/modulate = Color( 1, 1, 1, 1 )
+140/region = Rect2( 0, 0, 124, 123 )
+140/occluder_offset = Vector2( 62, 61.5 )
+140/navigation_offset = Vector2( 62, 61.5 )
+140/shape_offset = Vector2( 0, 0 )
+140/shapes = [  ]
+141/name = "towerDefense_036_1"
+141/texture = ExtResource( 49 )
+141/tex_offset = Vector2( 0, 0 )
+141/modulate = Color( 1, 1, 1, 1 )
+141/region = Rect2( 0, 0, 124, 123 )
+141/occluder_offset = Vector2( 62, 61.5 )
+141/navigation_offset = Vector2( 62, 61.5 )
+141/shape_offset = Vector2( 0, 0 )
+141/shapes = [  ]
+142/name = "towerDefense_036_2"
+142/texture = ExtResource( 50 )
+142/tex_offset = Vector2( 0, 0 )
+142/modulate = Color( 1, 1, 1, 1 )
+142/region = Rect2( 0, 0, 124, 123 )
+142/occluder_offset = Vector2( 62, 61.5 )
+142/navigation_offset = Vector2( 62, 61.5 )
+142/shape_offset = Vector2( 0, 0 )
+142/shapes = [  ]
+143/name = "towerDefense_036_3"
+143/texture = ExtResource( 51 )
+143/tex_offset = Vector2( 0, 0 )
+143/modulate = Color( 1, 1, 1, 1 )
+143/region = Rect2( 0, 0, 124, 123 )
+143/occluder_offset = Vector2( 62, 61.5 )
+143/navigation_offset = Vector2( 62, 61.5 )
+143/shape_offset = Vector2( 0, 0 )
+143/shapes = [  ]
+144/name = "towerDefense_037_0"
+144/texture = ExtResource( 52 )
+144/tex_offset = Vector2( 0, 0 )
+144/modulate = Color( 1, 1, 1, 1 )
+144/region = Rect2( 0, 0, 124, 123 )
+144/occluder_offset = Vector2( 62, 61.5 )
+144/navigation_offset = Vector2( 62, 61.5 )
+144/shape_offset = Vector2( 0, 0 )
+144/shapes = [  ]
+145/name = "towerDefense_037_1"
+145/texture = ExtResource( 53 )
+145/tex_offset = Vector2( 0, 0 )
+145/modulate = Color( 1, 1, 1, 1 )
+145/region = Rect2( 0, 0, 124, 123 )
+145/occluder_offset = Vector2( 62, 61.5 )
+145/navigation_offset = Vector2( 62, 61.5 )
+145/shape_offset = Vector2( 0, 0 )
+145/shapes = [  ]
+146/name = "towerDefense_037_2"
+146/texture = ExtResource( 54 )
+146/tex_offset = Vector2( 0, 0 )
+146/modulate = Color( 1, 1, 1, 1 )
+146/region = Rect2( 0, 0, 124, 123 )
+146/occluder_offset = Vector2( 62, 61.5 )
+146/navigation_offset = Vector2( 62, 61.5 )
+146/shape_offset = Vector2( 0, 0 )
+146/shapes = [  ]
+147/name = "towerDefense_037_3"
+147/texture = ExtResource( 55 )
+147/tex_offset = Vector2( 0, 0 )
+147/modulate = Color( 1, 1, 1, 1 )
+147/region = Rect2( 0, 0, 124, 123 )
+147/occluder_offset = Vector2( 62, 61.5 )
+147/navigation_offset = Vector2( 62, 61.5 )
+147/shape_offset = Vector2( 0, 0 )
+147/shapes = [  ]
+148/name = "towerDefense_038_0"
+148/texture = ExtResource( 56 )
+148/tex_offset = Vector2( 0, 0 )
+148/modulate = Color( 1, 1, 1, 1 )
+148/region = Rect2( 0, 0, 124, 123 )
+148/occluder_offset = Vector2( 62, 61.5 )
+148/navigation_offset = Vector2( 62, 61.5 )
+148/shape_offset = Vector2( 0, 0 )
+148/shapes = [  ]
+149/name = "towerDefense_038_1"
+149/texture = ExtResource( 57 )
+149/tex_offset = Vector2( 0, 0 )
+149/modulate = Color( 1, 1, 1, 1 )
+149/region = Rect2( 0, 0, 124, 123 )
+149/occluder_offset = Vector2( 62, 61.5 )
+149/navigation_offset = Vector2( 62, 61.5 )
+149/shape_offset = Vector2( 0, 0 )
+149/shapes = [  ]
+150/name = "towerDefense_038_2"
+150/texture = ExtResource( 59 )
+150/tex_offset = Vector2( 0, 0 )
+150/modulate = Color( 1, 1, 1, 1 )
+150/region = Rect2( 0, 0, 124, 123 )
+150/occluder_offset = Vector2( 62, 61.5 )
+150/navigation_offset = Vector2( 62, 61.5 )
+150/shape_offset = Vector2( 0, 0 )
+150/shapes = [  ]
+151/name = "towerDefense_038_3"
+151/texture = ExtResource( 60 )
+151/tex_offset = Vector2( 0, 0 )
+151/modulate = Color( 1, 1, 1, 1 )
+151/region = Rect2( 0, 0, 124, 123 )
+151/occluder_offset = Vector2( 62, 61.5 )
+151/navigation_offset = Vector2( 62, 61.5 )
+151/shape_offset = Vector2( 0, 0 )
+151/shapes = [  ]
+152/name = "towerDefense_039_0"
+152/texture = ExtResource( 61 )
+152/tex_offset = Vector2( 0, 0 )
+152/modulate = Color( 1, 1, 1, 1 )
+152/region = Rect2( 0, 0, 124, 123 )
+152/occluder_offset = Vector2( 62, 61.5 )
+152/navigation_offset = Vector2( 62, 61.5 )
+152/shape_offset = Vector2( 0, 0 )
+152/shapes = [  ]
+153/name = "towerDefense_039_1"
+153/texture = ExtResource( 62 )
+153/tex_offset = Vector2( 0, 0 )
+153/modulate = Color( 1, 1, 1, 1 )
+153/region = Rect2( 0, 0, 124, 123 )
+153/occluder_offset = Vector2( 62, 61.5 )
+153/navigation_offset = Vector2( 62, 61.5 )
+153/shape_offset = Vector2( 0, 0 )
+153/shapes = [  ]
+154/name = "towerDefense_039_2"
+154/texture = ExtResource( 63 )
+154/tex_offset = Vector2( 0, 0 )
+154/modulate = Color( 1, 1, 1, 1 )
+154/region = Rect2( 0, 0, 124, 123 )
+154/occluder_offset = Vector2( 62, 61.5 )
+154/navigation_offset = Vector2( 62, 61.5 )
+154/shape_offset = Vector2( 0, 0 )
+154/shapes = [  ]
+155/name = "towerDefense_039_3"
+155/texture = ExtResource( 64 )
+155/tex_offset = Vector2( 0, 0 )
+155/modulate = Color( 1, 1, 1, 1 )
+155/region = Rect2( 0, 0, 124, 123 )
+155/occluder_offset = Vector2( 62, 61.5 )
+155/navigation_offset = Vector2( 62, 61.5 )
+155/shape_offset = Vector2( 0, 0 )
+155/shapes = [  ]
+156/name = "towerDefense_040_0"
+156/texture = ExtResource( 65 )
+156/tex_offset = Vector2( 0, 0 )
+156/modulate = Color( 1, 1, 1, 1 )
+156/region = Rect2( 0, 0, 124, 123 )
+156/occluder_offset = Vector2( 62, 61.5 )
+156/navigation_offset = Vector2( 62, 61.5 )
+156/shape_offset = Vector2( 0, 0 )
+156/shapes = [  ]
+157/name = "towerDefense_040_1"
+157/texture = ExtResource( 66 )
+157/tex_offset = Vector2( 0, 0 )
+157/modulate = Color( 1, 1, 1, 1 )
+157/region = Rect2( 0, 0, 124, 123 )
+157/occluder_offset = Vector2( 62, 61.5 )
+157/navigation_offset = Vector2( 62, 61.5 )
+157/shape_offset = Vector2( 0, 0 )
+157/shapes = [  ]
+158/name = "towerDefense_040_2"
+158/texture = ExtResource( 67 )
+158/tex_offset = Vector2( 0, 0 )
+158/modulate = Color( 1, 1, 1, 1 )
+158/region = Rect2( 0, 0, 124, 123 )
+158/occluder_offset = Vector2( 62, 61.5 )
+158/navigation_offset = Vector2( 62, 61.5 )
+158/shape_offset = Vector2( 0, 0 )
+158/shapes = [  ]
+159/name = "towerDefense_040_3"
+159/texture = ExtResource( 68 )
+159/tex_offset = Vector2( 0, 0 )
+159/modulate = Color( 1, 1, 1, 1 )
+159/region = Rect2( 0, 0, 124, 123 )
+159/occluder_offset = Vector2( 62, 61.5 )
+159/navigation_offset = Vector2( 62, 61.5 )
+159/shape_offset = Vector2( 0, 0 )
+159/shapes = [  ]
+160/name = "towerDefense_041_0"
+160/texture = ExtResource( 70 )
+160/tex_offset = Vector2( 0, 0 )
+160/modulate = Color( 1, 1, 1, 1 )
+160/region = Rect2( 0, 0, 124, 123 )
+160/occluder_offset = Vector2( 62, 61.5 )
+160/navigation_offset = Vector2( 62, 61.5 )
+160/shape_offset = Vector2( 0, 0 )
+160/shapes = [  ]
+161/name = "towerDefense_041_1"
+161/texture = ExtResource( 71 )
+161/tex_offset = Vector2( 0, 0 )
+161/modulate = Color( 1, 1, 1, 1 )
+161/region = Rect2( 0, 0, 124, 123 )
+161/occluder_offset = Vector2( 62, 61.5 )
+161/navigation_offset = Vector2( 62, 61.5 )
+161/shape_offset = Vector2( 0, 0 )
+161/shapes = [  ]
+162/name = "towerDefense_041_2"
+162/texture = ExtResource( 72 )
+162/tex_offset = Vector2( 0, 0 )
+162/modulate = Color( 1, 1, 1, 1 )
+162/region = Rect2( 0, 0, 124, 123 )
+162/occluder_offset = Vector2( 62, 61.5 )
+162/navigation_offset = Vector2( 62, 61.5 )
+162/shape_offset = Vector2( 0, 0 )
+162/shapes = [  ]
+163/name = "towerDefense_041_3"
+163/texture = ExtResource( 73 )
+163/tex_offset = Vector2( 0, 0 )
+163/modulate = Color( 1, 1, 1, 1 )
+163/region = Rect2( 0, 0, 124, 123 )
+163/occluder_offset = Vector2( 62, 61.5 )
+163/navigation_offset = Vector2( 62, 61.5 )
+163/shape_offset = Vector2( 0, 0 )
+163/shapes = [  ]
+164/name = "towerDefense_042_0"
+164/texture = ExtResource( 74 )
+164/tex_offset = Vector2( 0, 0 )
+164/modulate = Color( 1, 1, 1, 1 )
+164/region = Rect2( 0, 0, 124, 123 )
+164/occluder_offset = Vector2( 62, 61.5 )
+164/navigation_offset = Vector2( 62, 61.5 )
+164/shape_offset = Vector2( 0, 0 )
+164/shapes = [  ]
+165/name = "towerDefense_042_1"
+165/texture = ExtResource( 75 )
+165/tex_offset = Vector2( 0, 0 )
+165/modulate = Color( 1, 1, 1, 1 )
+165/region = Rect2( 0, 0, 124, 123 )
+165/occluder_offset = Vector2( 62, 61.5 )
+165/navigation_offset = Vector2( 62, 61.5 )
+165/shape_offset = Vector2( 0, 0 )
+165/shapes = [  ]
+166/name = "towerDefense_042_2"
+166/texture = ExtResource( 76 )
+166/tex_offset = Vector2( 0, 0 )
+166/modulate = Color( 1, 1, 1, 1 )
+166/region = Rect2( 0, 0, 124, 123 )
+166/occluder_offset = Vector2( 62, 61.5 )
+166/navigation_offset = Vector2( 62, 61.5 )
+166/shape_offset = Vector2( 0, 0 )
+166/shapes = [  ]
+167/name = "towerDefense_042_3"
+167/texture = ExtResource( 77 )
+167/tex_offset = Vector2( 0, 0 )
+167/modulate = Color( 1, 1, 1, 1 )
+167/region = Rect2( 0, 0, 124, 123 )
+167/occluder_offset = Vector2( 62, 61.5 )
+167/navigation_offset = Vector2( 62, 61.5 )
+167/shape_offset = Vector2( 0, 0 )
+167/shapes = [  ]
+168/name = "towerDefense_043_0"
+168/texture = ExtResource( 78 )
+168/tex_offset = Vector2( 0, 0 )
+168/modulate = Color( 1, 1, 1, 1 )
+168/region = Rect2( 0, 0, 124, 123 )
+168/occluder_offset = Vector2( 62, 61.5 )
+168/navigation_offset = Vector2( 62, 61.5 )
+168/shape_offset = Vector2( 0, 0 )
+168/shapes = [  ]
+169/name = "towerDefense_043_1"
+169/texture = ExtResource( 79 )
+169/tex_offset = Vector2( 0, 0 )
+169/modulate = Color( 1, 1, 1, 1 )
+169/region = Rect2( 0, 0, 124, 123 )
+169/occluder_offset = Vector2( 62, 61.5 )
+169/navigation_offset = Vector2( 62, 61.5 )
+169/shape_offset = Vector2( 0, 0 )
+169/shapes = [  ]
+170/name = "towerDefense_043_2"
+170/texture = ExtResource( 81 )
+170/tex_offset = Vector2( 0, 0 )
+170/modulate = Color( 1, 1, 1, 1 )
+170/region = Rect2( 0, 0, 124, 123 )
+170/occluder_offset = Vector2( 62, 61.5 )
+170/navigation_offset = Vector2( 62, 61.5 )
+170/shape_offset = Vector2( 0, 0 )
+170/shapes = [  ]
+171/name = "towerDefense_043_3"
+171/texture = ExtResource( 82 )
+171/tex_offset = Vector2( 0, 0 )
+171/modulate = Color( 1, 1, 1, 1 )
+171/region = Rect2( 0, 0, 124, 123 )
+171/occluder_offset = Vector2( 62, 61.5 )
+171/navigation_offset = Vector2( 62, 61.5 )
+171/shape_offset = Vector2( 0, 0 )
+171/shapes = [  ]
+172/name = "towerDefense_044_0"
+172/texture = ExtResource( 83 )
+172/tex_offset = Vector2( 0, 0 )
+172/modulate = Color( 1, 1, 1, 1 )
+172/region = Rect2( 0, 0, 124, 123 )
+172/occluder_offset = Vector2( 62, 61.5 )
+172/navigation_offset = Vector2( 62, 61.5 )
+172/shape_offset = Vector2( 0, 0 )
+172/shapes = [  ]
+173/name = "towerDefense_044_1"
+173/texture = ExtResource( 84 )
+173/tex_offset = Vector2( 0, 0 )
+173/modulate = Color( 1, 1, 1, 1 )
+173/region = Rect2( 0, 0, 124, 123 )
+173/occluder_offset = Vector2( 62, 61.5 )
+173/navigation_offset = Vector2( 62, 61.5 )
+173/shape_offset = Vector2( 0, 0 )
+173/shapes = [  ]
+174/name = "towerDefense_044_2"
+174/texture = ExtResource( 85 )
+174/tex_offset = Vector2( 0, 0 )
+174/modulate = Color( 1, 1, 1, 1 )
+174/region = Rect2( 0, 0, 124, 123 )
+174/occluder_offset = Vector2( 62, 61.5 )
+174/navigation_offset = Vector2( 62, 61.5 )
+174/shape_offset = Vector2( 0, 0 )
+174/shapes = [  ]
+175/name = "towerDefense_044_3"
+175/texture = ExtResource( 86 )
+175/tex_offset = Vector2( 0, 0 )
+175/modulate = Color( 1, 1, 1, 1 )
+175/region = Rect2( 0, 0, 124, 123 )
+175/occluder_offset = Vector2( 62, 61.5 )
+175/navigation_offset = Vector2( 62, 61.5 )
+175/shape_offset = Vector2( 0, 0 )
+175/shapes = [  ]
+176/name = "towerDefense_045_0"
+176/texture = ExtResource( 87 )
+176/tex_offset = Vector2( 0, 0 )
+176/modulate = Color( 1, 1, 1, 1 )
+176/region = Rect2( 0, 0, 124, 123 )
+176/occluder_offset = Vector2( 62, 61.5 )
+176/navigation_offset = Vector2( 62, 61.5 )
+176/shape_offset = Vector2( 0, 0 )
+176/shapes = [  ]
+177/name = "towerDefense_045_1"
+177/texture = ExtResource( 88 )
+177/tex_offset = Vector2( 0, 0 )
+177/modulate = Color( 1, 1, 1, 1 )
+177/region = Rect2( 0, 0, 124, 123 )
+177/occluder_offset = Vector2( 62, 61.5 )
+177/navigation_offset = Vector2( 62, 61.5 )
+177/shape_offset = Vector2( 0, 0 )
+177/shapes = [  ]
+178/name = "towerDefense_045_2"
+178/texture = ExtResource( 89 )
+178/tex_offset = Vector2( 0, 0 )
+178/modulate = Color( 1, 1, 1, 1 )
+178/region = Rect2( 0, 0, 124, 123 )
+178/occluder_offset = Vector2( 62, 61.5 )
+178/navigation_offset = Vector2( 62, 61.5 )
+178/shape_offset = Vector2( 0, 0 )
+178/shapes = [  ]
+179/name = "towerDefense_045_3"
+179/texture = ExtResource( 90 )
+179/tex_offset = Vector2( 0, 0 )
+179/modulate = Color( 1, 1, 1, 1 )
+179/region = Rect2( 0, 0, 124, 123 )
+179/occluder_offset = Vector2( 62, 61.5 )
+179/navigation_offset = Vector2( 62, 61.5 )
+179/shape_offset = Vector2( 0, 0 )
+179/shapes = [  ]
+180/name = "towerDefense_046_0"
+180/texture = ExtResource( 92 )
+180/tex_offset = Vector2( 0, 0 )
+180/modulate = Color( 1, 1, 1, 1 )
+180/region = Rect2( 0, 0, 124, 123 )
+180/occluder_offset = Vector2( 62, 61.5 )
+180/navigation_offset = Vector2( 62, 61.5 )
+180/shape_offset = Vector2( 0, 0 )
+180/shapes = [  ]
+181/name = "towerDefense_046_1"
+181/texture = ExtResource( 93 )
+181/tex_offset = Vector2( 0, 0 )
+181/modulate = Color( 1, 1, 1, 1 )
+181/region = Rect2( 0, 0, 124, 123 )
+181/occluder_offset = Vector2( 62, 61.5 )
+181/navigation_offset = Vector2( 62, 61.5 )
+181/shape_offset = Vector2( 0, 0 )
+181/shapes = [  ]
+182/name = "towerDefense_046_2"
+182/texture = ExtResource( 94 )
+182/tex_offset = Vector2( 0, 0 )
+182/modulate = Color( 1, 1, 1, 1 )
+182/region = Rect2( 0, 0, 124, 123 )
+182/occluder_offset = Vector2( 62, 61.5 )
+182/navigation_offset = Vector2( 62, 61.5 )
+182/shape_offset = Vector2( 0, 0 )
+182/shapes = [  ]
+183/name = "towerDefense_046_3"
+183/texture = ExtResource( 95 )
+183/tex_offset = Vector2( 0, 0 )
+183/modulate = Color( 1, 1, 1, 1 )
+183/region = Rect2( 0, 0, 124, 123 )
+183/occluder_offset = Vector2( 62, 61.5 )
+183/navigation_offset = Vector2( 62, 61.5 )
+183/shape_offset = Vector2( 0, 0 )
+183/shapes = [  ]
+184/name = "towerDefense_047_0"
+184/texture = ExtResource( 96 )
+184/tex_offset = Vector2( 0, 0 )
+184/modulate = Color( 1, 1, 1, 1 )
+184/region = Rect2( 0, 0, 124, 123 )
+184/occluder_offset = Vector2( 62, 61.5 )
+184/navigation_offset = Vector2( 62, 61.5 )
+184/shape_offset = Vector2( 0, 0 )
+184/shapes = [  ]
+185/name = "towerDefense_047_1"
+185/texture = ExtResource( 97 )
+185/tex_offset = Vector2( 0, 0 )
+185/modulate = Color( 1, 1, 1, 1 )
+185/region = Rect2( 0, 0, 124, 123 )
+185/occluder_offset = Vector2( 62, 61.5 )
+185/navigation_offset = Vector2( 62, 61.5 )
+185/shape_offset = Vector2( 0, 0 )
+185/shapes = [  ]
+186/name = "towerDefense_047_2"
+186/texture = ExtResource( 98 )
+186/tex_offset = Vector2( 0, 0 )
+186/modulate = Color( 1, 1, 1, 1 )
+186/region = Rect2( 0, 0, 124, 123 )
+186/occluder_offset = Vector2( 62, 61.5 )
+186/navigation_offset = Vector2( 62, 61.5 )
+186/shape_offset = Vector2( 0, 0 )
+186/shapes = [  ]
+187/name = "towerDefense_047_3"
+187/texture = ExtResource( 99 )
+187/tex_offset = Vector2( 0, 0 )
+187/modulate = Color( 1, 1, 1, 1 )
+187/region = Rect2( 0, 0, 124, 123 )
+187/occluder_offset = Vector2( 62, 61.5 )
+187/navigation_offset = Vector2( 62, 61.5 )
+187/shape_offset = Vector2( 0, 0 )
+187/shapes = [  ]
+188/name = "towerDefense_048_0"
+188/texture = ExtResource( 100 )
+188/tex_offset = Vector2( 0, 0 )
+188/modulate = Color( 1, 1, 1, 1 )
+188/region = Rect2( 0, 0, 124, 123 )
+188/occluder_offset = Vector2( 62, 61.5 )
+188/navigation_offset = Vector2( 62, 61.5 )
+188/shape_offset = Vector2( 0, 0 )
+188/shapes = [  ]
+189/name = "towerDefense_048_1"
+189/texture = ExtResource( 101 )
+189/tex_offset = Vector2( 0, 0 )
+189/modulate = Color( 1, 1, 1, 1 )
+189/region = Rect2( 0, 0, 124, 123 )
+189/occluder_offset = Vector2( 62, 61.5 )
+189/navigation_offset = Vector2( 62, 61.5 )
+189/shape_offset = Vector2( 0, 0 )
+189/shapes = [  ]
+190/name = "towerDefense_048_2"
+190/texture = ExtResource( 103 )
+190/tex_offset = Vector2( 0, 0 )
+190/modulate = Color( 1, 1, 1, 1 )
+190/region = Rect2( 0, 0, 124, 123 )
+190/occluder_offset = Vector2( 62, 61.5 )
+190/navigation_offset = Vector2( 62, 61.5 )
+190/shape_offset = Vector2( 0, 0 )
+190/shapes = [  ]
+191/name = "towerDefense_048_3"
+191/texture = ExtResource( 104 )
+191/tex_offset = Vector2( 0, 0 )
+191/modulate = Color( 1, 1, 1, 1 )
+191/region = Rect2( 0, 0, 124, 123 )
+191/occluder_offset = Vector2( 62, 61.5 )
+191/navigation_offset = Vector2( 62, 61.5 )
+191/shape_offset = Vector2( 0, 0 )
+191/shapes = [  ]
+192/name = "towerDefense_049_0"
+192/texture = ExtResource( 105 )
+192/tex_offset = Vector2( 0, 0 )
+192/modulate = Color( 1, 1, 1, 1 )
+192/region = Rect2( 0, 0, 124, 123 )
+192/occluder_offset = Vector2( 62, 61.5 )
+192/navigation_offset = Vector2( 62, 61.5 )
+192/shape_offset = Vector2( 0, 0 )
+192/shapes = [  ]
+193/name = "towerDefense_049_1"
+193/texture = ExtResource( 106 )
+193/tex_offset = Vector2( 0, 0 )
+193/modulate = Color( 1, 1, 1, 1 )
+193/region = Rect2( 0, 0, 124, 123 )
+193/occluder_offset = Vector2( 62, 61.5 )
+193/navigation_offset = Vector2( 62, 61.5 )
+193/shape_offset = Vector2( 0, 0 )
+193/shapes = [  ]
+194/name = "towerDefense_049_2"
+194/texture = ExtResource( 107 )
+194/tex_offset = Vector2( 0, 0 )
+194/modulate = Color( 1, 1, 1, 1 )
+194/region = Rect2( 0, 0, 124, 123 )
+194/occluder_offset = Vector2( 62, 61.5 )
+194/navigation_offset = Vector2( 62, 61.5 )
+194/shape_offset = Vector2( 0, 0 )
+194/shapes = [  ]
+195/name = "towerDefense_049_3"
+195/texture = ExtResource( 108 )
+195/tex_offset = Vector2( 0, 0 )
+195/modulate = Color( 1, 1, 1, 1 )
+195/region = Rect2( 0, 0, 124, 123 )
+195/occluder_offset = Vector2( 62, 61.5 )
+195/navigation_offset = Vector2( 62, 61.5 )
+195/shape_offset = Vector2( 0, 0 )
+195/shapes = [  ]
+196/name = "towerDefense_050_0"
+196/texture = ExtResource( 109 )
+196/tex_offset = Vector2( 0, 0 )
+196/modulate = Color( 1, 1, 1, 1 )
+196/region = Rect2( 0, 0, 124, 123 )
+196/occluder_offset = Vector2( 62, 61.5 )
+196/navigation_offset = Vector2( 62, 61.5 )
+196/shape_offset = Vector2( 0, 0 )
+196/shapes = [  ]
+197/name = "towerDefense_050_1"
+197/texture = ExtResource( 110 )
+197/tex_offset = Vector2( 0, 0 )
+197/modulate = Color( 1, 1, 1, 1 )
+197/region = Rect2( 0, 0, 124, 123 )
+197/occluder_offset = Vector2( 62, 61.5 )
+197/navigation_offset = Vector2( 62, 61.5 )
+197/shape_offset = Vector2( 0, 0 )
+197/shapes = [  ]
+198/name = "towerDefense_050_2"
+198/texture = ExtResource( 111 )
+198/tex_offset = Vector2( 0, 0 )
+198/modulate = Color( 1, 1, 1, 1 )
+198/region = Rect2( 0, 0, 124, 123 )
+198/occluder_offset = Vector2( 62, 61.5 )
+198/navigation_offset = Vector2( 62, 61.5 )
+198/shape_offset = Vector2( 0, 0 )
+198/shapes = [  ]
+199/name = "towerDefense_050_3"
+199/texture = ExtResource( 112 )
+199/tex_offset = Vector2( 0, 0 )
+199/modulate = Color( 1, 1, 1, 1 )
+199/region = Rect2( 0, 0, 124, 123 )
+199/occluder_offset = Vector2( 62, 61.5 )
+199/navigation_offset = Vector2( 62, 61.5 )
+199/shape_offset = Vector2( 0, 0 )
+199/shapes = [  ]
+200/name = "towerDefense_051_0"
+200/texture = ExtResource( 115 )
+200/tex_offset = Vector2( 0, 0 )
+200/modulate = Color( 1, 1, 1, 1 )
+200/region = Rect2( 0, 0, 124, 123 )
+200/occluder_offset = Vector2( 62, 61.5 )
+200/navigation_offset = Vector2( 62, 61.5 )
+200/shape_offset = Vector2( 0, 0 )
+200/shapes = [  ]
+201/name = "towerDefense_051_1"
+201/texture = ExtResource( 116 )
+201/tex_offset = Vector2( 0, 0 )
+201/modulate = Color( 1, 1, 1, 1 )
+201/region = Rect2( 0, 0, 124, 123 )
+201/occluder_offset = Vector2( 62, 61.5 )
+201/navigation_offset = Vector2( 62, 61.5 )
+201/shape_offset = Vector2( 0, 0 )
+201/shapes = [  ]
+202/name = "towerDefense_051_2"
+202/texture = ExtResource( 117 )
+202/tex_offset = Vector2( 0, 0 )
+202/modulate = Color( 1, 1, 1, 1 )
+202/region = Rect2( 0, 0, 124, 123 )
+202/occluder_offset = Vector2( 62, 61.5 )
+202/navigation_offset = Vector2( 62, 61.5 )
+202/shape_offset = Vector2( 0, 0 )
+202/shapes = [  ]
+203/name = "towerDefense_051_3"
+203/texture = ExtResource( 118 )
+203/tex_offset = Vector2( 0, 0 )
+203/modulate = Color( 1, 1, 1, 1 )
+203/region = Rect2( 0, 0, 124, 123 )
+203/occluder_offset = Vector2( 62, 61.5 )
+203/navigation_offset = Vector2( 62, 61.5 )
+203/shape_offset = Vector2( 0, 0 )
+203/shapes = [  ]
+204/name = "towerDefense_052_0"
+204/texture = ExtResource( 119 )
+204/tex_offset = Vector2( 0, 0 )
+204/modulate = Color( 1, 1, 1, 1 )
+204/region = Rect2( 0, 0, 124, 123 )
+204/occluder_offset = Vector2( 62, 61.5 )
+204/navigation_offset = Vector2( 62, 61.5 )
+204/shape_offset = Vector2( 0, 0 )
+204/shapes = [  ]
+205/name = "towerDefense_052_1"
+205/texture = ExtResource( 120 )
+205/tex_offset = Vector2( 0, 0 )
+205/modulate = Color( 1, 1, 1, 1 )
+205/region = Rect2( 0, 0, 124, 123 )
+205/occluder_offset = Vector2( 62, 61.5 )
+205/navigation_offset = Vector2( 62, 61.5 )
+205/shape_offset = Vector2( 0, 0 )
+205/shapes = [  ]
+206/name = "towerDefense_052_2"
+206/texture = ExtResource( 121 )
+206/tex_offset = Vector2( 0, 0 )
+206/modulate = Color( 1, 1, 1, 1 )
+206/region = Rect2( 0, 0, 124, 123 )
+206/occluder_offset = Vector2( 62, 61.5 )
+206/navigation_offset = Vector2( 62, 61.5 )
+206/shape_offset = Vector2( 0, 0 )
+206/shapes = [  ]
+207/name = "towerDefense_052_3"
+207/texture = ExtResource( 122 )
+207/tex_offset = Vector2( 0, 0 )
+207/modulate = Color( 1, 1, 1, 1 )
+207/region = Rect2( 0, 0, 124, 123 )
+207/occluder_offset = Vector2( 62, 61.5 )
+207/navigation_offset = Vector2( 62, 61.5 )
+207/shape_offset = Vector2( 0, 0 )
+207/shapes = [  ]
+208/name = "towerDefense_053_0"
+208/texture = ExtResource( 123 )
+208/tex_offset = Vector2( 0, 0 )
+208/modulate = Color( 1, 1, 1, 1 )
+208/region = Rect2( 0, 0, 124, 123 )
+208/occluder_offset = Vector2( 62, 61.5 )
+208/navigation_offset = Vector2( 62, 61.5 )
+208/shape_offset = Vector2( 0, 0 )
+208/shapes = [  ]
+209/name = "towerDefense_053_1"
+209/texture = ExtResource( 124 )
+209/tex_offset = Vector2( 0, 0 )
+209/modulate = Color( 1, 1, 1, 1 )
+209/region = Rect2( 0, 0, 124, 123 )
+209/occluder_offset = Vector2( 62, 61.5 )
+209/navigation_offset = Vector2( 62, 61.5 )
+209/shape_offset = Vector2( 0, 0 )
+209/shapes = [  ]
+210/name = "towerDefense_053_2"
+210/texture = ExtResource( 126 )
+210/tex_offset = Vector2( 0, 0 )
+210/modulate = Color( 1, 1, 1, 1 )
+210/region = Rect2( 0, 0, 124, 123 )
+210/occluder_offset = Vector2( 62, 61.5 )
+210/navigation_offset = Vector2( 62, 61.5 )
+210/shape_offset = Vector2( 0, 0 )
+210/shapes = [  ]
+211/name = "towerDefense_053_3"
+211/texture = ExtResource( 127 )
+211/tex_offset = Vector2( 0, 0 )
+211/modulate = Color( 1, 1, 1, 1 )
+211/region = Rect2( 0, 0, 124, 123 )
+211/occluder_offset = Vector2( 62, 61.5 )
+211/navigation_offset = Vector2( 62, 61.5 )
+211/shape_offset = Vector2( 0, 0 )
+211/shapes = [  ]
+212/name = "towerDefense_055_0"
+212/texture = ExtResource( 128 )
+212/tex_offset = Vector2( 0, 0 )
+212/modulate = Color( 1, 1, 1, 1 )
+212/region = Rect2( 0, 0, 124, 123 )
+212/occluder_offset = Vector2( 62, 61.5 )
+212/navigation_offset = Vector2( 62, 61.5 )
+212/shape_offset = Vector2( 0, 0 )
+212/shapes = [  ]
+213/name = "towerDefense_055_1"
+213/texture = ExtResource( 129 )
+213/tex_offset = Vector2( 0, 0 )
+213/modulate = Color( 1, 1, 1, 1 )
+213/region = Rect2( 0, 0, 124, 123 )
+213/occluder_offset = Vector2( 62, 61.5 )
+213/navigation_offset = Vector2( 62, 61.5 )
+213/shape_offset = Vector2( 0, 0 )
+213/shapes = [  ]
+214/name = "towerDefense_055_2"
+214/texture = ExtResource( 130 )
+214/tex_offset = Vector2( 0, 0 )
+214/modulate = Color( 1, 1, 1, 1 )
+214/region = Rect2( 0, 0, 124, 123 )
+214/occluder_offset = Vector2( 62, 61.5 )
+214/navigation_offset = Vector2( 62, 61.5 )
+214/shape_offset = Vector2( 0, 0 )
+214/shapes = [  ]
+215/name = "towerDefense_055_3"
+215/texture = ExtResource( 131 )
+215/tex_offset = Vector2( 0, 0 )
+215/modulate = Color( 1, 1, 1, 1 )
+215/region = Rect2( 0, 0, 124, 123 )
+215/occluder_offset = Vector2( 62, 61.5 )
+215/navigation_offset = Vector2( 62, 61.5 )
+215/shape_offset = Vector2( 0, 0 )
+215/shapes = [  ]
+216/name = "towerDefense_056_0"
+216/texture = ExtResource( 132 )
+216/tex_offset = Vector2( 0, 0 )
+216/modulate = Color( 1, 1, 1, 1 )
+216/region = Rect2( 0, 0, 124, 123 )
+216/occluder_offset = Vector2( 62, 61.5 )
+216/navigation_offset = Vector2( 62, 61.5 )
+216/shape_offset = Vector2( 0, 0 )
+216/shapes = [  ]
+217/name = "towerDefense_056_1"
+217/texture = ExtResource( 133 )
+217/tex_offset = Vector2( 0, 0 )
+217/modulate = Color( 1, 1, 1, 1 )
+217/region = Rect2( 0, 0, 124, 123 )
+217/occluder_offset = Vector2( 62, 61.5 )
+217/navigation_offset = Vector2( 62, 61.5 )
+217/shape_offset = Vector2( 0, 0 )
+217/shapes = [  ]
+218/name = "towerDefense_056_2"
+218/texture = ExtResource( 134 )
+218/tex_offset = Vector2( 0, 0 )
+218/modulate = Color( 1, 1, 1, 1 )
+218/region = Rect2( 0, 0, 124, 123 )
+218/occluder_offset = Vector2( 62, 61.5 )
+218/navigation_offset = Vector2( 62, 61.5 )
+218/shape_offset = Vector2( 0, 0 )
+218/shapes = [  ]
+219/name = "towerDefense_056_3"
+219/texture = ExtResource( 135 )
+219/tex_offset = Vector2( 0, 0 )
+219/modulate = Color( 1, 1, 1, 1 )
+219/region = Rect2( 0, 0, 124, 123 )
+219/occluder_offset = Vector2( 62, 61.5 )
+219/navigation_offset = Vector2( 62, 61.5 )
+219/shape_offset = Vector2( 0, 0 )
+219/shapes = [  ]
+220/name = "towerDefense_057_0"
+220/texture = ExtResource( 137 )
+220/tex_offset = Vector2( 0, 0 )
+220/modulate = Color( 1, 1, 1, 1 )
+220/region = Rect2( 0, 0, 124, 123 )
+220/occluder_offset = Vector2( 62, 61.5 )
+220/navigation_offset = Vector2( 62, 61.5 )
+220/shape_offset = Vector2( 0, 0 )
+220/shapes = [  ]
+221/name = "towerDefense_057_1"
+221/texture = ExtResource( 138 )
+221/tex_offset = Vector2( 0, 0 )
+221/modulate = Color( 1, 1, 1, 1 )
+221/region = Rect2( 0, 0, 124, 123 )
+221/occluder_offset = Vector2( 62, 61.5 )
+221/navigation_offset = Vector2( 62, 61.5 )
+221/shape_offset = Vector2( 0, 0 )
+221/shapes = [  ]
+222/name = "towerDefense_057_2"
+222/texture = ExtResource( 139 )
+222/tex_offset = Vector2( 0, 0 )
+222/modulate = Color( 1, 1, 1, 1 )
+222/region = Rect2( 0, 0, 124, 123 )
+222/occluder_offset = Vector2( 62, 61.5 )
+222/navigation_offset = Vector2( 62, 61.5 )
+222/shape_offset = Vector2( 0, 0 )
+222/shapes = [  ]
+223/name = "towerDefense_057_3"
+223/texture = ExtResource( 140 )
+223/tex_offset = Vector2( 0, 0 )
+223/modulate = Color( 1, 1, 1, 1 )
+223/region = Rect2( 0, 0, 124, 123 )
+223/occluder_offset = Vector2( 62, 61.5 )
+223/navigation_offset = Vector2( 62, 61.5 )
+223/shape_offset = Vector2( 0, 0 )
+223/shapes = [  ]
+224/name = "towerDefense_058_0"
+224/texture = ExtResource( 141 )
+224/tex_offset = Vector2( 0, 0 )
+224/modulate = Color( 1, 1, 1, 1 )
+224/region = Rect2( 0, 0, 124, 123 )
+224/occluder_offset = Vector2( 62, 61.5 )
+224/navigation_offset = Vector2( 62, 61.5 )
+224/shape_offset = Vector2( 0, 0 )
+224/shapes = [  ]
+225/name = "towerDefense_058_1"
+225/texture = ExtResource( 142 )
+225/tex_offset = Vector2( 0, 0 )
+225/modulate = Color( 1, 1, 1, 1 )
+225/region = Rect2( 0, 0, 124, 123 )
+225/occluder_offset = Vector2( 62, 61.5 )
+225/navigation_offset = Vector2( 62, 61.5 )
+225/shape_offset = Vector2( 0, 0 )
+225/shapes = [  ]
+226/name = "towerDefense_058_2"
+226/texture = ExtResource( 143 )
+226/tex_offset = Vector2( 0, 0 )
+226/modulate = Color( 1, 1, 1, 1 )
+226/region = Rect2( 0, 0, 124, 123 )
+226/occluder_offset = Vector2( 62, 61.5 )
+226/navigation_offset = Vector2( 62, 61.5 )
+226/shape_offset = Vector2( 0, 0 )
+226/shapes = [  ]
+227/name = "towerDefense_058_3"
+227/texture = ExtResource( 144 )
+227/tex_offset = Vector2( 0, 0 )
+227/modulate = Color( 1, 1, 1, 1 )
+227/region = Rect2( 0, 0, 124, 123 )
+227/occluder_offset = Vector2( 62, 61.5 )
+227/navigation_offset = Vector2( 62, 61.5 )
+227/shape_offset = Vector2( 0, 0 )
+227/shapes = [  ]
+228/name = "towerDefense_059_0"
+228/texture = ExtResource( 145 )
+228/tex_offset = Vector2( 0, 0 )
+228/modulate = Color( 1, 1, 1, 1 )
+228/region = Rect2( 0, 0, 124, 123 )
+228/occluder_offset = Vector2( 62, 61.5 )
+228/navigation_offset = Vector2( 62, 61.5 )
+228/shape_offset = Vector2( 0, 0 )
+228/shapes = [  ]
+229/name = "towerDefense_059_1"
+229/texture = ExtResource( 146 )
+229/tex_offset = Vector2( 0, 0 )
+229/modulate = Color( 1, 1, 1, 1 )
+229/region = Rect2( 0, 0, 124, 123 )
+229/occluder_offset = Vector2( 62, 61.5 )
+229/navigation_offset = Vector2( 62, 61.5 )
+229/shape_offset = Vector2( 0, 0 )
+229/shapes = [  ]
+230/name = "towerDefense_059_2"
+230/texture = ExtResource( 148 )
+230/tex_offset = Vector2( 0, 0 )
+230/modulate = Color( 1, 1, 1, 1 )
+230/region = Rect2( 0, 0, 124, 123 )
+230/occluder_offset = Vector2( 62, 61.5 )
+230/navigation_offset = Vector2( 62, 61.5 )
+230/shape_offset = Vector2( 0, 0 )
+230/shapes = [  ]
+231/name = "towerDefense_059_3"
+231/texture = ExtResource( 149 )
+231/tex_offset = Vector2( 0, 0 )
+231/modulate = Color( 1, 1, 1, 1 )
+231/region = Rect2( 0, 0, 124, 123 )
+231/occluder_offset = Vector2( 62, 61.5 )
+231/navigation_offset = Vector2( 62, 61.5 )
+231/shape_offset = Vector2( 0, 0 )
+231/shapes = [  ]
+232/name = "towerDefense_060_0"
+232/texture = ExtResource( 150 )
+232/tex_offset = Vector2( 0, 0 )
+232/modulate = Color( 1, 1, 1, 1 )
+232/region = Rect2( 0, 0, 124, 123 )
+232/occluder_offset = Vector2( 62, 61.5 )
+232/navigation_offset = Vector2( 62, 61.5 )
+232/shape_offset = Vector2( 0, 0 )
+232/shapes = [  ]
+233/name = "towerDefense_060_1"
+233/texture = ExtResource( 151 )
+233/tex_offset = Vector2( 0, 0 )
+233/modulate = Color( 1, 1, 1, 1 )
+233/region = Rect2( 0, 0, 124, 123 )
+233/occluder_offset = Vector2( 62, 61.5 )
+233/navigation_offset = Vector2( 62, 61.5 )
+233/shape_offset = Vector2( 0, 0 )
+233/shapes = [  ]
+234/name = "towerDefense_060_2"
+234/texture = ExtResource( 152 )
+234/tex_offset = Vector2( 0, 0 )
+234/modulate = Color( 1, 1, 1, 1 )
+234/region = Rect2( 0, 0, 124, 123 )
+234/occluder_offset = Vector2( 62, 61.5 )
+234/navigation_offset = Vector2( 62, 61.5 )
+234/shape_offset = Vector2( 0, 0 )
+234/shapes = [  ]
+235/name = "towerDefense_060_3"
+235/texture = ExtResource( 153 )
+235/tex_offset = Vector2( 0, 0 )
+235/modulate = Color( 1, 1, 1, 1 )
+235/region = Rect2( 0, 0, 124, 123 )
+235/occluder_offset = Vector2( 62, 61.5 )
+235/navigation_offset = Vector2( 62, 61.5 )
+235/shape_offset = Vector2( 0, 0 )
+235/shapes = [  ]
+236/name = "towerDefense_061_0"
+236/texture = ExtResource( 154 )
+236/tex_offset = Vector2( 0, 0 )
+236/modulate = Color( 1, 1, 1, 1 )
+236/region = Rect2( 0, 0, 124, 123 )
+236/occluder_offset = Vector2( 62, 61.5 )
+236/navigation_offset = Vector2( 62, 61.5 )
+236/shape_offset = Vector2( 0, 0 )
+236/shapes = [  ]
+237/name = "towerDefense_061_1"
+237/texture = ExtResource( 155 )
+237/tex_offset = Vector2( 0, 0 )
+237/modulate = Color( 1, 1, 1, 1 )
+237/region = Rect2( 0, 0, 124, 123 )
+237/occluder_offset = Vector2( 62, 61.5 )
+237/navigation_offset = Vector2( 62, 61.5 )
+237/shape_offset = Vector2( 0, 0 )
+237/shapes = [  ]
+238/name = "towerDefense_061_2"
+238/texture = ExtResource( 156 )
+238/tex_offset = Vector2( 0, 0 )
+238/modulate = Color( 1, 1, 1, 1 )
+238/region = Rect2( 0, 0, 124, 123 )
+238/occluder_offset = Vector2( 62, 61.5 )
+238/navigation_offset = Vector2( 62, 61.5 )
+238/shape_offset = Vector2( 0, 0 )
+238/shapes = [  ]
+239/name = "towerDefense_061_3"
+239/texture = ExtResource( 157 )
+239/tex_offset = Vector2( 0, 0 )
+239/modulate = Color( 1, 1, 1, 1 )
+239/region = Rect2( 0, 0, 124, 123 )
+239/occluder_offset = Vector2( 62, 61.5 )
+239/navigation_offset = Vector2( 62, 61.5 )
+239/shape_offset = Vector2( 0, 0 )
+239/shapes = [  ]
+240/name = "towerDefense_062_0"
+240/texture = ExtResource( 159 )
+240/tex_offset = Vector2( 0, 0 )
+240/modulate = Color( 1, 1, 1, 1 )
+240/region = Rect2( 0, 0, 124, 123 )
+240/occluder_offset = Vector2( 62, 61.5 )
+240/navigation_offset = Vector2( 62, 61.5 )
+240/shape_offset = Vector2( 0, 0 )
+240/shapes = [  ]
+241/name = "towerDefense_062_1"
+241/texture = ExtResource( 160 )
+241/tex_offset = Vector2( 0, 0 )
+241/modulate = Color( 1, 1, 1, 1 )
+241/region = Rect2( 0, 0, 124, 123 )
+241/occluder_offset = Vector2( 62, 61.5 )
+241/navigation_offset = Vector2( 62, 61.5 )
+241/shape_offset = Vector2( 0, 0 )
+241/shapes = [  ]
+242/name = "towerDefense_062_2"
+242/texture = ExtResource( 161 )
+242/tex_offset = Vector2( 0, 0 )
+242/modulate = Color( 1, 1, 1, 1 )
+242/region = Rect2( 0, 0, 124, 123 )
+242/occluder_offset = Vector2( 62, 61.5 )
+242/navigation_offset = Vector2( 62, 61.5 )
+242/shape_offset = Vector2( 0, 0 )
+242/shapes = [  ]
+243/name = "towerDefense_062_3"
+243/texture = ExtResource( 162 )
+243/tex_offset = Vector2( 0, 0 )
+243/modulate = Color( 1, 1, 1, 1 )
+243/region = Rect2( 0, 0, 124, 123 )
+243/occluder_offset = Vector2( 62, 61.5 )
+243/navigation_offset = Vector2( 62, 61.5 )
+243/shape_offset = Vector2( 0, 0 )
+243/shapes = [  ]
+244/name = "towerDefense_063_0"
+244/texture = ExtResource( 163 )
+244/tex_offset = Vector2( 0, 0 )
+244/modulate = Color( 1, 1, 1, 1 )
+244/region = Rect2( 0, 0, 124, 123 )
+244/occluder_offset = Vector2( 62, 61.5 )
+244/navigation_offset = Vector2( 62, 61.5 )
+244/shape_offset = Vector2( 0, 0 )
+244/shapes = [  ]
+245/name = "towerDefense_063_1"
+245/texture = ExtResource( 164 )
+245/tex_offset = Vector2( 0, 0 )
+245/modulate = Color( 1, 1, 1, 1 )
+245/region = Rect2( 0, 0, 124, 123 )
+245/occluder_offset = Vector2( 62, 61.5 )
+245/navigation_offset = Vector2( 62, 61.5 )
+245/shape_offset = Vector2( 0, 0 )
+245/shapes = [  ]
+246/name = "towerDefense_063_2"
+246/texture = ExtResource( 165 )
+246/tex_offset = Vector2( 0, 0 )
+246/modulate = Color( 1, 1, 1, 1 )
+246/region = Rect2( 0, 0, 124, 123 )
+246/occluder_offset = Vector2( 62, 61.5 )
+246/navigation_offset = Vector2( 62, 61.5 )
+246/shape_offset = Vector2( 0, 0 )
+246/shapes = [  ]
+247/name = "towerDefense_063_3"
+247/texture = ExtResource( 166 )
+247/tex_offset = Vector2( 0, 0 )
+247/modulate = Color( 1, 1, 1, 1 )
+247/region = Rect2( 0, 0, 124, 123 )
+247/occluder_offset = Vector2( 62, 61.5 )
+247/navigation_offset = Vector2( 62, 61.5 )
+247/shape_offset = Vector2( 0, 0 )
+247/shapes = [  ]
+248/name = "towerDefense_064_0"
+248/texture = ExtResource( 167 )
+248/tex_offset = Vector2( 0, 0 )
+248/modulate = Color( 1, 1, 1, 1 )
+248/region = Rect2( 0, 0, 124, 123 )
+248/occluder_offset = Vector2( 62, 61.5 )
+248/navigation_offset = Vector2( 62, 61.5 )
+248/shape_offset = Vector2( 0, 0 )
+248/shapes = [  ]
+249/name = "towerDefense_064_1"
+249/texture = ExtResource( 168 )
+249/tex_offset = Vector2( 0, 0 )
+249/modulate = Color( 1, 1, 1, 1 )
+249/region = Rect2( 0, 0, 124, 123 )
+249/occluder_offset = Vector2( 62, 61.5 )
+249/navigation_offset = Vector2( 62, 61.5 )
+249/shape_offset = Vector2( 0, 0 )
+249/shapes = [  ]
+250/name = "towerDefense_064_2"
+250/texture = ExtResource( 170 )
+250/tex_offset = Vector2( 0, 0 )
+250/modulate = Color( 1, 1, 1, 1 )
+250/region = Rect2( 0, 0, 124, 123 )
+250/occluder_offset = Vector2( 62, 61.5 )
+250/navigation_offset = Vector2( 62, 61.5 )
+250/shape_offset = Vector2( 0, 0 )
+250/shapes = [  ]
+251/name = "towerDefense_064_3"
+251/texture = ExtResource( 171 )
+251/tex_offset = Vector2( 0, 0 )
+251/modulate = Color( 1, 1, 1, 1 )
+251/region = Rect2( 0, 0, 124, 123 )
+251/occluder_offset = Vector2( 62, 61.5 )
+251/navigation_offset = Vector2( 62, 61.5 )
+251/shape_offset = Vector2( 0, 0 )
+251/shapes = [  ]
+252/name = "towerDefense_065_0"
+252/texture = ExtResource( 172 )
+252/tex_offset = Vector2( 0, 0 )
+252/modulate = Color( 1, 1, 1, 1 )
+252/region = Rect2( 0, 0, 124, 123 )
+252/occluder_offset = Vector2( 62, 61.5 )
+252/navigation_offset = Vector2( 62, 61.5 )
+252/shape_offset = Vector2( 0, 0 )
+252/shapes = [  ]
+253/name = "towerDefense_065_1"
+253/texture = ExtResource( 173 )
+253/tex_offset = Vector2( 0, 0 )
+253/modulate = Color( 1, 1, 1, 1 )
+253/region = Rect2( 0, 0, 124, 123 )
+253/occluder_offset = Vector2( 62, 61.5 )
+253/navigation_offset = Vector2( 62, 61.5 )
+253/shape_offset = Vector2( 0, 0 )
+253/shapes = [  ]
+254/name = "towerDefense_065_2"
+254/texture = ExtResource( 174 )
+254/tex_offset = Vector2( 0, 0 )
+254/modulate = Color( 1, 1, 1, 1 )
+254/region = Rect2( 0, 0, 124, 123 )
+254/occluder_offset = Vector2( 62, 61.5 )
+254/navigation_offset = Vector2( 62, 61.5 )
+254/shape_offset = Vector2( 0, 0 )
+254/shapes = [  ]
+255/name = "towerDefense_065_3"
+255/texture = ExtResource( 175 )
+255/tex_offset = Vector2( 0, 0 )
+255/modulate = Color( 1, 1, 1, 1 )
+255/region = Rect2( 0, 0, 124, 123 )
+255/occluder_offset = Vector2( 62, 61.5 )
+255/navigation_offset = Vector2( 62, 61.5 )
+255/shape_offset = Vector2( 0, 0 )
+255/shapes = [  ]
+256/name = "towerDefense_066_0"
+256/texture = ExtResource( 176 )
+256/tex_offset = Vector2( 0, 0 )
+256/modulate = Color( 1, 1, 1, 1 )
+256/region = Rect2( 0, 0, 124, 123 )
+256/occluder_offset = Vector2( 62, 61.5 )
+256/navigation_offset = Vector2( 62, 61.5 )
+256/shape_offset = Vector2( 0, 0 )
+256/shapes = [  ]
+257/name = "towerDefense_066_1"
+257/texture = ExtResource( 177 )
+257/tex_offset = Vector2( 0, 0 )
+257/modulate = Color( 1, 1, 1, 1 )
+257/region = Rect2( 0, 0, 124, 123 )
+257/occluder_offset = Vector2( 62, 61.5 )
+257/navigation_offset = Vector2( 62, 61.5 )
+257/shape_offset = Vector2( 0, 0 )
+257/shapes = [  ]
+258/name = "towerDefense_066_2"
+258/texture = ExtResource( 178 )
+258/tex_offset = Vector2( 0, 0 )
+258/modulate = Color( 1, 1, 1, 1 )
+258/region = Rect2( 0, 0, 124, 123 )
+258/occluder_offset = Vector2( 62, 61.5 )
+258/navigation_offset = Vector2( 62, 61.5 )
+258/shape_offset = Vector2( 0, 0 )
+258/shapes = [  ]
+259/name = "towerDefense_066_3"
+259/texture = ExtResource( 179 )
+259/tex_offset = Vector2( 0, 0 )
+259/modulate = Color( 1, 1, 1, 1 )
+259/region = Rect2( 0, 0, 124, 123 )
+259/occluder_offset = Vector2( 62, 61.5 )
+259/navigation_offset = Vector2( 62, 61.5 )
+259/shape_offset = Vector2( 0, 0 )
+259/shapes = [  ]
+260/name = "towerDefense_067_0"
+260/texture = ExtResource( 181 )
+260/tex_offset = Vector2( 0, 0 )
+260/modulate = Color( 1, 1, 1, 1 )
+260/region = Rect2( 0, 0, 124, 123 )
+260/occluder_offset = Vector2( 62, 61.5 )
+260/navigation_offset = Vector2( 62, 61.5 )
+260/shape_offset = Vector2( 0, 0 )
+260/shapes = [  ]
+261/name = "towerDefense_067_1"
+261/texture = ExtResource( 182 )
+261/tex_offset = Vector2( 0, 0 )
+261/modulate = Color( 1, 1, 1, 1 )
+261/region = Rect2( 0, 0, 124, 123 )
+261/occluder_offset = Vector2( 62, 61.5 )
+261/navigation_offset = Vector2( 62, 61.5 )
+261/shape_offset = Vector2( 0, 0 )
+261/shapes = [  ]
+262/name = "towerDefense_067_2"
+262/texture = ExtResource( 183 )
+262/tex_offset = Vector2( 0, 0 )
+262/modulate = Color( 1, 1, 1, 1 )
+262/region = Rect2( 0, 0, 124, 123 )
+262/occluder_offset = Vector2( 62, 61.5 )
+262/navigation_offset = Vector2( 62, 61.5 )
+262/shape_offset = Vector2( 0, 0 )
+262/shapes = [  ]
+263/name = "towerDefense_067_3"
+263/texture = ExtResource( 184 )
+263/tex_offset = Vector2( 0, 0 )
+263/modulate = Color( 1, 1, 1, 1 )
+263/region = Rect2( 0, 0, 124, 123 )
+263/occluder_offset = Vector2( 62, 61.5 )
+263/navigation_offset = Vector2( 62, 61.5 )
+263/shape_offset = Vector2( 0, 0 )
+263/shapes = [  ]
+264/name = "towerDefense_068_0"
+264/texture = ExtResource( 185 )
+264/tex_offset = Vector2( 0, 0 )
+264/modulate = Color( 1, 1, 1, 1 )
+264/region = Rect2( 0, 0, 124, 123 )
+264/occluder_offset = Vector2( 62, 61.5 )
+264/navigation_offset = Vector2( 62, 61.5 )
+264/shape_offset = Vector2( 0, 0 )
+264/shapes = [  ]
+265/name = "towerDefense_068_1"
+265/texture = ExtResource( 186 )
+265/tex_offset = Vector2( 0, 0 )
+265/modulate = Color( 1, 1, 1, 1 )
+265/region = Rect2( 0, 0, 124, 123 )
+265/occluder_offset = Vector2( 62, 61.5 )
+265/navigation_offset = Vector2( 62, 61.5 )
+265/shape_offset = Vector2( 0, 0 )
+265/shapes = [  ]
+266/name = "towerDefense_068_2"
+266/texture = ExtResource( 187 )
+266/tex_offset = Vector2( 0, 0 )
+266/modulate = Color( 1, 1, 1, 1 )
+266/region = Rect2( 0, 0, 124, 123 )
+266/occluder_offset = Vector2( 62, 61.5 )
+266/navigation_offset = Vector2( 62, 61.5 )
+266/shape_offset = Vector2( 0, 0 )
+266/shapes = [  ]
+267/name = "towerDefense_068_3"
+267/texture = ExtResource( 188 )
+267/tex_offset = Vector2( 0, 0 )
+267/modulate = Color( 1, 1, 1, 1 )
+267/region = Rect2( 0, 0, 124, 123 )
+267/occluder_offset = Vector2( 62, 61.5 )
+267/navigation_offset = Vector2( 62, 61.5 )
+267/shape_offset = Vector2( 0, 0 )
+267/shapes = [  ]
+268/name = "towerDefense_069_0"
+268/texture = ExtResource( 189 )
+268/tex_offset = Vector2( 0, 0 )
+268/modulate = Color( 1, 1, 1, 1 )
+268/region = Rect2( 0, 0, 124, 123 )
+268/occluder_offset = Vector2( 62, 61.5 )
+268/navigation_offset = Vector2( 62, 61.5 )
+268/shape_offset = Vector2( 0, 0 )
+268/shapes = [  ]
+269/name = "towerDefense_069_1"
+269/texture = ExtResource( 190 )
+269/tex_offset = Vector2( 0, 0 )
+269/modulate = Color( 1, 1, 1, 1 )
+269/region = Rect2( 0, 0, 124, 123 )
+269/occluder_offset = Vector2( 62, 61.5 )
+269/navigation_offset = Vector2( 62, 61.5 )
+269/shape_offset = Vector2( 0, 0 )
+269/shapes = [  ]
+270/name = "towerDefense_069_2"
+270/texture = ExtResource( 192 )
+270/tex_offset = Vector2( 0, 0 )
+270/modulate = Color( 1, 1, 1, 1 )
+270/region = Rect2( 0, 0, 124, 123 )
+270/occluder_offset = Vector2( 62, 61.5 )
+270/navigation_offset = Vector2( 62, 61.5 )
+270/shape_offset = Vector2( 0, 0 )
+270/shapes = [  ]
+271/name = "towerDefense_069_3"
+271/texture = ExtResource( 193 )
+271/tex_offset = Vector2( 0, 0 )
+271/modulate = Color( 1, 1, 1, 1 )
+271/region = Rect2( 0, 0, 124, 123 )
+271/occluder_offset = Vector2( 62, 61.5 )
+271/navigation_offset = Vector2( 62, 61.5 )
+271/shape_offset = Vector2( 0, 0 )
+271/shapes = [  ]
+272/name = "towerDefense_070_0"
+272/texture = ExtResource( 194 )
+272/tex_offset = Vector2( 0, 0 )
+272/modulate = Color( 1, 1, 1, 1 )
+272/region = Rect2( 0, 0, 124, 123 )
+272/occluder_offset = Vector2( 62, 61.5 )
+272/navigation_offset = Vector2( 62, 61.5 )
+272/shape_offset = Vector2( 0, 0 )
+272/shapes = [  ]
+273/name = "towerDefense_070_1"
+273/texture = ExtResource( 195 )
+273/tex_offset = Vector2( 0, 0 )
+273/modulate = Color( 1, 1, 1, 1 )
+273/region = Rect2( 0, 0, 124, 123 )
+273/occluder_offset = Vector2( 62, 61.5 )
+273/navigation_offset = Vector2( 62, 61.5 )
+273/shape_offset = Vector2( 0, 0 )
+273/shapes = [  ]
+274/name = "towerDefense_070_2"
+274/texture = ExtResource( 196 )
+274/tex_offset = Vector2( 0, 0 )
+274/modulate = Color( 1, 1, 1, 1 )
+274/region = Rect2( 0, 0, 124, 123 )
+274/occluder_offset = Vector2( 62, 61.5 )
+274/navigation_offset = Vector2( 62, 61.5 )
+274/shape_offset = Vector2( 0, 0 )
+274/shapes = [  ]
+275/name = "towerDefense_070_3"
+275/texture = ExtResource( 197 )
+275/tex_offset = Vector2( 0, 0 )
+275/modulate = Color( 1, 1, 1, 1 )
+275/region = Rect2( 0, 0, 124, 123 )
+275/occluder_offset = Vector2( 62, 61.5 )
+275/navigation_offset = Vector2( 62, 61.5 )
+275/shape_offset = Vector2( 0, 0 )
+275/shapes = [  ]
+276/name = "towerDefense_071_0"
+276/texture = ExtResource( 198 )
+276/tex_offset = Vector2( 0, 0 )
+276/modulate = Color( 1, 1, 1, 1 )
+276/region = Rect2( 0, 0, 124, 123 )
+276/occluder_offset = Vector2( 62, 61.5 )
+276/navigation_offset = Vector2( 62, 61.5 )
+276/shape_offset = Vector2( 0, 0 )
+276/shapes = [  ]
+277/name = "towerDefense_071_1"
+277/texture = ExtResource( 199 )
+277/tex_offset = Vector2( 0, 0 )
+277/modulate = Color( 1, 1, 1, 1 )
+277/region = Rect2( 0, 0, 124, 123 )
+277/occluder_offset = Vector2( 62, 61.5 )
+277/navigation_offset = Vector2( 62, 61.5 )
+277/shape_offset = Vector2( 0, 0 )
+277/shapes = [  ]
+278/name = "towerDefense_071_2"
+278/texture = ExtResource( 200 )
+278/tex_offset = Vector2( 0, 0 )
+278/modulate = Color( 1, 1, 1, 1 )
+278/region = Rect2( 0, 0, 124, 123 )
+278/occluder_offset = Vector2( 62, 61.5 )
+278/navigation_offset = Vector2( 62, 61.5 )
+278/shape_offset = Vector2( 0, 0 )
+278/shapes = [  ]
+279/name = "towerDefense_071_3"
+279/texture = ExtResource( 201 )
+279/tex_offset = Vector2( 0, 0 )
+279/modulate = Color( 1, 1, 1, 1 )
+279/region = Rect2( 0, 0, 124, 123 )
+279/occluder_offset = Vector2( 62, 61.5 )
+279/navigation_offset = Vector2( 62, 61.5 )
+279/shape_offset = Vector2( 0, 0 )
+279/shapes = [  ]
+280/name = "towerDefense_072_0"
+280/texture = ExtResource( 203 )
+280/tex_offset = Vector2( 0, 0 )
+280/modulate = Color( 1, 1, 1, 1 )
+280/region = Rect2( 0, 0, 124, 123 )
+280/occluder_offset = Vector2( 62, 61.5 )
+280/navigation_offset = Vector2( 62, 61.5 )
+280/shape_offset = Vector2( 0, 0 )
+280/shapes = [  ]
+281/name = "towerDefense_072_1"
+281/texture = ExtResource( 204 )
+281/tex_offset = Vector2( 0, 0 )
+281/modulate = Color( 1, 1, 1, 1 )
+281/region = Rect2( 0, 0, 124, 123 )
+281/occluder_offset = Vector2( 62, 61.5 )
+281/navigation_offset = Vector2( 62, 61.5 )
+281/shape_offset = Vector2( 0, 0 )
+281/shapes = [  ]
+282/name = "towerDefense_072_2"
+282/texture = ExtResource( 205 )
+282/tex_offset = Vector2( 0, 0 )
+282/modulate = Color( 1, 1, 1, 1 )
+282/region = Rect2( 0, 0, 124, 123 )
+282/occluder_offset = Vector2( 62, 61.5 )
+282/navigation_offset = Vector2( 62, 61.5 )
+282/shape_offset = Vector2( 0, 0 )
+282/shapes = [  ]
+283/name = "towerDefense_072_3"
+283/texture = ExtResource( 206 )
+283/tex_offset = Vector2( 0, 0 )
+283/modulate = Color( 1, 1, 1, 1 )
+283/region = Rect2( 0, 0, 124, 123 )
+283/occluder_offset = Vector2( 62, 61.5 )
+283/navigation_offset = Vector2( 62, 61.5 )
+283/shape_offset = Vector2( 0, 0 )
+283/shapes = [  ]
+284/name = "towerDefense_073_0"
+284/texture = ExtResource( 207 )
+284/tex_offset = Vector2( 0, 0 )
+284/modulate = Color( 1, 1, 1, 1 )
+284/region = Rect2( 0, 0, 124, 123 )
+284/occluder_offset = Vector2( 62, 61.5 )
+284/navigation_offset = Vector2( 62, 61.5 )
+284/shape_offset = Vector2( 0, 0 )
+284/shapes = [  ]
+285/name = "towerDefense_073_1"
+285/texture = ExtResource( 208 )
+285/tex_offset = Vector2( 0, 0 )
+285/modulate = Color( 1, 1, 1, 1 )
+285/region = Rect2( 0, 0, 124, 123 )
+285/occluder_offset = Vector2( 62, 61.5 )
+285/navigation_offset = Vector2( 62, 61.5 )
+285/shape_offset = Vector2( 0, 0 )
+285/shapes = [  ]
+286/name = "towerDefense_073_2"
+286/texture = ExtResource( 209 )
+286/tex_offset = Vector2( 0, 0 )
+286/modulate = Color( 1, 1, 1, 1 )
+286/region = Rect2( 0, 0, 124, 123 )
+286/occluder_offset = Vector2( 62, 61.5 )
+286/navigation_offset = Vector2( 62, 61.5 )
+286/shape_offset = Vector2( 0, 0 )
+286/shapes = [  ]
+287/name = "towerDefense_073_3"
+287/texture = ExtResource( 210 )
+287/tex_offset = Vector2( 0, 0 )
+287/modulate = Color( 1, 1, 1, 1 )
+287/region = Rect2( 0, 0, 124, 123 )
+287/occluder_offset = Vector2( 62, 61.5 )
+287/navigation_offset = Vector2( 62, 61.5 )
+287/shape_offset = Vector2( 0, 0 )
+287/shapes = [  ]
+288/name = "towerDefense_074_0"
+288/texture = ExtResource( 211 )
+288/tex_offset = Vector2( 0, 0 )
+288/modulate = Color( 1, 1, 1, 1 )
+288/region = Rect2( 0, 0, 124, 123 )
+288/occluder_offset = Vector2( 62, 61.5 )
+288/navigation_offset = Vector2( 62, 61.5 )
+288/shape_offset = Vector2( 0, 0 )
+288/shapes = [  ]
+289/name = "towerDefense_074_1"
+289/texture = ExtResource( 212 )
+289/tex_offset = Vector2( 0, 0 )
+289/modulate = Color( 1, 1, 1, 1 )
+289/region = Rect2( 0, 0, 124, 123 )
+289/occluder_offset = Vector2( 62, 61.5 )
+289/navigation_offset = Vector2( 62, 61.5 )
+289/shape_offset = Vector2( 0, 0 )
+289/shapes = [  ]
+290/name = "towerDefense_074_2"
+290/texture = ExtResource( 214 )
+290/tex_offset = Vector2( 0, 0 )
+290/modulate = Color( 1, 1, 1, 1 )
+290/region = Rect2( 0, 0, 124, 123 )
+290/occluder_offset = Vector2( 62, 61.5 )
+290/navigation_offset = Vector2( 62, 61.5 )
+290/shape_offset = Vector2( 0, 0 )
+290/shapes = [  ]
+291/name = "towerDefense_074_3"
+291/texture = ExtResource( 215 )
+291/tex_offset = Vector2( 0, 0 )
+291/modulate = Color( 1, 1, 1, 1 )
+291/region = Rect2( 0, 0, 124, 123 )
+291/occluder_offset = Vector2( 62, 61.5 )
+291/navigation_offset = Vector2( 62, 61.5 )
+291/shape_offset = Vector2( 0, 0 )
+291/shapes = [  ]
+292/name = "towerDefense_075_0"
+292/texture = ExtResource( 216 )
+292/tex_offset = Vector2( 0, 0 )
+292/modulate = Color( 1, 1, 1, 1 )
+292/region = Rect2( 0, 0, 124, 123 )
+292/occluder_offset = Vector2( 62, 61.5 )
+292/navigation_offset = Vector2( 62, 61.5 )
+292/shape_offset = Vector2( 0, 0 )
+292/shapes = [  ]
+293/name = "towerDefense_075_1"
+293/texture = ExtResource( 217 )
+293/tex_offset = Vector2( 0, 0 )
+293/modulate = Color( 1, 1, 1, 1 )
+293/region = Rect2( 0, 0, 124, 123 )
+293/occluder_offset = Vector2( 62, 61.5 )
+293/navigation_offset = Vector2( 62, 61.5 )
+293/shape_offset = Vector2( 0, 0 )
+293/shapes = [  ]
+294/name = "towerDefense_075_2"
+294/texture = ExtResource( 218 )
+294/tex_offset = Vector2( 0, 0 )
+294/modulate = Color( 1, 1, 1, 1 )
+294/region = Rect2( 0, 0, 124, 123 )
+294/occluder_offset = Vector2( 62, 61.5 )
+294/navigation_offset = Vector2( 62, 61.5 )
+294/shape_offset = Vector2( 0, 0 )
+294/shapes = [  ]
+295/name = "towerDefense_075_3"
+295/texture = ExtResource( 219 )
+295/tex_offset = Vector2( 0, 0 )
+295/modulate = Color( 1, 1, 1, 1 )
+295/region = Rect2( 0, 0, 124, 123 )
+295/occluder_offset = Vector2( 62, 61.5 )
+295/navigation_offset = Vector2( 62, 61.5 )
+295/shape_offset = Vector2( 0, 0 )
+295/shapes = [  ]
+296/name = "towerDefense_076_0"
+296/texture = ExtResource( 220 )
+296/tex_offset = Vector2( 0, 0 )
+296/modulate = Color( 1, 1, 1, 1 )
+296/region = Rect2( 0, 0, 124, 123 )
+296/occluder_offset = Vector2( 62, 61.5 )
+296/navigation_offset = Vector2( 62, 61.5 )
+296/shape_offset = Vector2( 0, 0 )
+296/shapes = [  ]
+297/name = "towerDefense_076_1"
+297/texture = ExtResource( 221 )
+297/tex_offset = Vector2( 0, 0 )
+297/modulate = Color( 1, 1, 1, 1 )
+297/region = Rect2( 0, 0, 124, 123 )
+297/occluder_offset = Vector2( 62, 61.5 )
+297/navigation_offset = Vector2( 62, 61.5 )
+297/shape_offset = Vector2( 0, 0 )
+297/shapes = [  ]
+298/name = "towerDefense_076_2"
+298/texture = ExtResource( 222 )
+298/tex_offset = Vector2( 0, 0 )
+298/modulate = Color( 1, 1, 1, 1 )
+298/region = Rect2( 0, 0, 124, 123 )
+298/occluder_offset = Vector2( 62, 61.5 )
+298/navigation_offset = Vector2( 62, 61.5 )
+298/shape_offset = Vector2( 0, 0 )
+298/shapes = [  ]
+299/name = "towerDefense_076_3"
+299/texture = ExtResource( 223 )
+299/tex_offset = Vector2( 0, 0 )
+299/modulate = Color( 1, 1, 1, 1 )
+299/region = Rect2( 0, 0, 124, 123 )
+299/occluder_offset = Vector2( 62, 61.5 )
+299/navigation_offset = Vector2( 62, 61.5 )
+299/shape_offset = Vector2( 0, 0 )
+299/shapes = [  ]
+300/name = "towerDefense_077_0"
+300/texture = ExtResource( 226 )
+300/tex_offset = Vector2( 0, 0 )
+300/modulate = Color( 1, 1, 1, 1 )
+300/region = Rect2( 0, 0, 124, 123 )
+300/occluder_offset = Vector2( 62, 61.5 )
+300/navigation_offset = Vector2( 62, 61.5 )
+300/shape_offset = Vector2( 0, 0 )
+300/shapes = [  ]
+301/name = "towerDefense_077_1"
+301/texture = ExtResource( 227 )
+301/tex_offset = Vector2( 0, 0 )
+301/modulate = Color( 1, 1, 1, 1 )
+301/region = Rect2( 0, 0, 124, 123 )
+301/occluder_offset = Vector2( 62, 61.5 )
+301/navigation_offset = Vector2( 62, 61.5 )
+301/shape_offset = Vector2( 0, 0 )
+301/shapes = [  ]
+302/name = "towerDefense_077_2"
+302/texture = ExtResource( 228 )
+302/tex_offset = Vector2( 0, 0 )
+302/modulate = Color( 1, 1, 1, 1 )
+302/region = Rect2( 0, 0, 124, 123 )
+302/occluder_offset = Vector2( 62, 61.5 )
+302/navigation_offset = Vector2( 62, 61.5 )
+302/shape_offset = Vector2( 0, 0 )
+302/shapes = [  ]
+303/name = "towerDefense_077_3"
+303/texture = ExtResource( 229 )
+303/tex_offset = Vector2( 0, 0 )
+303/modulate = Color( 1, 1, 1, 1 )
+303/region = Rect2( 0, 0, 124, 123 )
+303/occluder_offset = Vector2( 62, 61.5 )
+303/navigation_offset = Vector2( 62, 61.5 )
+303/shape_offset = Vector2( 0, 0 )
+303/shapes = [  ]
+304/name = "towerDefense_078_0"
+304/texture = ExtResource( 230 )
+304/tex_offset = Vector2( 0, 0 )
+304/modulate = Color( 1, 1, 1, 1 )
+304/region = Rect2( 0, 0, 124, 123 )
+304/occluder_offset = Vector2( 62, 61.5 )
+304/navigation_offset = Vector2( 62, 61.5 )
+304/shape_offset = Vector2( 0, 0 )
+304/shapes = [  ]
+305/name = "towerDefense_078_1"
+305/texture = ExtResource( 231 )
+305/tex_offset = Vector2( 0, 0 )
+305/modulate = Color( 1, 1, 1, 1 )
+305/region = Rect2( 0, 0, 124, 123 )
+305/occluder_offset = Vector2( 62, 61.5 )
+305/navigation_offset = Vector2( 62, 61.5 )
+305/shape_offset = Vector2( 0, 0 )
+305/shapes = [  ]
+306/name = "towerDefense_078_2"
+306/texture = ExtResource( 232 )
+306/tex_offset = Vector2( 0, 0 )
+306/modulate = Color( 1, 1, 1, 1 )
+306/region = Rect2( 0, 0, 124, 123 )
+306/occluder_offset = Vector2( 62, 61.5 )
+306/navigation_offset = Vector2( 62, 61.5 )
+306/shape_offset = Vector2( 0, 0 )
+306/shapes = [  ]
+307/name = "towerDefense_078_3"
+307/texture = ExtResource( 233 )
+307/tex_offset = Vector2( 0, 0 )
+307/modulate = Color( 1, 1, 1, 1 )
+307/region = Rect2( 0, 0, 124, 123 )
+307/occluder_offset = Vector2( 62, 61.5 )
+307/navigation_offset = Vector2( 62, 61.5 )
+307/shape_offset = Vector2( 0, 0 )
+307/shapes = [  ]
+308/name = "towerDefense_079_0"
+308/texture = ExtResource( 234 )
+308/tex_offset = Vector2( 0, 0 )
+308/modulate = Color( 1, 1, 1, 1 )
+308/region = Rect2( 0, 0, 124, 123 )
+308/occluder_offset = Vector2( 62, 61.5 )
+308/navigation_offset = Vector2( 62, 61.5 )
+308/shape_offset = Vector2( 0, 0 )
+308/shapes = [  ]
+309/name = "towerDefense_079_1"
+309/texture = ExtResource( 235 )
+309/tex_offset = Vector2( 0, 0 )
+309/modulate = Color( 1, 1, 1, 1 )
+309/region = Rect2( 0, 0, 124, 123 )
+309/occluder_offset = Vector2( 62, 61.5 )
+309/navigation_offset = Vector2( 62, 61.5 )
+309/shape_offset = Vector2( 0, 0 )
+309/shapes = [  ]
+310/name = "towerDefense_079_2"
+310/texture = ExtResource( 237 )
+310/tex_offset = Vector2( 0, 0 )
+310/modulate = Color( 1, 1, 1, 1 )
+310/region = Rect2( 0, 0, 124, 123 )
+310/occluder_offset = Vector2( 62, 61.5 )
+310/navigation_offset = Vector2( 62, 61.5 )
+310/shape_offset = Vector2( 0, 0 )
+310/shapes = [  ]
+311/name = "towerDefense_079_3"
+311/texture = ExtResource( 238 )
+311/tex_offset = Vector2( 0, 0 )
+311/modulate = Color( 1, 1, 1, 1 )
+311/region = Rect2( 0, 0, 124, 123 )
+311/occluder_offset = Vector2( 62, 61.5 )
+311/navigation_offset = Vector2( 62, 61.5 )
+311/shape_offset = Vector2( 0, 0 )
+311/shapes = [  ]
+312/name = "towerDefense_080_0"
+312/texture = ExtResource( 239 )
+312/tex_offset = Vector2( 0, 0 )
+312/modulate = Color( 1, 1, 1, 1 )
+312/region = Rect2( 0, 0, 124, 123 )
+312/occluder_offset = Vector2( 62, 61.5 )
+312/navigation_offset = Vector2( 62, 61.5 )
+312/shape_offset = Vector2( 0, 0 )
+312/shapes = [  ]
+313/name = "towerDefense_080_1"
+313/texture = ExtResource( 240 )
+313/tex_offset = Vector2( 0, 0 )
+313/modulate = Color( 1, 1, 1, 1 )
+313/region = Rect2( 0, 0, 124, 123 )
+313/occluder_offset = Vector2( 62, 61.5 )
+313/navigation_offset = Vector2( 62, 61.5 )
+313/shape_offset = Vector2( 0, 0 )
+313/shapes = [  ]
+314/name = "towerDefense_080_2"
+314/texture = ExtResource( 241 )
+314/tex_offset = Vector2( 0, 0 )
+314/modulate = Color( 1, 1, 1, 1 )
+314/region = Rect2( 0, 0, 124, 123 )
+314/occluder_offset = Vector2( 62, 61.5 )
+314/navigation_offset = Vector2( 62, 61.5 )
+314/shape_offset = Vector2( 0, 0 )
+314/shapes = [  ]
+315/name = "towerDefense_080_3"
+315/texture = ExtResource( 242 )
+315/tex_offset = Vector2( 0, 0 )
+315/modulate = Color( 1, 1, 1, 1 )
+315/region = Rect2( 0, 0, 124, 123 )
+315/occluder_offset = Vector2( 62, 61.5 )
+315/navigation_offset = Vector2( 62, 61.5 )
+315/shape_offset = Vector2( 0, 0 )
+315/shapes = [  ]
+316/name = "towerDefense_081_0"
+316/texture = ExtResource( 243 )
+316/tex_offset = Vector2( 0, 0 )
+316/modulate = Color( 1, 1, 1, 1 )
+316/region = Rect2( 0, 0, 124, 123 )
+316/occluder_offset = Vector2( 62, 61.5 )
+316/navigation_offset = Vector2( 62, 61.5 )
+316/shape_offset = Vector2( 0, 0 )
+316/shapes = [  ]
+317/name = "towerDefense_081_1"
+317/texture = ExtResource( 244 )
+317/tex_offset = Vector2( 0, 0 )
+317/modulate = Color( 1, 1, 1, 1 )
+317/region = Rect2( 0, 0, 124, 123 )
+317/occluder_offset = Vector2( 62, 61.5 )
+317/navigation_offset = Vector2( 62, 61.5 )
+317/shape_offset = Vector2( 0, 0 )
+317/shapes = [  ]
+318/name = "towerDefense_081_2"
+318/texture = ExtResource( 245 )
+318/tex_offset = Vector2( 0, 0 )
+318/modulate = Color( 1, 1, 1, 1 )
+318/region = Rect2( 0, 0, 124, 123 )
+318/occluder_offset = Vector2( 62, 61.5 )
+318/navigation_offset = Vector2( 62, 61.5 )
+318/shape_offset = Vector2( 0, 0 )
+318/shapes = [  ]
+319/name = "towerDefense_081_3"
+319/texture = ExtResource( 246 )
+319/tex_offset = Vector2( 0, 0 )
+319/modulate = Color( 1, 1, 1, 1 )
+319/region = Rect2( 0, 0, 124, 123 )
+319/occluder_offset = Vector2( 62, 61.5 )
+319/navigation_offset = Vector2( 62, 61.5 )
+319/shape_offset = Vector2( 0, 0 )
+319/shapes = [  ]
+320/name = "towerDefense_082_0"
+320/texture = ExtResource( 248 )
+320/tex_offset = Vector2( 0, 0 )
+320/modulate = Color( 1, 1, 1, 1 )
+320/region = Rect2( 0, 0, 124, 123 )
+320/occluder_offset = Vector2( 62, 61.5 )
+320/navigation_offset = Vector2( 62, 61.5 )
+320/shape_offset = Vector2( 0, 0 )
+320/shapes = [  ]
+321/name = "towerDefense_082_1"
+321/texture = ExtResource( 249 )
+321/tex_offset = Vector2( 0, 0 )
+321/modulate = Color( 1, 1, 1, 1 )
+321/region = Rect2( 0, 0, 124, 123 )
+321/occluder_offset = Vector2( 62, 61.5 )
+321/navigation_offset = Vector2( 62, 61.5 )
+321/shape_offset = Vector2( 0, 0 )
+321/shapes = [  ]
+322/name = "towerDefense_082_2"
+322/texture = ExtResource( 250 )
+322/tex_offset = Vector2( 0, 0 )
+322/modulate = Color( 1, 1, 1, 1 )
+322/region = Rect2( 0, 0, 124, 123 )
+322/occluder_offset = Vector2( 62, 61.5 )
+322/navigation_offset = Vector2( 62, 61.5 )
+322/shape_offset = Vector2( 0, 0 )
+322/shapes = [  ]
+323/name = "towerDefense_082_3"
+323/texture = ExtResource( 251 )
+323/tex_offset = Vector2( 0, 0 )
+323/modulate = Color( 1, 1, 1, 1 )
+323/region = Rect2( 0, 0, 124, 123 )
+323/occluder_offset = Vector2( 62, 61.5 )
+323/navigation_offset = Vector2( 62, 61.5 )
+323/shape_offset = Vector2( 0, 0 )
+323/shapes = [  ]
+324/name = "towerDefense_083_0"
+324/texture = ExtResource( 252 )
+324/tex_offset = Vector2( 0, 0 )
+324/modulate = Color( 1, 1, 1, 1 )
+324/region = Rect2( 0, 0, 124, 123 )
+324/occluder_offset = Vector2( 62, 61.5 )
+324/navigation_offset = Vector2( 62, 61.5 )
+324/shape_offset = Vector2( 0, 0 )
+324/shapes = [  ]
+325/name = "towerDefense_083_1"
+325/texture = ExtResource( 253 )
+325/tex_offset = Vector2( 0, 0 )
+325/modulate = Color( 1, 1, 1, 1 )
+325/region = Rect2( 0, 0, 124, 123 )
+325/occluder_offset = Vector2( 62, 61.5 )
+325/navigation_offset = Vector2( 62, 61.5 )
+325/shape_offset = Vector2( 0, 0 )
+325/shapes = [  ]
+326/name = "towerDefense_083_2"
+326/texture = ExtResource( 254 )
+326/tex_offset = Vector2( 0, 0 )
+326/modulate = Color( 1, 1, 1, 1 )
+326/region = Rect2( 0, 0, 124, 123 )
+326/occluder_offset = Vector2( 62, 61.5 )
+326/navigation_offset = Vector2( 62, 61.5 )
+326/shape_offset = Vector2( 0, 0 )
+326/shapes = [  ]
+327/name = "towerDefense_083_3"
+327/texture = ExtResource( 255 )
+327/tex_offset = Vector2( 0, 0 )
+327/modulate = Color( 1, 1, 1, 1 )
+327/region = Rect2( 0, 0, 124, 123 )
+327/occluder_offset = Vector2( 62, 61.5 )
+327/navigation_offset = Vector2( 62, 61.5 )
+327/shape_offset = Vector2( 0, 0 )
+327/shapes = [  ]
+328/name = "towerDefense_084_0"
+328/texture = ExtResource( 256 )
+328/tex_offset = Vector2( 0, 0 )
+328/modulate = Color( 1, 1, 1, 1 )
+328/region = Rect2( 0, 0, 124, 123 )
+328/occluder_offset = Vector2( 62, 61.5 )
+328/navigation_offset = Vector2( 62, 61.5 )
+328/shape_offset = Vector2( 0, 0 )
+328/shapes = [  ]
+329/name = "towerDefense_084_1"
+329/texture = ExtResource( 257 )
+329/tex_offset = Vector2( 0, 0 )
+329/modulate = Color( 1, 1, 1, 1 )
+329/region = Rect2( 0, 0, 124, 123 )
+329/occluder_offset = Vector2( 62, 61.5 )
+329/navigation_offset = Vector2( 62, 61.5 )
+329/shape_offset = Vector2( 0, 0 )
+329/shapes = [  ]
+330/name = "towerDefense_084_2"
+330/texture = ExtResource( 259 )
+330/tex_offset = Vector2( 0, 0 )
+330/modulate = Color( 1, 1, 1, 1 )
+330/region = Rect2( 0, 0, 124, 123 )
+330/occluder_offset = Vector2( 62, 61.5 )
+330/navigation_offset = Vector2( 62, 61.5 )
+330/shape_offset = Vector2( 0, 0 )
+330/shapes = [  ]
+331/name = "towerDefense_084_3"
+331/texture = ExtResource( 260 )
+331/tex_offset = Vector2( 0, 0 )
+331/modulate = Color( 1, 1, 1, 1 )
+331/region = Rect2( 0, 0, 124, 123 )
+331/occluder_offset = Vector2( 62, 61.5 )
+331/navigation_offset = Vector2( 62, 61.5 )
+331/shape_offset = Vector2( 0, 0 )
+331/shapes = [  ]
+332/name = "towerDefense_085_0"
+332/texture = ExtResource( 261 )
+332/tex_offset = Vector2( 0, 0 )
+332/modulate = Color( 1, 1, 1, 1 )
+332/region = Rect2( 0, 0, 124, 123 )
+332/occluder_offset = Vector2( 62, 61.5 )
+332/navigation_offset = Vector2( 62, 61.5 )
+332/shape_offset = Vector2( 0, 0 )
+332/shapes = [  ]
+333/name = "towerDefense_085_1"
+333/texture = ExtResource( 262 )
+333/tex_offset = Vector2( 0, 0 )
+333/modulate = Color( 1, 1, 1, 1 )
+333/region = Rect2( 0, 0, 124, 123 )
+333/occluder_offset = Vector2( 62, 61.5 )
+333/navigation_offset = Vector2( 62, 61.5 )
+333/shape_offset = Vector2( 0, 0 )
+333/shapes = [  ]
+334/name = "towerDefense_085_2"
+334/texture = ExtResource( 263 )
+334/tex_offset = Vector2( 0, 0 )
+334/modulate = Color( 1, 1, 1, 1 )
+334/region = Rect2( 0, 0, 124, 123 )
+334/occluder_offset = Vector2( 62, 61.5 )
+334/navigation_offset = Vector2( 62, 61.5 )
+334/shape_offset = Vector2( 0, 0 )
+334/shapes = [  ]
+335/name = "towerDefense_085_3"
+335/texture = ExtResource( 264 )
+335/tex_offset = Vector2( 0, 0 )
+335/modulate = Color( 1, 1, 1, 1 )
+335/region = Rect2( 0, 0, 124, 123 )
+335/occluder_offset = Vector2( 62, 61.5 )
+335/navigation_offset = Vector2( 62, 61.5 )
+335/shape_offset = Vector2( 0, 0 )
+335/shapes = [  ]
+336/name = "towerDefense_086_0"
+336/texture = ExtResource( 265 )
+336/tex_offset = Vector2( 0, 0 )
+336/modulate = Color( 1, 1, 1, 1 )
+336/region = Rect2( 0, 0, 124, 123 )
+336/occluder_offset = Vector2( 62, 61.5 )
+336/navigation_offset = Vector2( 62, 61.5 )
+336/shape_offset = Vector2( 0, 0 )
+336/shapes = [  ]
+337/name = "towerDefense_086_1"
+337/texture = ExtResource( 266 )
+337/tex_offset = Vector2( 0, 0 )
+337/modulate = Color( 1, 1, 1, 1 )
+337/region = Rect2( 0, 0, 124, 123 )
+337/occluder_offset = Vector2( 62, 61.5 )
+337/navigation_offset = Vector2( 62, 61.5 )
+337/shape_offset = Vector2( 0, 0 )
+337/shapes = [  ]
+338/name = "towerDefense_086_2"
+338/texture = ExtResource( 267 )
+338/tex_offset = Vector2( 0, 0 )
+338/modulate = Color( 1, 1, 1, 1 )
+338/region = Rect2( 0, 0, 124, 123 )
+338/occluder_offset = Vector2( 62, 61.5 )
+338/navigation_offset = Vector2( 62, 61.5 )
+338/shape_offset = Vector2( 0, 0 )
+338/shapes = [  ]
+339/name = "towerDefense_086_3"
+339/texture = ExtResource( 268 )
+339/tex_offset = Vector2( 0, 0 )
+339/modulate = Color( 1, 1, 1, 1 )
+339/region = Rect2( 0, 0, 124, 123 )
+339/occluder_offset = Vector2( 62, 61.5 )
+339/navigation_offset = Vector2( 62, 61.5 )
+339/shape_offset = Vector2( 0, 0 )
+339/shapes = [  ]
+340/name = "towerDefense_087_0"
+340/texture = ExtResource( 270 )
+340/tex_offset = Vector2( 0, 0 )
+340/modulate = Color( 1, 1, 1, 1 )
+340/region = Rect2( 0, 0, 124, 123 )
+340/occluder_offset = Vector2( 62, 61.5 )
+340/navigation_offset = Vector2( 62, 61.5 )
+340/shape_offset = Vector2( 0, 0 )
+340/shapes = [  ]
+341/name = "towerDefense_087_1"
+341/texture = ExtResource( 271 )
+341/tex_offset = Vector2( 0, 0 )
+341/modulate = Color( 1, 1, 1, 1 )
+341/region = Rect2( 0, 0, 124, 123 )
+341/occluder_offset = Vector2( 62, 61.5 )
+341/navigation_offset = Vector2( 62, 61.5 )
+341/shape_offset = Vector2( 0, 0 )
+341/shapes = [  ]
+342/name = "towerDefense_087_2"
+342/texture = ExtResource( 272 )
+342/tex_offset = Vector2( 0, 0 )
+342/modulate = Color( 1, 1, 1, 1 )
+342/region = Rect2( 0, 0, 124, 123 )
+342/occluder_offset = Vector2( 62, 61.5 )
+342/navigation_offset = Vector2( 62, 61.5 )
+342/shape_offset = Vector2( 0, 0 )
+342/shapes = [  ]
+343/name = "towerDefense_087_3"
+343/texture = ExtResource( 273 )
+343/tex_offset = Vector2( 0, 0 )
+343/modulate = Color( 1, 1, 1, 1 )
+343/region = Rect2( 0, 0, 124, 123 )
+343/occluder_offset = Vector2( 62, 61.5 )
+343/navigation_offset = Vector2( 62, 61.5 )
+343/shape_offset = Vector2( 0, 0 )
+343/shapes = [  ]
+344/name = "towerDefense_088_0"
+344/texture = ExtResource( 274 )
+344/tex_offset = Vector2( 0, 0 )
+344/modulate = Color( 1, 1, 1, 1 )
+344/region = Rect2( 0, 0, 124, 123 )
+344/occluder_offset = Vector2( 62, 61.5 )
+344/navigation_offset = Vector2( 62, 61.5 )
+344/shape_offset = Vector2( 0, 0 )
+344/shapes = [  ]
+345/name = "towerDefense_088_1"
+345/texture = ExtResource( 275 )
+345/tex_offset = Vector2( 0, 0 )
+345/modulate = Color( 1, 1, 1, 1 )
+345/region = Rect2( 0, 0, 124, 123 )
+345/occluder_offset = Vector2( 62, 61.5 )
+345/navigation_offset = Vector2( 62, 61.5 )
+345/shape_offset = Vector2( 0, 0 )
+345/shapes = [  ]
+346/name = "towerDefense_088_2"
+346/texture = ExtResource( 276 )
+346/tex_offset = Vector2( 0, 0 )
+346/modulate = Color( 1, 1, 1, 1 )
+346/region = Rect2( 0, 0, 124, 123 )
+346/occluder_offset = Vector2( 62, 61.5 )
+346/navigation_offset = Vector2( 62, 61.5 )
+346/shape_offset = Vector2( 0, 0 )
+346/shapes = [  ]
+347/name = "towerDefense_088_3"
+347/texture = ExtResource( 277 )
+347/tex_offset = Vector2( 0, 0 )
+347/modulate = Color( 1, 1, 1, 1 )
+347/region = Rect2( 0, 0, 124, 123 )
+347/occluder_offset = Vector2( 62, 61.5 )
+347/navigation_offset = Vector2( 62, 61.5 )
+347/shape_offset = Vector2( 0, 0 )
+347/shapes = [  ]
+348/name = "towerDefense_089_0"
+348/texture = ExtResource( 278 )
+348/tex_offset = Vector2( 0, 0 )
+348/modulate = Color( 1, 1, 1, 1 )
+348/region = Rect2( 0, 0, 124, 123 )
+348/occluder_offset = Vector2( 62, 61.5 )
+348/navigation_offset = Vector2( 62, 61.5 )
+348/shape_offset = Vector2( 0, 0 )
+348/shapes = [  ]
+349/name = "towerDefense_089_1"
+349/texture = ExtResource( 279 )
+349/tex_offset = Vector2( 0, 0 )
+349/modulate = Color( 1, 1, 1, 1 )
+349/region = Rect2( 0, 0, 124, 123 )
+349/occluder_offset = Vector2( 62, 61.5 )
+349/navigation_offset = Vector2( 62, 61.5 )
+349/shape_offset = Vector2( 0, 0 )
+349/shapes = [  ]
+350/name = "towerDefense_089_2"
+350/texture = ExtResource( 281 )
+350/tex_offset = Vector2( 0, 0 )
+350/modulate = Color( 1, 1, 1, 1 )
+350/region = Rect2( 0, 0, 124, 123 )
+350/occluder_offset = Vector2( 62, 61.5 )
+350/navigation_offset = Vector2( 62, 61.5 )
+350/shape_offset = Vector2( 0, 0 )
+350/shapes = [  ]
+351/name = "towerDefense_089_3"
+351/texture = ExtResource( 282 )
+351/tex_offset = Vector2( 0, 0 )
+351/modulate = Color( 1, 1, 1, 1 )
+351/region = Rect2( 0, 0, 124, 123 )
+351/occluder_offset = Vector2( 62, 61.5 )
+351/navigation_offset = Vector2( 62, 61.5 )
+351/shape_offset = Vector2( 0, 0 )
+351/shapes = [  ]
+352/name = "towerDefense_090_0"
+352/texture = ExtResource( 283 )
+352/tex_offset = Vector2( 0, 0 )
+352/modulate = Color( 1, 1, 1, 1 )
+352/region = Rect2( 0, 0, 124, 123 )
+352/occluder_offset = Vector2( 62, 61.5 )
+352/navigation_offset = Vector2( 62, 61.5 )
+352/shape_offset = Vector2( 0, 0 )
+352/shapes = [  ]
+353/name = "towerDefense_090_1"
+353/texture = ExtResource( 284 )
+353/tex_offset = Vector2( 0, 0 )
+353/modulate = Color( 1, 1, 1, 1 )
+353/region = Rect2( 0, 0, 124, 123 )
+353/occluder_offset = Vector2( 62, 61.5 )
+353/navigation_offset = Vector2( 62, 61.5 )
+353/shape_offset = Vector2( 0, 0 )
+353/shapes = [  ]
+354/name = "towerDefense_090_2"
+354/texture = ExtResource( 285 )
+354/tex_offset = Vector2( 0, 0 )
+354/modulate = Color( 1, 1, 1, 1 )
+354/region = Rect2( 0, 0, 124, 123 )
+354/occluder_offset = Vector2( 62, 61.5 )
+354/navigation_offset = Vector2( 62, 61.5 )
+354/shape_offset = Vector2( 0, 0 )
+354/shapes = [  ]
+355/name = "towerDefense_090_3"
+355/texture = ExtResource( 286 )
+355/tex_offset = Vector2( 0, 0 )
+355/modulate = Color( 1, 1, 1, 1 )
+355/region = Rect2( 0, 0, 124, 123 )
+355/occluder_offset = Vector2( 62, 61.5 )
+355/navigation_offset = Vector2( 62, 61.5 )
+355/shape_offset = Vector2( 0, 0 )
+355/shapes = [  ]
+356/name = "towerDefense_091_0"
+356/texture = ExtResource( 287 )
+356/tex_offset = Vector2( 0, 0 )
+356/modulate = Color( 1, 1, 1, 1 )
+356/region = Rect2( 0, 0, 124, 123 )
+356/occluder_offset = Vector2( 62, 61.5 )
+356/navigation_offset = Vector2( 62, 61.5 )
+356/shape_offset = Vector2( 0, 0 )
+356/shapes = [  ]
+357/name = "towerDefense_091_1"
+357/texture = ExtResource( 288 )
+357/tex_offset = Vector2( 0, 0 )
+357/modulate = Color( 1, 1, 1, 1 )
+357/region = Rect2( 0, 0, 124, 123 )
+357/occluder_offset = Vector2( 62, 61.5 )
+357/navigation_offset = Vector2( 62, 61.5 )
+357/shape_offset = Vector2( 0, 0 )
+357/shapes = [  ]
+358/name = "towerDefense_091_2"
+358/texture = ExtResource( 289 )
+358/tex_offset = Vector2( 0, 0 )
+358/modulate = Color( 1, 1, 1, 1 )
+358/region = Rect2( 0, 0, 124, 123 )
+358/occluder_offset = Vector2( 62, 61.5 )
+358/navigation_offset = Vector2( 62, 61.5 )
+358/shape_offset = Vector2( 0, 0 )
+358/shapes = [  ]
+359/name = "towerDefense_091_3"
+359/texture = ExtResource( 290 )
+359/tex_offset = Vector2( 0, 0 )
+359/modulate = Color( 1, 1, 1, 1 )
+359/region = Rect2( 0, 0, 124, 123 )
+359/occluder_offset = Vector2( 62, 61.5 )
+359/navigation_offset = Vector2( 62, 61.5 )
+359/shape_offset = Vector2( 0, 0 )
+359/shapes = [  ]
+360/name = "towerDefense_092_0"
+360/texture = ExtResource( 292 )
+360/tex_offset = Vector2( 0, 0 )
+360/modulate = Color( 1, 1, 1, 1 )
+360/region = Rect2( 0, 0, 124, 123 )
+360/occluder_offset = Vector2( 62, 61.5 )
+360/navigation_offset = Vector2( 62, 61.5 )
+360/shape_offset = Vector2( 0, 0 )
+360/shapes = [  ]
+361/name = "towerDefense_092_1"
+361/texture = ExtResource( 293 )
+361/tex_offset = Vector2( 0, 0 )
+361/modulate = Color( 1, 1, 1, 1 )
+361/region = Rect2( 0, 0, 124, 123 )
+361/occluder_offset = Vector2( 62, 61.5 )
+361/navigation_offset = Vector2( 62, 61.5 )
+361/shape_offset = Vector2( 0, 0 )
+361/shapes = [  ]
+362/name = "towerDefense_092_2"
+362/texture = ExtResource( 294 )
+362/tex_offset = Vector2( 0, 0 )
+362/modulate = Color( 1, 1, 1, 1 )
+362/region = Rect2( 0, 0, 124, 123 )
+362/occluder_offset = Vector2( 62, 61.5 )
+362/navigation_offset = Vector2( 62, 61.5 )
+362/shape_offset = Vector2( 0, 0 )
+362/shapes = [  ]
+363/name = "towerDefense_092_3"
+363/texture = ExtResource( 295 )
+363/tex_offset = Vector2( 0, 0 )
+363/modulate = Color( 1, 1, 1, 1 )
+363/region = Rect2( 0, 0, 124, 123 )
+363/occluder_offset = Vector2( 62, 61.5 )
+363/navigation_offset = Vector2( 62, 61.5 )
+363/shape_offset = Vector2( 0, 0 )
+363/shapes = [  ]
+364/name = "towerDefense_093_0"
+364/texture = ExtResource( 296 )
+364/tex_offset = Vector2( 0, 0 )
+364/modulate = Color( 1, 1, 1, 1 )
+364/region = Rect2( 0, 0, 124, 123 )
+364/occluder_offset = Vector2( 62, 61.5 )
+364/navigation_offset = Vector2( 62, 61.5 )
+364/shape_offset = Vector2( 0, 0 )
+364/shapes = [  ]
+365/name = "towerDefense_093_1"
+365/texture = ExtResource( 297 )
+365/tex_offset = Vector2( 0, 0 )
+365/modulate = Color( 1, 1, 1, 1 )
+365/region = Rect2( 0, 0, 124, 123 )
+365/occluder_offset = Vector2( 62, 61.5 )
+365/navigation_offset = Vector2( 62, 61.5 )
+365/shape_offset = Vector2( 0, 0 )
+365/shapes = [  ]
+366/name = "towerDefense_093_2"
+366/texture = ExtResource( 298 )
+366/tex_offset = Vector2( 0, 0 )
+366/modulate = Color( 1, 1, 1, 1 )
+366/region = Rect2( 0, 0, 124, 123 )
+366/occluder_offset = Vector2( 62, 61.5 )
+366/navigation_offset = Vector2( 62, 61.5 )
+366/shape_offset = Vector2( 0, 0 )
+366/shapes = [  ]
+367/name = "towerDefense_093_3"
+367/texture = ExtResource( 299 )
+367/tex_offset = Vector2( 0, 0 )
+367/modulate = Color( 1, 1, 1, 1 )
+367/region = Rect2( 0, 0, 124, 123 )
+367/occluder_offset = Vector2( 62, 61.5 )
+367/navigation_offset = Vector2( 62, 61.5 )
+367/shape_offset = Vector2( 0, 0 )
+367/shapes = [  ]
+368/name = "towerDefense_094_0"
+368/texture = ExtResource( 300 )
+368/tex_offset = Vector2( 0, 0 )
+368/modulate = Color( 1, 1, 1, 1 )
+368/region = Rect2( 0, 0, 124, 123 )
+368/occluder_offset = Vector2( 62, 61.5 )
+368/navigation_offset = Vector2( 62, 61.5 )
+368/shape_offset = Vector2( 0, 0 )
+368/shapes = [  ]
+369/name = "towerDefense_094_1"
+369/texture = ExtResource( 301 )
+369/tex_offset = Vector2( 0, 0 )
+369/modulate = Color( 1, 1, 1, 1 )
+369/region = Rect2( 0, 0, 124, 123 )
+369/occluder_offset = Vector2( 62, 61.5 )
+369/navigation_offset = Vector2( 62, 61.5 )
+369/shape_offset = Vector2( 0, 0 )
+369/shapes = [  ]
+370/name = "towerDefense_094_2"
+370/texture = ExtResource( 303 )
+370/tex_offset = Vector2( 0, 0 )
+370/modulate = Color( 1, 1, 1, 1 )
+370/region = Rect2( 0, 0, 124, 123 )
+370/occluder_offset = Vector2( 62, 61.5 )
+370/navigation_offset = Vector2( 62, 61.5 )
+370/shape_offset = Vector2( 0, 0 )
+370/shapes = [  ]
+371/name = "towerDefense_094_3"
+371/texture = ExtResource( 304 )
+371/tex_offset = Vector2( 0, 0 )
+371/modulate = Color( 1, 1, 1, 1 )
+371/region = Rect2( 0, 0, 124, 123 )
+371/occluder_offset = Vector2( 62, 61.5 )
+371/navigation_offset = Vector2( 62, 61.5 )
+371/shape_offset = Vector2( 0, 0 )
+371/shapes = [  ]
+372/name = "towerDefense_095_0"
+372/texture = ExtResource( 305 )
+372/tex_offset = Vector2( 0, 0 )
+372/modulate = Color( 1, 1, 1, 1 )
+372/region = Rect2( 0, 0, 124, 123 )
+372/occluder_offset = Vector2( 62, 61.5 )
+372/navigation_offset = Vector2( 62, 61.5 )
+372/shape_offset = Vector2( 0, 0 )
+372/shapes = [  ]
+373/name = "towerDefense_095_1"
+373/texture = ExtResource( 306 )
+373/tex_offset = Vector2( 0, 0 )
+373/modulate = Color( 1, 1, 1, 1 )
+373/region = Rect2( 0, 0, 124, 123 )
+373/occluder_offset = Vector2( 62, 61.5 )
+373/navigation_offset = Vector2( 62, 61.5 )
+373/shape_offset = Vector2( 0, 0 )
+373/shapes = [  ]
+374/name = "towerDefense_095_2"
+374/texture = ExtResource( 307 )
+374/tex_offset = Vector2( 0, 0 )
+374/modulate = Color( 1, 1, 1, 1 )
+374/region = Rect2( 0, 0, 124, 123 )
+374/occluder_offset = Vector2( 62, 61.5 )
+374/navigation_offset = Vector2( 62, 61.5 )
+374/shape_offset = Vector2( 0, 0 )
+374/shapes = [  ]
+375/name = "towerDefense_095_3"
+375/texture = ExtResource( 308 )
+375/tex_offset = Vector2( 0, 0 )
+375/modulate = Color( 1, 1, 1, 1 )
+375/region = Rect2( 0, 0, 124, 123 )
+375/occluder_offset = Vector2( 62, 61.5 )
+375/navigation_offset = Vector2( 62, 61.5 )
+375/shape_offset = Vector2( 0, 0 )
+375/shapes = [  ]
+376/name = "towerDefense_096_0"
+376/texture = ExtResource( 309 )
+376/tex_offset = Vector2( 0, 0 )
+376/modulate = Color( 1, 1, 1, 1 )
+376/region = Rect2( 0, 0, 124, 123 )
+376/occluder_offset = Vector2( 62, 61.5 )
+376/navigation_offset = Vector2( 62, 61.5 )
+376/shape_offset = Vector2( 0, 0 )
+376/shapes = [  ]
+377/name = "towerDefense_096_1"
+377/texture = ExtResource( 310 )
+377/tex_offset = Vector2( 0, 0 )
+377/modulate = Color( 1, 1, 1, 1 )
+377/region = Rect2( 0, 0, 124, 123 )
+377/occluder_offset = Vector2( 62, 61.5 )
+377/navigation_offset = Vector2( 62, 61.5 )
+377/shape_offset = Vector2( 0, 0 )
+377/shapes = [  ]
+378/name = "towerDefense_096_2"
+378/texture = ExtResource( 311 )
+378/tex_offset = Vector2( 0, 0 )
+378/modulate = Color( 1, 1, 1, 1 )
+378/region = Rect2( 0, 0, 124, 123 )
+378/occluder_offset = Vector2( 62, 61.5 )
+378/navigation_offset = Vector2( 62, 61.5 )
+378/shape_offset = Vector2( 0, 0 )
+378/shapes = [  ]
+379/name = "towerDefense_096_3"
+379/texture = ExtResource( 312 )
+379/tex_offset = Vector2( 0, 0 )
+379/modulate = Color( 1, 1, 1, 1 )
+379/region = Rect2( 0, 0, 124, 123 )
+379/occluder_offset = Vector2( 62, 61.5 )
+379/navigation_offset = Vector2( 62, 61.5 )
+379/shape_offset = Vector2( 0, 0 )
+379/shapes = [  ]
+380/name = "towerDefense_097_0"
+380/texture = ExtResource( 314 )
+380/tex_offset = Vector2( 0, 0 )
+380/modulate = Color( 1, 1, 1, 1 )
+380/region = Rect2( 0, 0, 124, 123 )
+380/occluder_offset = Vector2( 62, 61.5 )
+380/navigation_offset = Vector2( 62, 61.5 )
+380/shape_offset = Vector2( 0, 0 )
+380/shapes = [  ]
+381/name = "towerDefense_097_1"
+381/texture = ExtResource( 315 )
+381/tex_offset = Vector2( 0, 0 )
+381/modulate = Color( 1, 1, 1, 1 )
+381/region = Rect2( 0, 0, 124, 123 )
+381/occluder_offset = Vector2( 62, 61.5 )
+381/navigation_offset = Vector2( 62, 61.5 )
+381/shape_offset = Vector2( 0, 0 )
+381/shapes = [  ]
+382/name = "towerDefense_097_2"
+382/texture = ExtResource( 316 )
+382/tex_offset = Vector2( 0, 0 )
+382/modulate = Color( 1, 1, 1, 1 )
+382/region = Rect2( 0, 0, 124, 123 )
+382/occluder_offset = Vector2( 62, 61.5 )
+382/navigation_offset = Vector2( 62, 61.5 )
+382/shape_offset = Vector2( 0, 0 )
+382/shapes = [  ]
+383/name = "towerDefense_097_3"
+383/texture = ExtResource( 317 )
+383/tex_offset = Vector2( 0, 0 )
+383/modulate = Color( 1, 1, 1, 1 )
+383/region = Rect2( 0, 0, 124, 123 )
+383/occluder_offset = Vector2( 62, 61.5 )
+383/navigation_offset = Vector2( 62, 61.5 )
+383/shape_offset = Vector2( 0, 0 )
+383/shapes = [  ]
+384/name = "towerDefense_098_0"
+384/texture = ExtResource( 318 )
+384/tex_offset = Vector2( 0, 0 )
+384/modulate = Color( 1, 1, 1, 1 )
+384/region = Rect2( 0, 0, 124, 123 )
+384/occluder_offset = Vector2( 62, 61.5 )
+384/navigation_offset = Vector2( 62, 61.5 )
+384/shape_offset = Vector2( 0, 0 )
+384/shapes = [  ]
+385/name = "towerDefense_098_1"
+385/texture = ExtResource( 319 )
+385/tex_offset = Vector2( 0, 0 )
+385/modulate = Color( 1, 1, 1, 1 )
+385/region = Rect2( 0, 0, 124, 123 )
+385/occluder_offset = Vector2( 62, 61.5 )
+385/navigation_offset = Vector2( 62, 61.5 )
+385/shape_offset = Vector2( 0, 0 )
+385/shapes = [  ]
+386/name = "towerDefense_098_2"
+386/texture = ExtResource( 320 )
+386/tex_offset = Vector2( 0, 0 )
+386/modulate = Color( 1, 1, 1, 1 )
+386/region = Rect2( 0, 0, 124, 123 )
+386/occluder_offset = Vector2( 62, 61.5 )
+386/navigation_offset = Vector2( 62, 61.5 )
+386/shape_offset = Vector2( 0, 0 )
+386/shapes = [  ]
+387/name = "towerDefense_098_3"
+387/texture = ExtResource( 321 )
+387/tex_offset = Vector2( 0, 0 )
+387/modulate = Color( 1, 1, 1, 1 )
+387/region = Rect2( 0, 0, 124, 123 )
+387/occluder_offset = Vector2( 62, 61.5 )
+387/navigation_offset = Vector2( 62, 61.5 )
+387/shape_offset = Vector2( 0, 0 )
+387/shapes = [  ]
+388/name = "towerDefense_099_0"
+388/texture = ExtResource( 322 )
+388/tex_offset = Vector2( 0, 0 )
+388/modulate = Color( 1, 1, 1, 1 )
+388/region = Rect2( 0, 0, 124, 123 )
+388/occluder_offset = Vector2( 62, 61.5 )
+388/navigation_offset = Vector2( 62, 61.5 )
+388/shape_offset = Vector2( 0, 0 )
+388/shapes = [  ]
+389/name = "towerDefense_099_1"
+389/texture = ExtResource( 323 )
+389/tex_offset = Vector2( 0, 0 )
+389/modulate = Color( 1, 1, 1, 1 )
+389/region = Rect2( 0, 0, 124, 123 )
+389/occluder_offset = Vector2( 62, 61.5 )
+389/navigation_offset = Vector2( 62, 61.5 )
+389/shape_offset = Vector2( 0, 0 )
+389/shapes = [  ]
+390/name = "towerDefense_099_2"
+390/texture = ExtResource( 325 )
+390/tex_offset = Vector2( 0, 0 )
+390/modulate = Color( 1, 1, 1, 1 )
+390/region = Rect2( 0, 0, 124, 123 )
+390/occluder_offset = Vector2( 62, 61.5 )
+390/navigation_offset = Vector2( 62, 61.5 )
+390/shape_offset = Vector2( 0, 0 )
+390/shapes = [  ]
+391/name = "towerDefense_099_3"
+391/texture = ExtResource( 326 )
+391/tex_offset = Vector2( 0, 0 )
+391/modulate = Color( 1, 1, 1, 1 )
+391/region = Rect2( 0, 0, 124, 123 )
+391/occluder_offset = Vector2( 62, 61.5 )
+391/navigation_offset = Vector2( 62, 61.5 )
+391/shape_offset = Vector2( 0, 0 )
+391/shapes = [  ]
+392/name = "towerDefense_100_0"
+392/texture = ExtResource( 327 )
+392/tex_offset = Vector2( 0, 0 )
+392/modulate = Color( 1, 1, 1, 1 )
+392/region = Rect2( 0, 0, 124, 123 )
+392/occluder_offset = Vector2( 62, 61.5 )
+392/navigation_offset = Vector2( 62, 61.5 )
+392/shape_offset = Vector2( 0, 0 )
+392/shapes = [  ]
+393/name = "towerDefense_100_1"
+393/texture = ExtResource( 328 )
+393/tex_offset = Vector2( 0, 0 )
+393/modulate = Color( 1, 1, 1, 1 )
+393/region = Rect2( 0, 0, 124, 123 )
+393/occluder_offset = Vector2( 62, 61.5 )
+393/navigation_offset = Vector2( 62, 61.5 )
+393/shape_offset = Vector2( 0, 0 )
+393/shapes = [  ]
+394/name = "towerDefense_100_2"
+394/texture = ExtResource( 329 )
+394/tex_offset = Vector2( 0, 0 )
+394/modulate = Color( 1, 1, 1, 1 )
+394/region = Rect2( 0, 0, 124, 123 )
+394/occluder_offset = Vector2( 62, 61.5 )
+394/navigation_offset = Vector2( 62, 61.5 )
+394/shape_offset = Vector2( 0, 0 )
+394/shapes = [  ]
+395/name = "towerDefense_100_3"
+395/texture = ExtResource( 330 )
+395/tex_offset = Vector2( 0, 0 )
+395/modulate = Color( 1, 1, 1, 1 )
+395/region = Rect2( 0, 0, 124, 123 )
+395/occluder_offset = Vector2( 62, 61.5 )
+395/navigation_offset = Vector2( 62, 61.5 )
+395/shape_offset = Vector2( 0, 0 )
+395/shapes = [  ]
+396/name = "towerDefense_101_0"
+396/texture = ExtResource( 331 )
+396/tex_offset = Vector2( 0, 0 )
+396/modulate = Color( 1, 1, 1, 1 )
+396/region = Rect2( 0, 0, 124, 123 )
+396/occluder_offset = Vector2( 62, 61.5 )
+396/navigation_offset = Vector2( 62, 61.5 )
+396/shape_offset = Vector2( 0, 0 )
+396/shapes = [  ]
+397/name = "towerDefense_101_1"
+397/texture = ExtResource( 332 )
+397/tex_offset = Vector2( 0, 0 )
+397/modulate = Color( 1, 1, 1, 1 )
+397/region = Rect2( 0, 0, 124, 123 )
+397/occluder_offset = Vector2( 62, 61.5 )
+397/navigation_offset = Vector2( 62, 61.5 )
+397/shape_offset = Vector2( 0, 0 )
+397/shapes = [  ]
+398/name = "towerDefense_101_2"
+398/texture = ExtResource( 333 )
+398/tex_offset = Vector2( 0, 0 )
+398/modulate = Color( 1, 1, 1, 1 )
+398/region = Rect2( 0, 0, 124, 123 )
+398/occluder_offset = Vector2( 62, 61.5 )
+398/navigation_offset = Vector2( 62, 61.5 )
+398/shape_offset = Vector2( 0, 0 )
+398/shapes = [  ]
+399/name = "towerDefense_101_3"
+399/texture = ExtResource( 334 )
+399/tex_offset = Vector2( 0, 0 )
+399/modulate = Color( 1, 1, 1, 1 )
+399/region = Rect2( 0, 0, 124, 123 )
+399/occluder_offset = Vector2( 62, 61.5 )
+399/navigation_offset = Vector2( 62, 61.5 )
+399/shape_offset = Vector2( 0, 0 )
+399/shapes = [  ]
+400/name = "towerDefense_102_0"
+400/texture = ExtResource( 337 )
+400/tex_offset = Vector2( 0, 0 )
+400/modulate = Color( 1, 1, 1, 1 )
+400/region = Rect2( 0, 0, 124, 123 )
+400/occluder_offset = Vector2( 62, 61.5 )
+400/navigation_offset = Vector2( 62, 61.5 )
+400/shape_offset = Vector2( 0, 0 )
+400/shapes = [  ]
+401/name = "towerDefense_102_1"
+401/texture = ExtResource( 338 )
+401/tex_offset = Vector2( 0, 0 )
+401/modulate = Color( 1, 1, 1, 1 )
+401/region = Rect2( 0, 0, 124, 123 )
+401/occluder_offset = Vector2( 62, 61.5 )
+401/navigation_offset = Vector2( 62, 61.5 )
+401/shape_offset = Vector2( 0, 0 )
+401/shapes = [  ]
+402/name = "towerDefense_102_2"
+402/texture = ExtResource( 339 )
+402/tex_offset = Vector2( 0, 0 )
+402/modulate = Color( 1, 1, 1, 1 )
+402/region = Rect2( 0, 0, 124, 123 )
+402/occluder_offset = Vector2( 62, 61.5 )
+402/navigation_offset = Vector2( 62, 61.5 )
+402/shape_offset = Vector2( 0, 0 )
+402/shapes = [  ]
+403/name = "towerDefense_102_3"
+403/texture = ExtResource( 340 )
+403/tex_offset = Vector2( 0, 0 )
+403/modulate = Color( 1, 1, 1, 1 )
+403/region = Rect2( 0, 0, 124, 123 )
+403/occluder_offset = Vector2( 62, 61.5 )
+403/navigation_offset = Vector2( 62, 61.5 )
+403/shape_offset = Vector2( 0, 0 )
+403/shapes = [  ]
+404/name = "towerDefense_103_0"
+404/texture = ExtResource( 341 )
+404/tex_offset = Vector2( 0, 0 )
+404/modulate = Color( 1, 1, 1, 1 )
+404/region = Rect2( 0, 0, 124, 123 )
+404/occluder_offset = Vector2( 62, 61.5 )
+404/navigation_offset = Vector2( 62, 61.5 )
+404/shape_offset = Vector2( 0, 0 )
+404/shapes = [  ]
+405/name = "towerDefense_103_1"
+405/texture = ExtResource( 342 )
+405/tex_offset = Vector2( 0, 0 )
+405/modulate = Color( 1, 1, 1, 1 )
+405/region = Rect2( 0, 0, 124, 123 )
+405/occluder_offset = Vector2( 62, 61.5 )
+405/navigation_offset = Vector2( 62, 61.5 )
+405/shape_offset = Vector2( 0, 0 )
+405/shapes = [  ]
+406/name = "towerDefense_103_2"
+406/texture = ExtResource( 343 )
+406/tex_offset = Vector2( 0, 0 )
+406/modulate = Color( 1, 1, 1, 1 )
+406/region = Rect2( 0, 0, 124, 123 )
+406/occluder_offset = Vector2( 62, 61.5 )
+406/navigation_offset = Vector2( 62, 61.5 )
+406/shape_offset = Vector2( 0, 0 )
+406/shapes = [  ]
+407/name = "towerDefense_103_3"
+407/texture = ExtResource( 344 )
+407/tex_offset = Vector2( 0, 0 )
+407/modulate = Color( 1, 1, 1, 1 )
+407/region = Rect2( 0, 0, 124, 123 )
+407/occluder_offset = Vector2( 62, 61.5 )
+407/navigation_offset = Vector2( 62, 61.5 )
+407/shape_offset = Vector2( 0, 0 )
+407/shapes = [  ]
+408/name = "towerDefense_104_0"
+408/texture = ExtResource( 345 )
+408/tex_offset = Vector2( 0, 0 )
+408/modulate = Color( 1, 1, 1, 1 )
+408/region = Rect2( 0, 0, 124, 123 )
+408/occluder_offset = Vector2( 62, 61.5 )
+408/navigation_offset = Vector2( 62, 61.5 )
+408/shape_offset = Vector2( 0, 0 )
+408/shapes = [  ]
+409/name = "towerDefense_104_1"
+409/texture = ExtResource( 346 )
+409/tex_offset = Vector2( 0, 0 )
+409/modulate = Color( 1, 1, 1, 1 )
+409/region = Rect2( 0, 0, 124, 123 )
+409/occluder_offset = Vector2( 62, 61.5 )
+409/navigation_offset = Vector2( 62, 61.5 )
+409/shape_offset = Vector2( 0, 0 )
+409/shapes = [  ]
+410/name = "towerDefense_104_2"
+410/texture = ExtResource( 348 )
+410/tex_offset = Vector2( 0, 0 )
+410/modulate = Color( 1, 1, 1, 1 )
+410/region = Rect2( 0, 0, 124, 123 )
+410/occluder_offset = Vector2( 62, 61.5 )
+410/navigation_offset = Vector2( 62, 61.5 )
+410/shape_offset = Vector2( 0, 0 )
+410/shapes = [  ]
+411/name = "towerDefense_104_3"
+411/texture = ExtResource( 349 )
+411/tex_offset = Vector2( 0, 0 )
+411/modulate = Color( 1, 1, 1, 1 )
+411/region = Rect2( 0, 0, 124, 123 )
+411/occluder_offset = Vector2( 62, 61.5 )
+411/navigation_offset = Vector2( 62, 61.5 )
+411/shape_offset = Vector2( 0, 0 )
+411/shapes = [  ]
+412/name = "towerDefense_105_0"
+412/texture = ExtResource( 350 )
+412/tex_offset = Vector2( 0, 0 )
+412/modulate = Color( 1, 1, 1, 1 )
+412/region = Rect2( 0, 0, 124, 123 )
+412/occluder_offset = Vector2( 62, 61.5 )
+412/navigation_offset = Vector2( 62, 61.5 )
+412/shape_offset = Vector2( 0, 0 )
+412/shapes = [  ]
+413/name = "towerDefense_105_1"
+413/texture = ExtResource( 351 )
+413/tex_offset = Vector2( 0, 0 )
+413/modulate = Color( 1, 1, 1, 1 )
+413/region = Rect2( 0, 0, 124, 123 )
+413/occluder_offset = Vector2( 62, 61.5 )
+413/navigation_offset = Vector2( 62, 61.5 )
+413/shape_offset = Vector2( 0, 0 )
+413/shapes = [  ]
+414/name = "towerDefense_105_2"
+414/texture = ExtResource( 352 )
+414/tex_offset = Vector2( 0, 0 )
+414/modulate = Color( 1, 1, 1, 1 )
+414/region = Rect2( 0, 0, 124, 123 )
+414/occluder_offset = Vector2( 62, 61.5 )
+414/navigation_offset = Vector2( 62, 61.5 )
+414/shape_offset = Vector2( 0, 0 )
+414/shapes = [  ]
+415/name = "towerDefense_105_3"
+415/texture = ExtResource( 353 )
+415/tex_offset = Vector2( 0, 0 )
+415/modulate = Color( 1, 1, 1, 1 )
+415/region = Rect2( 0, 0, 124, 123 )
+415/occluder_offset = Vector2( 62, 61.5 )
+415/navigation_offset = Vector2( 62, 61.5 )
+415/shape_offset = Vector2( 0, 0 )
+415/shapes = [  ]
+416/name = "towerDefense_106_0"
+416/texture = ExtResource( 354 )
+416/tex_offset = Vector2( 0, 0 )
+416/modulate = Color( 1, 1, 1, 1 )
+416/region = Rect2( 0, 0, 124, 123 )
+416/occluder_offset = Vector2( 62, 61.5 )
+416/navigation_offset = Vector2( 62, 61.5 )
+416/shape_offset = Vector2( 0, 0 )
+416/shapes = [  ]
+417/name = "towerDefense_106_1"
+417/texture = ExtResource( 355 )
+417/tex_offset = Vector2( 0, 0 )
+417/modulate = Color( 1, 1, 1, 1 )
+417/region = Rect2( 0, 0, 124, 123 )
+417/occluder_offset = Vector2( 62, 61.5 )
+417/navigation_offset = Vector2( 62, 61.5 )
+417/shape_offset = Vector2( 0, 0 )
+417/shapes = [  ]
+418/name = "towerDefense_106_2"
+418/texture = ExtResource( 356 )
+418/tex_offset = Vector2( 0, 0 )
+418/modulate = Color( 1, 1, 1, 1 )
+418/region = Rect2( 0, 0, 124, 123 )
+418/occluder_offset = Vector2( 62, 61.5 )
+418/navigation_offset = Vector2( 62, 61.5 )
+418/shape_offset = Vector2( 0, 0 )
+418/shapes = [  ]
+419/name = "towerDefense_106_3"
+419/texture = ExtResource( 357 )
+419/tex_offset = Vector2( 0, 0 )
+419/modulate = Color( 1, 1, 1, 1 )
+419/region = Rect2( 0, 0, 124, 123 )
+419/occluder_offset = Vector2( 62, 61.5 )
+419/navigation_offset = Vector2( 62, 61.5 )
+419/shape_offset = Vector2( 0, 0 )
+419/shapes = [  ]
+420/name = "towerDefense_107_0"
+420/texture = ExtResource( 359 )
+420/tex_offset = Vector2( 0, 0 )
+420/modulate = Color( 1, 1, 1, 1 )
+420/region = Rect2( 0, 0, 124, 123 )
+420/occluder_offset = Vector2( 62, 61.5 )
+420/navigation_offset = Vector2( 62, 61.5 )
+420/shape_offset = Vector2( 0, 0 )
+420/shapes = [  ]
+421/name = "towerDefense_107_1"
+421/texture = ExtResource( 360 )
+421/tex_offset = Vector2( 0, 0 )
+421/modulate = Color( 1, 1, 1, 1 )
+421/region = Rect2( 0, 0, 124, 123 )
+421/occluder_offset = Vector2( 62, 61.5 )
+421/navigation_offset = Vector2( 62, 61.5 )
+421/shape_offset = Vector2( 0, 0 )
+421/shapes = [  ]
+422/name = "towerDefense_107_2"
+422/texture = ExtResource( 361 )
+422/tex_offset = Vector2( 0, 0 )
+422/modulate = Color( 1, 1, 1, 1 )
+422/region = Rect2( 0, 0, 124, 123 )
+422/occluder_offset = Vector2( 62, 61.5 )
+422/navigation_offset = Vector2( 62, 61.5 )
+422/shape_offset = Vector2( 0, 0 )
+422/shapes = [  ]
+423/name = "towerDefense_107_3"
+423/texture = ExtResource( 362 )
+423/tex_offset = Vector2( 0, 0 )
+423/modulate = Color( 1, 1, 1, 1 )
+423/region = Rect2( 0, 0, 124, 123 )
+423/occluder_offset = Vector2( 62, 61.5 )
+423/navigation_offset = Vector2( 62, 61.5 )
+423/shape_offset = Vector2( 0, 0 )
+423/shapes = [  ]
+424/name = "towerDefense_108_0"
+424/texture = ExtResource( 363 )
+424/tex_offset = Vector2( 0, 0 )
+424/modulate = Color( 1, 1, 1, 1 )
+424/region = Rect2( 0, 0, 124, 123 )
+424/occluder_offset = Vector2( 62, 61.5 )
+424/navigation_offset = Vector2( 62, 61.5 )
+424/shape_offset = Vector2( 0, 0 )
+424/shapes = [  ]
+425/name = "towerDefense_108_1"
+425/texture = ExtResource( 364 )
+425/tex_offset = Vector2( 0, 0 )
+425/modulate = Color( 1, 1, 1, 1 )
+425/region = Rect2( 0, 0, 124, 123 )
+425/occluder_offset = Vector2( 62, 61.5 )
+425/navigation_offset = Vector2( 62, 61.5 )
+425/shape_offset = Vector2( 0, 0 )
+425/shapes = [  ]
+426/name = "towerDefense_108_2"
+426/texture = ExtResource( 365 )
+426/tex_offset = Vector2( 0, 0 )
+426/modulate = Color( 1, 1, 1, 1 )
+426/region = Rect2( 0, 0, 124, 123 )
+426/occluder_offset = Vector2( 62, 61.5 )
+426/navigation_offset = Vector2( 62, 61.5 )
+426/shape_offset = Vector2( 0, 0 )
+426/shapes = [  ]
+427/name = "towerDefense_108_3"
+427/texture = ExtResource( 366 )
+427/tex_offset = Vector2( 0, 0 )
+427/modulate = Color( 1, 1, 1, 1 )
+427/region = Rect2( 0, 0, 124, 123 )
+427/occluder_offset = Vector2( 62, 61.5 )
+427/navigation_offset = Vector2( 62, 61.5 )
+427/shape_offset = Vector2( 0, 0 )
+427/shapes = [  ]
+428/name = "towerDefense_109_0"
+428/texture = ExtResource( 367 )
+428/tex_offset = Vector2( 0, 0 )
+428/modulate = Color( 1, 1, 1, 1 )
+428/region = Rect2( 0, 0, 124, 123 )
+428/occluder_offset = Vector2( 62, 61.5 )
+428/navigation_offset = Vector2( 62, 61.5 )
+428/shape_offset = Vector2( 0, 0 )
+428/shapes = [  ]
+429/name = "towerDefense_109_1"
+429/texture = ExtResource( 368 )
+429/tex_offset = Vector2( 0, 0 )
+429/modulate = Color( 1, 1, 1, 1 )
+429/region = Rect2( 0, 0, 124, 123 )
+429/occluder_offset = Vector2( 62, 61.5 )
+429/navigation_offset = Vector2( 62, 61.5 )
+429/shape_offset = Vector2( 0, 0 )
+429/shapes = [  ]
+430/name = "towerDefense_109_2"
+430/texture = ExtResource( 370 )
+430/tex_offset = Vector2( 0, 0 )
+430/modulate = Color( 1, 1, 1, 1 )
+430/region = Rect2( 0, 0, 124, 123 )
+430/occluder_offset = Vector2( 62, 61.5 )
+430/navigation_offset = Vector2( 62, 61.5 )
+430/shape_offset = Vector2( 0, 0 )
+430/shapes = [  ]
+431/name = "towerDefense_109_3"
+431/texture = ExtResource( 371 )
+431/tex_offset = Vector2( 0, 0 )
+431/modulate = Color( 1, 1, 1, 1 )
+431/region = Rect2( 0, 0, 124, 123 )
+431/occluder_offset = Vector2( 62, 61.5 )
+431/navigation_offset = Vector2( 62, 61.5 )
+431/shape_offset = Vector2( 0, 0 )
+431/shapes = [  ]
+432/name = "towerDefense_110_0"
+432/texture = ExtResource( 372 )
+432/tex_offset = Vector2( 0, 0 )
+432/modulate = Color( 1, 1, 1, 1 )
+432/region = Rect2( 0, 0, 124, 123 )
+432/occluder_offset = Vector2( 62, 61.5 )
+432/navigation_offset = Vector2( 62, 61.5 )
+432/shape_offset = Vector2( 0, 0 )
+432/shapes = [  ]
+433/name = "towerDefense_110_1"
+433/texture = ExtResource( 373 )
+433/tex_offset = Vector2( 0, 0 )
+433/modulate = Color( 1, 1, 1, 1 )
+433/region = Rect2( 0, 0, 124, 123 )
+433/occluder_offset = Vector2( 62, 61.5 )
+433/navigation_offset = Vector2( 62, 61.5 )
+433/shape_offset = Vector2( 0, 0 )
+433/shapes = [  ]
+434/name = "towerDefense_110_2"
+434/texture = ExtResource( 374 )
+434/tex_offset = Vector2( 0, 0 )
+434/modulate = Color( 1, 1, 1, 1 )
+434/region = Rect2( 0, 0, 124, 123 )
+434/occluder_offset = Vector2( 62, 61.5 )
+434/navigation_offset = Vector2( 62, 61.5 )
+434/shape_offset = Vector2( 0, 0 )
+434/shapes = [  ]
+435/name = "towerDefense_110_3"
+435/texture = ExtResource( 375 )
+435/tex_offset = Vector2( 0, 0 )
+435/modulate = Color( 1, 1, 1, 1 )
+435/region = Rect2( 0, 0, 124, 123 )
+435/occluder_offset = Vector2( 62, 61.5 )
+435/navigation_offset = Vector2( 62, 61.5 )
+435/shape_offset = Vector2( 0, 0 )
+435/shapes = [  ]
+436/name = "towerDefense_111_0"
+436/texture = ExtResource( 376 )
+436/tex_offset = Vector2( 0, 0 )
+436/modulate = Color( 1, 1, 1, 1 )
+436/region = Rect2( 0, 0, 124, 123 )
+436/occluder_offset = Vector2( 62, 61.5 )
+436/navigation_offset = Vector2( 62, 61.5 )
+436/shape_offset = Vector2( 0, 0 )
+436/shapes = [  ]
+437/name = "towerDefense_111_1"
+437/texture = ExtResource( 377 )
+437/tex_offset = Vector2( 0, 0 )
+437/modulate = Color( 1, 1, 1, 1 )
+437/region = Rect2( 0, 0, 124, 123 )
+437/occluder_offset = Vector2( 62, 61.5 )
+437/navigation_offset = Vector2( 62, 61.5 )
+437/shape_offset = Vector2( 0, 0 )
+437/shapes = [  ]
+438/name = "towerDefense_111_2"
+438/texture = ExtResource( 378 )
+438/tex_offset = Vector2( 0, 0 )
+438/modulate = Color( 1, 1, 1, 1 )
+438/region = Rect2( 0, 0, 124, 123 )
+438/occluder_offset = Vector2( 62, 61.5 )
+438/navigation_offset = Vector2( 62, 61.5 )
+438/shape_offset = Vector2( 0, 0 )
+438/shapes = [  ]
+439/name = "towerDefense_111_3"
+439/texture = ExtResource( 379 )
+439/tex_offset = Vector2( 0, 0 )
+439/modulate = Color( 1, 1, 1, 1 )
+439/region = Rect2( 0, 0, 124, 123 )
+439/occluder_offset = Vector2( 62, 61.5 )
+439/navigation_offset = Vector2( 62, 61.5 )
+439/shape_offset = Vector2( 0, 0 )
+439/shapes = [  ]
+440/name = "towerDefense_112_0"
+440/texture = ExtResource( 381 )
+440/tex_offset = Vector2( 0, 0 )
+440/modulate = Color( 1, 1, 1, 1 )
+440/region = Rect2( 0, 0, 124, 123 )
+440/occluder_offset = Vector2( 62, 61.5 )
+440/navigation_offset = Vector2( 62, 61.5 )
+440/shape_offset = Vector2( 0, 0 )
+440/shapes = [  ]
+441/name = "towerDefense_112_1"
+441/texture = ExtResource( 382 )
+441/tex_offset = Vector2( 0, 0 )
+441/modulate = Color( 1, 1, 1, 1 )
+441/region = Rect2( 0, 0, 124, 123 )
+441/occluder_offset = Vector2( 62, 61.5 )
+441/navigation_offset = Vector2( 62, 61.5 )
+441/shape_offset = Vector2( 0, 0 )
+441/shapes = [  ]
+442/name = "towerDefense_112_2"
+442/texture = ExtResource( 383 )
+442/tex_offset = Vector2( 0, 0 )
+442/modulate = Color( 1, 1, 1, 1 )
+442/region = Rect2( 0, 0, 124, 123 )
+442/occluder_offset = Vector2( 62, 61.5 )
+442/navigation_offset = Vector2( 62, 61.5 )
+442/shape_offset = Vector2( 0, 0 )
+442/shapes = [  ]
+443/name = "towerDefense_112_3"
+443/texture = ExtResource( 384 )
+443/tex_offset = Vector2( 0, 0 )
+443/modulate = Color( 1, 1, 1, 1 )
+443/region = Rect2( 0, 0, 124, 123 )
+443/occluder_offset = Vector2( 62, 61.5 )
+443/navigation_offset = Vector2( 62, 61.5 )
+443/shape_offset = Vector2( 0, 0 )
+443/shapes = [  ]
+444/name = "towerDefense_113_0"
+444/texture = ExtResource( 385 )
+444/tex_offset = Vector2( 0, 0 )
+444/modulate = Color( 1, 1, 1, 1 )
+444/region = Rect2( 0, 0, 124, 123 )
+444/occluder_offset = Vector2( 62, 61.5 )
+444/navigation_offset = Vector2( 62, 61.5 )
+444/shape_offset = Vector2( 0, 0 )
+444/shapes = [  ]
+445/name = "towerDefense_113_1"
+445/texture = ExtResource( 386 )
+445/tex_offset = Vector2( 0, 0 )
+445/modulate = Color( 1, 1, 1, 1 )
+445/region = Rect2( 0, 0, 124, 123 )
+445/occluder_offset = Vector2( 62, 61.5 )
+445/navigation_offset = Vector2( 62, 61.5 )
+445/shape_offset = Vector2( 0, 0 )
+445/shapes = [  ]
+446/name = "towerDefense_113_2"
+446/texture = ExtResource( 387 )
+446/tex_offset = Vector2( 0, 0 )
+446/modulate = Color( 1, 1, 1, 1 )
+446/region = Rect2( 0, 0, 124, 123 )
+446/occluder_offset = Vector2( 62, 61.5 )
+446/navigation_offset = Vector2( 62, 61.5 )
+446/shape_offset = Vector2( 0, 0 )
+446/shapes = [  ]
+447/name = "towerDefense_113_3"
+447/texture = ExtResource( 388 )
+447/tex_offset = Vector2( 0, 0 )
+447/modulate = Color( 1, 1, 1, 1 )
+447/region = Rect2( 0, 0, 124, 123 )
+447/occluder_offset = Vector2( 62, 61.5 )
+447/navigation_offset = Vector2( 62, 61.5 )
+447/shape_offset = Vector2( 0, 0 )
+447/shapes = [  ]
+448/name = "towerDefense_114_0"
+448/texture = ExtResource( 389 )
+448/tex_offset = Vector2( 0, 0 )
+448/modulate = Color( 1, 1, 1, 1 )
+448/region = Rect2( 0, 0, 124, 123 )
+448/occluder_offset = Vector2( 62, 61.5 )
+448/navigation_offset = Vector2( 62, 61.5 )
+448/shape_offset = Vector2( 0, 0 )
+448/shapes = [  ]
+449/name = "towerDefense_114_1"
+449/texture = ExtResource( 390 )
+449/tex_offset = Vector2( 0, 0 )
+449/modulate = Color( 1, 1, 1, 1 )
+449/region = Rect2( 0, 0, 124, 123 )
+449/occluder_offset = Vector2( 62, 61.5 )
+449/navigation_offset = Vector2( 62, 61.5 )
+449/shape_offset = Vector2( 0, 0 )
+449/shapes = [  ]
+450/name = "towerDefense_114_2"
+450/texture = ExtResource( 392 )
+450/tex_offset = Vector2( 0, 0 )
+450/modulate = Color( 1, 1, 1, 1 )
+450/region = Rect2( 0, 0, 124, 123 )
+450/occluder_offset = Vector2( 62, 61.5 )
+450/navigation_offset = Vector2( 62, 61.5 )
+450/shape_offset = Vector2( 0, 0 )
+450/shapes = [  ]
+451/name = "towerDefense_114_3"
+451/texture = ExtResource( 393 )
+451/tex_offset = Vector2( 0, 0 )
+451/modulate = Color( 1, 1, 1, 1 )
+451/region = Rect2( 0, 0, 124, 123 )
+451/occluder_offset = Vector2( 62, 61.5 )
+451/navigation_offset = Vector2( 62, 61.5 )
+451/shape_offset = Vector2( 0, 0 )
+451/shapes = [  ]
+452/name = "towerDefense_115_0"
+452/texture = ExtResource( 394 )
+452/tex_offset = Vector2( 0, 0 )
+452/modulate = Color( 1, 1, 1, 1 )
+452/region = Rect2( 0, 0, 124, 123 )
+452/occluder_offset = Vector2( 62, 61.5 )
+452/navigation_offset = Vector2( 62, 61.5 )
+452/shape_offset = Vector2( 0, 0 )
+452/shapes = [  ]
+453/name = "towerDefense_115_1"
+453/texture = ExtResource( 395 )
+453/tex_offset = Vector2( 0, 0 )
+453/modulate = Color( 1, 1, 1, 1 )
+453/region = Rect2( 0, 0, 124, 123 )
+453/occluder_offset = Vector2( 62, 61.5 )
+453/navigation_offset = Vector2( 62, 61.5 )
+453/shape_offset = Vector2( 0, 0 )
+453/shapes = [  ]
+454/name = "towerDefense_115_2"
+454/texture = ExtResource( 396 )
+454/tex_offset = Vector2( 0, 0 )
+454/modulate = Color( 1, 1, 1, 1 )
+454/region = Rect2( 0, 0, 124, 123 )
+454/occluder_offset = Vector2( 62, 61.5 )
+454/navigation_offset = Vector2( 62, 61.5 )
+454/shape_offset = Vector2( 0, 0 )
+454/shapes = [  ]
+455/name = "towerDefense_115_3"
+455/texture = ExtResource( 397 )
+455/tex_offset = Vector2( 0, 0 )
+455/modulate = Color( 1, 1, 1, 1 )
+455/region = Rect2( 0, 0, 124, 123 )
+455/occluder_offset = Vector2( 62, 61.5 )
+455/navigation_offset = Vector2( 62, 61.5 )
+455/shape_offset = Vector2( 0, 0 )
+455/shapes = [  ]
+456/name = "towerDefense_116_0"
+456/texture = ExtResource( 398 )
+456/tex_offset = Vector2( 0, 0 )
+456/modulate = Color( 1, 1, 1, 1 )
+456/region = Rect2( 0, 0, 124, 123 )
+456/occluder_offset = Vector2( 62, 61.5 )
+456/navigation_offset = Vector2( 62, 61.5 )
+456/shape_offset = Vector2( 0, 0 )
+456/shapes = [  ]
+457/name = "towerDefense_116_1"
+457/texture = ExtResource( 399 )
+457/tex_offset = Vector2( 0, 0 )
+457/modulate = Color( 1, 1, 1, 1 )
+457/region = Rect2( 0, 0, 124, 123 )
+457/occluder_offset = Vector2( 62, 61.5 )
+457/navigation_offset = Vector2( 62, 61.5 )
+457/shape_offset = Vector2( 0, 0 )
+457/shapes = [  ]
+458/name = "towerDefense_116_2"
+458/texture = ExtResource( 400 )
+458/tex_offset = Vector2( 0, 0 )
+458/modulate = Color( 1, 1, 1, 1 )
+458/region = Rect2( 0, 0, 124, 123 )
+458/occluder_offset = Vector2( 62, 61.5 )
+458/navigation_offset = Vector2( 62, 61.5 )
+458/shape_offset = Vector2( 0, 0 )
+458/shapes = [  ]
+459/name = "towerDefense_116_3"
+459/texture = ExtResource( 401 )
+459/tex_offset = Vector2( 0, 0 )
+459/modulate = Color( 1, 1, 1, 1 )
+459/region = Rect2( 0, 0, 124, 123 )
+459/occluder_offset = Vector2( 62, 61.5 )
+459/navigation_offset = Vector2( 62, 61.5 )
+459/shape_offset = Vector2( 0, 0 )
+459/shapes = [  ]
+460/name = "towerDefense_117_0"
+460/texture = ExtResource( 403 )
+460/tex_offset = Vector2( 0, 0 )
+460/modulate = Color( 1, 1, 1, 1 )
+460/region = Rect2( 0, 0, 124, 123 )
+460/occluder_offset = Vector2( 62, 61.5 )
+460/navigation_offset = Vector2( 62, 61.5 )
+460/shape_offset = Vector2( 0, 0 )
+460/shapes = [  ]
+461/name = "towerDefense_117_1"
+461/texture = ExtResource( 404 )
+461/tex_offset = Vector2( 0, 0 )
+461/modulate = Color( 1, 1, 1, 1 )
+461/region = Rect2( 0, 0, 124, 123 )
+461/occluder_offset = Vector2( 62, 61.5 )
+461/navigation_offset = Vector2( 62, 61.5 )
+461/shape_offset = Vector2( 0, 0 )
+461/shapes = [  ]
+462/name = "towerDefense_117_2"
+462/texture = ExtResource( 405 )
+462/tex_offset = Vector2( 0, 0 )
+462/modulate = Color( 1, 1, 1, 1 )
+462/region = Rect2( 0, 0, 124, 123 )
+462/occluder_offset = Vector2( 62, 61.5 )
+462/navigation_offset = Vector2( 62, 61.5 )
+462/shape_offset = Vector2( 0, 0 )
+462/shapes = [  ]
+463/name = "towerDefense_117_3"
+463/texture = ExtResource( 406 )
+463/tex_offset = Vector2( 0, 0 )
+463/modulate = Color( 1, 1, 1, 1 )
+463/region = Rect2( 0, 0, 124, 123 )
+463/occluder_offset = Vector2( 62, 61.5 )
+463/navigation_offset = Vector2( 62, 61.5 )
+463/shape_offset = Vector2( 0, 0 )
+463/shapes = [  ]
+464/name = "towerDefense_118_0"
+464/texture = ExtResource( 407 )
+464/tex_offset = Vector2( 0, 0 )
+464/modulate = Color( 1, 1, 1, 1 )
+464/region = Rect2( 0, 0, 124, 123 )
+464/occluder_offset = Vector2( 62, 61.5 )
+464/navigation_offset = Vector2( 62, 61.5 )
+464/shape_offset = Vector2( 0, 0 )
+464/shapes = [  ]
+465/name = "towerDefense_118_1"
+465/texture = ExtResource( 408 )
+465/tex_offset = Vector2( 0, 0 )
+465/modulate = Color( 1, 1, 1, 1 )
+465/region = Rect2( 0, 0, 124, 123 )
+465/occluder_offset = Vector2( 62, 61.5 )
+465/navigation_offset = Vector2( 62, 61.5 )
+465/shape_offset = Vector2( 0, 0 )
+465/shapes = [  ]
+466/name = "towerDefense_118_2"
+466/texture = ExtResource( 409 )
+466/tex_offset = Vector2( 0, 0 )
+466/modulate = Color( 1, 1, 1, 1 )
+466/region = Rect2( 0, 0, 124, 123 )
+466/occluder_offset = Vector2( 62, 61.5 )
+466/navigation_offset = Vector2( 62, 61.5 )
+466/shape_offset = Vector2( 0, 0 )
+466/shapes = [  ]
+467/name = "towerDefense_118_3"
+467/texture = ExtResource( 410 )
+467/tex_offset = Vector2( 0, 0 )
+467/modulate = Color( 1, 1, 1, 1 )
+467/region = Rect2( 0, 0, 124, 123 )
+467/occluder_offset = Vector2( 62, 61.5 )
+467/navigation_offset = Vector2( 62, 61.5 )
+467/shape_offset = Vector2( 0, 0 )
+467/shapes = [  ]
+468/name = "towerDefense_119_0"
+468/texture = ExtResource( 411 )
+468/tex_offset = Vector2( 0, 0 )
+468/modulate = Color( 1, 1, 1, 1 )
+468/region = Rect2( 0, 0, 124, 123 )
+468/occluder_offset = Vector2( 62, 61.5 )
+468/navigation_offset = Vector2( 62, 61.5 )
+468/shape_offset = Vector2( 0, 0 )
+468/shapes = [  ]
+469/name = "towerDefense_119_1"
+469/texture = ExtResource( 412 )
+469/tex_offset = Vector2( 0, 0 )
+469/modulate = Color( 1, 1, 1, 1 )
+469/region = Rect2( 0, 0, 124, 123 )
+469/occluder_offset = Vector2( 62, 61.5 )
+469/navigation_offset = Vector2( 62, 61.5 )
+469/shape_offset = Vector2( 0, 0 )
+469/shapes = [  ]
+470/name = "towerDefense_119_2"
+470/texture = ExtResource( 414 )
+470/tex_offset = Vector2( 0, 0 )
+470/modulate = Color( 1, 1, 1, 1 )
+470/region = Rect2( 0, 0, 124, 123 )
+470/occluder_offset = Vector2( 62, 61.5 )
+470/navigation_offset = Vector2( 62, 61.5 )
+470/shape_offset = Vector2( 0, 0 )
+470/shapes = [  ]
+471/name = "towerDefense_119_3"
+471/texture = ExtResource( 415 )
+471/tex_offset = Vector2( 0, 0 )
+471/modulate = Color( 1, 1, 1, 1 )
+471/region = Rect2( 0, 0, 124, 123 )
+471/occluder_offset = Vector2( 62, 61.5 )
+471/navigation_offset = Vector2( 62, 61.5 )
+471/shape_offset = Vector2( 0, 0 )
+471/shapes = [  ]
+

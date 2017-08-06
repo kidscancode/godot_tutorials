@@ -1,0 +1,294 @@
+[gd_scene load_steps=49 format=1]
+
+[ext_resource path="res://art/iso_platformer/platformerTile_01.png" type="Texture" id=1]
+[ext_resource path="res://art/iso_platformer/platformerTile_02.png" type="Texture" id=2]
+[ext_resource path="res://art/iso_platformer/platformerTile_03.png" type="Texture" id=3]
+[ext_resource path="res://art/iso_platformer/platformerTile_04.png" type="Texture" id=4]
+[ext_resource path="res://art/iso_platformer/platformerTile_05.png" type="Texture" id=5]
+[ext_resource path="res://art/iso_platformer/platformerTile_06.png" type="Texture" id=6]
+[ext_resource path="res://art/iso_platformer/platformerTile_07.png" type="Texture" id=7]
+[ext_resource path="res://art/iso_platformer/platformerTile_08.png" type="Texture" id=8]
+[ext_resource path="res://art/iso_platformer/platformerTile_09.png" type="Texture" id=9]
+[ext_resource path="res://art/iso_platformer/platformerTile_10.png" type="Texture" id=10]
+[ext_resource path="res://art/iso_platformer/platformerTile_11.png" type="Texture" id=11]
+[ext_resource path="res://art/iso_platformer/platformerTile_12.png" type="Texture" id=12]
+[ext_resource path="res://art/iso_platformer/platformerTile_13.png" type="Texture" id=13]
+[ext_resource path="res://art/iso_platformer/platformerTile_14.png" type="Texture" id=14]
+[ext_resource path="res://art/iso_platformer/platformerTile_15.png" type="Texture" id=15]
+[ext_resource path="res://art/iso_platformer/platformerTile_16.png" type="Texture" id=16]
+[ext_resource path="res://art/iso_platformer/platformerTile_17.png" type="Texture" id=17]
+[ext_resource path="res://art/iso_platformer/platformerTile_18.png" type="Texture" id=18]
+[ext_resource path="res://art/iso_platformer/platformerTile_19.png" type="Texture" id=19]
+[ext_resource path="res://art/iso_platformer/platformerTile_20.png" type="Texture" id=20]
+[ext_resource path="res://art/iso_platformer/platformerTile_21.png" type="Texture" id=21]
+[ext_resource path="res://art/iso_platformer/platformerTile_22.png" type="Texture" id=22]
+[ext_resource path="res://art/iso_platformer/platformerTile_23.png" type="Texture" id=23]
+[ext_resource path="res://art/iso_platformer/platformerTile_24.png" type="Texture" id=24]
+[ext_resource path="res://art/iso_platformer/platformerTile_25.png" type="Texture" id=25]
+[ext_resource path="res://art/iso_platformer/platformerTile_26.png" type="Texture" id=26]
+[ext_resource path="res://art/iso_platformer/platformerTile_27.png" type="Texture" id=27]
+[ext_resource path="res://art/iso_platformer/platformerTile_28.png" type="Texture" id=28]
+[ext_resource path="res://art/iso_platformer/platformerTile_29.png" type="Texture" id=29]
+[ext_resource path="res://art/iso_platformer/platformerTile_30.png" type="Texture" id=30]
+[ext_resource path="res://art/iso_platformer/platformerTile_31.png" type="Texture" id=31]
+[ext_resource path="res://art/iso_platformer/platformerTile_32.png" type="Texture" id=32]
+[ext_resource path="res://art/iso_platformer/platformerTile_33.png" type="Texture" id=33]
+[ext_resource path="res://art/iso_platformer/platformerTile_34.png" type="Texture" id=34]
+[ext_resource path="res://art/iso_platformer/platformerTile_35.png" type="Texture" id=35]
+[ext_resource path="res://art/iso_platformer/platformerTile_36.png" type="Texture" id=36]
+[ext_resource path="res://art/iso_platformer/platformerTile_37.png" type="Texture" id=37]
+[ext_resource path="res://art/iso_platformer/platformerTile_38.png" type="Texture" id=38]
+[ext_resource path="res://art/iso_platformer/platformerTile_39.png" type="Texture" id=39]
+[ext_resource path="res://art/iso_platformer/platformerTile_40.png" type="Texture" id=40]
+[ext_resource path="res://art/iso_platformer/platformerTile_41.png" type="Texture" id=41]
+[ext_resource path="res://art/iso_platformer/platformerTile_42.png" type="Texture" id=42]
+[ext_resource path="res://art/iso_platformer/platformerTile_43.png" type="Texture" id=43]
+[ext_resource path="res://art/iso_platformer/platformerTile_44.png" type="Texture" id=44]
+[ext_resource path="res://art/iso_platformer/platformerTile_45.png" type="Texture" id=45]
+[ext_resource path="res://art/iso_platformer/platformerTile_46.png" type="Texture" id=46]
+[ext_resource path="res://art/iso_platformer/platformerTile_47.png" type="Texture" id=47]
+[ext_resource path="res://art/iso_platformer/platformerTile_48.png" type="Texture" id=48]
+
+[node name="block_tiles_src" type="Node2D"]
+
+[node name="platformerTile_01" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 1 )
+
+[node name="platformerTile_02" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 2 )
+
+[node name="platformerTile_03" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 3 )
+
+[node name="platformerTile_04" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 4 )
+
+[node name="platformerTile_05" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 5 )
+
+[node name="platformerTile_06" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 6 )
+
+[node name="platformerTile_07" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 7 )
+
+[node name="platformerTile_08" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 8 )
+
+[node name="platformerTile_09" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 9 )
+
+[node name="platformerTile_10" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 10 )
+
+[node name="platformerTile_11" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 11 )
+
+[node name="platformerTile_12" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 12 )
+
+[node name="platformerTile_13" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 13 )
+
+[node name="platformerTile_14" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 14 )
+
+[node name="platformerTile_15" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 15 )
+
+[node name="platformerTile_16" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 16 )
+
+[node name="platformerTile_17" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 17 )
+
+[node name="platformerTile_18" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 18 )
+
+[node name="platformerTile_19" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 19 )
+
+[node name="platformerTile_20" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 20 )
+
+[node name="platformerTile_21" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 21 )
+
+[node name="platformerTile_22" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 22 )
+
+[node name="platformerTile_23" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 23 )
+
+[node name="platformerTile_24" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 24 )
+
+[node name="platformerTile_25" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 25 )
+
+[node name="platformerTile_26" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 26 )
+
+[node name="platformerTile_27" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 27 )
+
+[node name="platformerTile_28" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 28 )
+
+[node name="platformerTile_29" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 29 )
+
+[node name="platformerTile_30" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 30 )
+
+[node name="platformerTile_31" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 31 )
+
+[node name="platformerTile_32" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 32 )
+
+[node name="platformerTile_33" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 33 )
+
+[node name="platformerTile_34" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 34 )
+
+[node name="platformerTile_35" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 35 )
+
+[node name="platformerTile_36" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 36 )
+
+[node name="platformerTile_37" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 37 )
+
+[node name="platformerTile_38" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 38 )
+
+[node name="platformerTile_39" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 39 )
+
+[node name="platformerTile_40" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 40 )
+
+[node name="platformerTile_41" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 41 )
+
+[node name="platformerTile_42" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 42 )
+
+[node name="platformerTile_43" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 43 )
+
+[node name="platformerTile_44" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 44 )
+
+[node name="platformerTile_45" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 45 )
+
+[node name="platformerTile_46" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 46 )
+
+[node name="platformerTile_47" type="Sprite" parent="."]
+
+transform/pos = Vector2( 200, 200 )
+texture = ExtResource( 47 )
+
+[node name="platformerTile_48" type="Sprite" parent="."]
+
+transform/pos = Vector2( 317.452, 184.488 )
+texture = ExtResource( 48 )
+
+
