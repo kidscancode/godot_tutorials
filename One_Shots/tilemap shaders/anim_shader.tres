@@ -1,0 +1,42 @@
+[gd_resource type="CanvasItemShader" format=1]
+
+[resource]
+
+_code = {
+"fragment": "uniform texture frame1;
+uniform texture frame2;
+uniform texture frame3;
+uniform texture frame4;
+uniform texture frame5;
+uniform float speed = 1.0;
+
+color col;
+float time = fract(TIME*speed);
+
+if (time < 0.2) {
+	col = tex(frame1, UV);
+} else {
+	if (time < 0.4) {
+		col = tex(frame2, UV);
+	} else {
+		if (time < 0.6) {
+			col = tex(frame3, UV);
+		} else {
+			if (time < 0.8) {
+				col = tex(frame4, UV);
+			} else {
+				col = tex(frame5, UV);
+			}
+			
+		}
+	}
+}
+
+COLOR=col;",
+"fragment_ofs": 0,
+"light": "",
+"light_ofs": 0,
+"vertex": "",
+"vertex_ofs": 0
+}
+

@@ -1,0 +1,197 @@
+[gd_scene load_steps=30 format=1]
+
+[ext_resource path="res://art/animated water/water1_1.png" type="Texture" id=1]
+[ext_resource path="res://art/animated water/water2_1.png" type="Texture" id=2]
+[ext_resource path="res://art/animated water/water2_5.png" type="Texture" id=3]
+[ext_resource path="res://test.tres" type="CanvasItemMaterial" id=4]
+[ext_resource path="res://anim_shader.tres" type="Shader" id=5]
+[ext_resource path="res://art/animated water/water2_2.png" type="Texture" id=6]
+[ext_resource path="res://art/animated water/water2_3.png" type="Texture" id=7]
+[ext_resource path="res://art/animated water/water2_4.png" type="Texture" id=8]
+[ext_resource path="res://art/animated water/water3_1.png" type="Texture" id=9]
+[ext_resource path="res://art/animated water/water3_2.png" type="Texture" id=10]
+[ext_resource path="res://art/animated water/water3_3.png" type="Texture" id=11]
+[ext_resource path="res://art/animated water/water3_4.png" type="Texture" id=12]
+[ext_resource path="res://art/animated water/water3_5.png" type="Texture" id=13]
+[ext_resource path="res://art/animated water/land1.png" type="Texture" id=14]
+[ext_resource path="res://art/animated water/land10.png" type="Texture" id=15]
+[ext_resource path="res://art/animated water/land11.png" type="Texture" id=16]
+[ext_resource path="res://art/animated water/land12.png" type="Texture" id=17]
+[ext_resource path="res://art/animated water/land13.png" type="Texture" id=18]
+[ext_resource path="res://art/animated water/land2.png" type="Texture" id=19]
+[ext_resource path="res://art/animated water/land3.png" type="Texture" id=20]
+[ext_resource path="res://art/animated water/land4.png" type="Texture" id=21]
+[ext_resource path="res://art/animated water/land5.png" type="Texture" id=22]
+[ext_resource path="res://art/animated water/land6.png" type="Texture" id=23]
+[ext_resource path="res://art/animated water/land7.png" type="Texture" id=24]
+[ext_resource path="res://art/animated water/land8.png" type="Texture" id=25]
+[ext_resource path="res://art/animated water/land9.png" type="Texture" id=26]
+
+[sub_resource type="CanvasItemMaterial" id=1]
+
+shader/shader = ExtResource( 5 )
+shader/shading_mode = 0
+shader_param/frame1 = ExtResource( 2 )
+shader_param/frame2 = ExtResource( 6 )
+shader_param/frame3 = ExtResource( 7 )
+shader_param/frame4 = ExtResource( 8 )
+shader_param/frame5 = ExtResource( 3 )
+shader_param/speed = 1.0
+
+[sub_resource type="CanvasItemShader" id=3]
+
+_code = {
+"fragment": "uniform texture frame1;
+uniform texture frame2;
+uniform texture frame3;
+uniform texture frame4;
+uniform texture frame5;
+uniform float speed = 1.0;
+
+color col;
+float time = fract(TIME*speed);
+
+if (time < 0.2) {
+	col = tex(frame1, UV);
+} else {
+	if (time < 0.4) {
+		col = tex(frame2, UV);
+	} else {
+		if (time < 0.6) {
+			col = tex(frame3, UV);
+		} else {
+			if (time < 0.8) {
+				col = tex(frame4, UV);
+			} else {
+				col = tex(frame5, UV);
+			}
+			
+		}
+	}
+}
+
+COLOR=col;",
+"fragment_ofs": 0,
+"light": "",
+"light_ofs": 0,
+"vertex": "",
+"vertex_ofs": 0
+}
+
+[sub_resource type="CanvasItemMaterial" id=2]
+
+shader/shader = SubResource( 3 )
+shader/shading_mode = 0
+shader_param/frame1 = ExtResource( 9 )
+shader_param/frame2 = ExtResource( 10 )
+shader_param/frame3 = ExtResource( 11 )
+shader_param/frame4 = ExtResource( 12 )
+shader_param/frame5 = ExtResource( 13 )
+shader_param/speed = 1.0
+
+[node name="lpc_tiles" type="Node2D"]
+
+[node name="water 1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 42.0594, 45.7565 )
+texture = ExtResource( 1 )
+
+[node name="water 2" type="Sprite" parent="."]
+
+transform/pos = Vector2( 43.0594, 95.763 )
+texture = ExtResource( 2 )
+
+[node name="water 4" type="Sprite" parent="."]
+
+transform/pos = Vector2( 110.923, 64.1152 )
+texture = ExtResource( 3 )
+
+[node name="water_shader" type="Sprite" parent="."]
+
+material/material = ExtResource( 4 )
+transform/pos = Vector2( 194.665, 47.972 )
+texture = ExtResource( 3 )
+
+[node name="water_shader 1" type="Sprite" parent="."]
+
+material/material = SubResource( 1 )
+transform/pos = Vector2( 249.214, 47.445 )
+texture = ExtResource( 3 )
+
+[node name="water_shader 2" type="Sprite" parent="."]
+
+material/material = SubResource( 2 )
+transform/pos = Vector2( 286.886, 48.1675 )
+texture = ExtResource( 3 )
+
+[node name="water 3" type="Sprite" parent="."]
+
+transform/pos = Vector2( 45.0594, 151.757 )
+texture = ExtResource( 9 )
+
+[node name="land1" type="Sprite" parent="."]
+
+transform/pos = Vector2( 110.82, 65.3174 )
+texture = ExtResource( 14 )
+
+[node name="land10" type="Sprite" parent="."]
+
+transform/pos = Vector2( 110.82, 65.3174 )
+texture = ExtResource( 15 )
+
+[node name="land11" type="Sprite" parent="."]
+
+transform/pos = Vector2( 110.82, 65.3174 )
+texture = ExtResource( 16 )
+
+[node name="land12" type="Sprite" parent="."]
+
+transform/pos = Vector2( 110.82, 65.3174 )
+texture = ExtResource( 17 )
+
+[node name="land13" type="Sprite" parent="."]
+
+transform/pos = Vector2( 110.82, 65.3174 )
+texture = ExtResource( 18 )
+
+[node name="land2" type="Sprite" parent="."]
+
+transform/pos = Vector2( 110.82, 65.3174 )
+texture = ExtResource( 19 )
+
+[node name="land3" type="Sprite" parent="."]
+
+transform/pos = Vector2( 110.82, 65.3174 )
+texture = ExtResource( 20 )
+
+[node name="land4" type="Sprite" parent="."]
+
+transform/pos = Vector2( 110.82, 65.3174 )
+texture = ExtResource( 21 )
+
+[node name="land5" type="Sprite" parent="."]
+
+transform/pos = Vector2( 110.82, 65.3174 )
+texture = ExtResource( 22 )
+
+[node name="land6" type="Sprite" parent="."]
+
+transform/pos = Vector2( 110.82, 65.3174 )
+texture = ExtResource( 23 )
+
+[node name="land7" type="Sprite" parent="."]
+
+transform/pos = Vector2( 110.82, 65.3174 )
+texture = ExtResource( 24 )
+
+[node name="land8" type="Sprite" parent="."]
+
+transform/pos = Vector2( 110.82, 65.3174 )
+texture = ExtResource( 25 )
+
+[node name="land9" type="Sprite" parent="."]
+
+transform/pos = Vector2( 110.157, 64.654 )
+texture = ExtResource( 26 )
+
+

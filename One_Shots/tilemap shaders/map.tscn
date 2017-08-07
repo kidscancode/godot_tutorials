@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=1]
+
+[ext_resource path="res://water_tiles.tres" type="TileSet" id=1]
+
+[node name="map" type="TileMap"]
+
+mode = 0
+tile_set = ExtResource( 1 )
+cell/size = Vector2( 32, 32 )
+cell/quadrant_size = 16
+cell/custom_transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+cell/half_offset = 2
+cell/tile_origin = 0
+cell/y_sort = false
+collision/use_kinematic = false
+collision/friction = 1.0
+collision/bounce = 0.0
+collision/layers = 1
+collision/mask = 1
+occluder/light_mask = 1
+tile_data = IntArray( 65537, 16, 65538, 16, 65539, 11, 65540, 12, 65541, 12, 65542, 13, 65543, 16, 65544, 16, 131073, 16, 131074, 11, 131075, 10, 131076, 15, 131077, 15, 131078, 9, 131079, 13, 131080, 16, 196609, 16, 196610, 5, 196611, 8, 196612, 15, 196613, 15, 196614, 15, 196615, 14, 196616, 16, 262145, 16, 262146, 17, 262147, 4, 262148, 15, 262149, 15, 262150, 3, 262151, 7, 262152, 16, 327681, 16, 327682, 16, 327683, 5, 327684, 8, 327685, 3, 327686, 7, 327687, 16, 327688, 16, 393217, 18, 393218, 16, 393219, 19, 393220, 5, 393221, 7, 393222, 16, 393223, 17, 393224, 16, 458753, 16, 458754, 16, 458755, 17, 458756, 16, 458757, 16, 458758, 17, 458759, 19, 458760, 16 )
+
+
