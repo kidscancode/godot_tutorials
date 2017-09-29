@@ -1,0 +1,10 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/SimpleBeat.ogg-2b562c2d4a962aa81fe8e737bc8ba938.oggstr"
+
+[params]
+
+loop=true
+loop_offset=0

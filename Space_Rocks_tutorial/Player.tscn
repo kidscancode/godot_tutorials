@@ -1,0 +1,120 @@
+[gd_scene load_steps=16 format=2]
+
+[ext_resource path="res://Player.gd" type="Script" id=1]
+[ext_resource path="res://PlayerBullet.tscn" type="PackedScene" id=2]
+[ext_resource path="res://art/playerShip2_orange.png" type="Texture" id=3]
+[ext_resource path="res://art/shield1.png" type="Texture" id=4]
+[ext_resource path="res://art/shield2.png" type="Texture" id=5]
+[ext_resource path="res://art/shield3.png" type="Texture" id=6]
+[ext_resource path="res://art/fire15.png" type="Texture" id=7]
+[ext_resource path="res://art/fire14.png" type="Texture" id=8]
+[ext_resource path="res://art/fire11.png" type="Texture" id=9]
+[ext_resource path="res://audio/laser2.wav" type="AudioStream" id=10]
+[ext_resource path="res://audio/player_hit.wav" type="AudioStream" id=11]
+[ext_resource path="res://audio/shield_down.wav" type="AudioStream" id=12]
+
+[sub_resource type="CircleShape2D" id=1]
+
+custom_solver_bias = 0.0
+radius = 27.287
+
+[sub_resource type="SpriteFrames" id=2]
+
+animations = [ {
+"frames": [ ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ) ],
+"loop": true,
+"name": "shield",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=3]
+
+animations = [ {
+"frames": [ ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="Player" type="Area2D"]
+
+input_pickable = false
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+script = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
+bullet = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+
+rotation = 1.5708
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+visible = false
+shape = SubResource( 1 )
+
+[node name="Muzzle" type="Position2D" parent="."]
+
+position = Vector2( 50, 0 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="GunTimer" type="Timer" parent="."]
+
+process_mode = 1
+wait_time = 0.15
+one_shot = true
+autostart = false
+
+[node name="Shield" type="AnimatedSprite" parent="."]
+
+rotation = 1.5708
+scale = Vector2( 0.5, 0.5 )
+frames = SubResource( 2 )
+animation = "shield"
+frame = 2
+_sections_unfolded = [ "Transform" ]
+
+[node name="Exhaust" type="AnimatedSprite" parent="."]
+
+position = Vector2( -35, 0 )
+rotation = 1.5708
+frames = SubResource( 3 )
+animation = "default"
+playing = true
+_sections_unfolded = [ "Transform" ]
+
+[node name="LaserSound" type="AudioStreamPlayer" parent="."]
+
+stream = ExtResource( 10 )
+volume_db = -5.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+[node name="HitSound" type="AudioStreamPlayer" parent="."]
+
+stream = ExtResource( 11 )
+volume_db = -5.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+[node name="ShieldDownSound" type="AudioStreamPlayer" parent="."]
+
+stream = ExtResource( 12 )
+volume_db = -5.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+[connection signal="body_entered" from="." to="." method="_on_Player_body_entered"]
+
+

@@ -1,0 +1,189 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Main.gd" type="Script" id=1]
+[ext_resource path="res://Rock.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Explosion.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Enemy.tscn" type="PackedScene" id=4]
+[ext_resource path="res://art/starfield.png" type="Texture" id=5]
+[ext_resource path="res://Player.tscn" type="PackedScene" id=6]
+[ext_resource path="res://HUD.tscn" type="PackedScene" id=7]
+[ext_resource path="res://audio/expl3.wav" type="AudioStream" id=8]
+[ext_resource path="res://audio/SimpleBeat.ogg" type="AudioStream" id=9]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 600, 10 )
+
+[sub_resource type="RectangleShape2D" id=2]
+
+custom_solver_bias = 0.0
+extents = Vector2( 10, 350 )
+
+[sub_resource type="Curve2D" id=3]
+
+bake_interval = 5.0
+_data = {
+"points": PoolVector2Array( 0, 0, 0, 0, 6.67178, 9.61019, 0, 0, 0, 0, 1015.71, 6.45367, 0, 0, 0, 0, 1016.76, 594.619, 0, 0, 0, 0, 7.72394, 590.41, 0, 0, 0, 0, 5.6196, 9.61019 )
+}
+
+[node name="Main" type="Node"]
+
+script = ExtResource( 1 )
+Asteroid = ExtResource( 2 )
+Explosion = ExtResource( 3 )
+Enemy = ExtResource( 4 )
+
+[node name="Background" type="Sprite" parent="."]
+
+position = Vector2( 512.499, 382.324 )
+scale = Vector2( 1.31782, 1.31782 )
+texture = ExtResource( 5 )
+
+[node name="Player" parent="." instance=ExtResource( 6 )]
+
+position = Vector2( 512, 300 )
+
+[node name="Edges" type="Node" parent="."]
+
+editor/display_folded = true
+
+[node name="Edge" type="StaticBody2D" parent="Edges"]
+
+position = Vector2( 512, -50 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 10 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.5
+_sections_unfolded = [ "Transform" ]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Edges/Edge"]
+
+shape = SubResource( 1 )
+
+[node name="Edge2" type="StaticBody2D" parent="Edges"]
+
+position = Vector2( 512, 650 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, -10 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.5
+_sections_unfolded = [ "Transform" ]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Edges/Edge2"]
+
+shape = SubResource( 1 )
+
+[node name="Edge3" type="StaticBody2D" parent="Edges"]
+
+position = Vector2( -50, 300 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 10, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.5
+_sections_unfolded = [ "Transform" ]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Edges/Edge3"]
+
+shape = SubResource( 2 )
+
+[node name="Edge4" type="StaticBody2D" parent="Edges"]
+
+position = Vector2( 1074, 300 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( -10, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 1.0
+_sections_unfolded = [ "Transform" ]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Edges/Edge4"]
+
+shape = SubResource( 2 )
+
+[node name="Asteroids" type="Node" parent="."]
+
+[node name="Bullets" type="Node" parent="."]
+
+[node name="AsteroidPath" type="Path2D" parent="."]
+
+curve = SubResource( 3 )
+
+[node name="PathLocation" type="PathFollow2D" parent="AsteroidPath"]
+
+position = Vector2( 6.67178, 9.61019 )
+rotation = 1.56767
+offset = 0.0
+h_offset = 0.0
+v_offset = 0.0
+rotate = true
+cubic_interp = true
+loop = true
+lookahead = 4.0
+
+[node name="HUD" parent="." instance=ExtResource( 7 )]
+
+[node name="EnemyTimer" type="Timer" parent="."]
+
+process_mode = 1
+wait_time = 3.0
+one_shot = true
+autostart = false
+
+[node name="RestartTimer" type="Timer" parent="."]
+
+process_mode = 1
+wait_time = 3.0
+one_shot = true
+autostart = false
+
+[node name="Sounds" type="Node" parent="."]
+
+editor/display_folded = true
+
+[node name="AsteroidExplosion" type="AudioStreamPlayer" parent="Sounds"]
+
+stream = ExtResource( 8 )
+volume_db = -7.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+[node name="EnemyExplosion" type="AudioStreamPlayer" parent="Sounds"]
+
+stream = ExtResource( 8 )
+volume_db = -7.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+
+stream = ExtResource( 9 )
+volume_db = -5.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+[connection signal="explode" from="Player" to="." method="explode_player"]
+
+[connection signal="shield_changed" from="Player" to="HUD" method="update_shield"]
+
+[connection signal="shoot" from="Player" to="." method="add_bullet"]
+
+[connection signal="timeout" from="EnemyTimer" to="." method="_on_EnemyTimer_timeout"]
+
+[connection signal="timeout" from="RestartTimer" to="." method="_on_RestartTimer_timeout"]
+
+

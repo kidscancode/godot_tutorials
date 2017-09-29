@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Rock.gd" type="Script" id=1]
+[ext_resource path="res://Puff.tscn" type="PackedScene" id=2]
+
+[node name="Rock" type="RigidBody2D" groups=[
+"asteroids",
+]]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 0
+mass = 1.0
+friction = 0.0
+bounce = 0.5
+gravity_scale = 0.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 1
+contact_monitor = true
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 0, 0 )
+linear_damp = -1.0
+angular_velocity = 0.0
+angular_damp = -1.0
+script = ExtResource( 1 )
+_sections_unfolded = [ "Angular", "Collision", "Linear", "Pickable" ]
+
+[node name="Sprite" type="Sprite" parent="."]
+
+[node name="Puff" parent="." instance=ExtResource( 2 )]
+
+_sections_unfolded = [ "Process Material", "Textures", "Time" ]
+
+
